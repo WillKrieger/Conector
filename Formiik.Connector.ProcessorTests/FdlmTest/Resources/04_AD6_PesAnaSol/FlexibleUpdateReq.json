@@ -1,0 +1,1694 @@
+{
+  "dataFront": {
+    "description": "Datos Personales Solicitante ",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "Datos Personales Solicitante",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "¿Cuántos miembros tiene el hogar?",
+                "fullName": "Ppi1_CuaMieTieHog",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "N° de miembros de la unidad familiar",
+                "fullName": "CanMieUniFam",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "N° Personas a cargo",
+                "fullName": "CanPerDepCli",
+                "isHidden": true,
+                "isRequired": false,
+                "elementType": 0,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CanPerDepCli"
+                  ],
+                  "fieldFunction": ""
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "N° de hijos",
+                "fullName": "CanHijCli",
+                "isRequired": true,
+                "elementType": 0
+              },
+              {
+                "label": "¿Todos los niños entre los 6 y 12 años actualmente asisten al preescolar o escuela?",
+                "fullName": "Ppi2_NinActAsiEsc",
+                "elementType": 3,
+                "isHidden": true,
+                "selectionIndex": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "Ppi2_NinActAsiEsc"
+                  ],
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "¿Algún miembro de este hogar alcanzó un nivel educativo superior o universitario?",
+                "fullName": "Ppi3_MieConNivEduAlt",
+                "isRequired": true,
+                "elementType": 3
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "label": "¿En los últimos 3 años él/la titular ha sido una Persona Expuesta Politicamente (PEP)?",
+                "fullName": "TitFuePEP",
+                "isRequired": true,
+                "elementType": 0
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "fullName": "EtqPEP",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqPEP"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnVW5hIHBlcnNvbmEgcXVlIGVzdMOhIHBvbGl0aWNhbWVudGUgZXhwdWVzdGEgZXMgYXF1ZWxsYSBxdWUgZGVzZW1wZcOxYSBvIGhhIGRlc2VtcGXDsWFkbyBmdW5jaW9uZXMgcMO6YmxpY2FzIGRlc3RhY2FkYXMsIHBvciBlamVtcGxvLCBqZWZlcyBkZSBFc3RhZG8sIHBvbMOtdGljb3MgZGUgYWx0YSBqZXJhcnF1w61hLCBmdW5jaW9uYXJpb3MgZ3ViZXJuYW1lbnRhbGVzLCBqdWRpY2lhbGVzIG8gbWlsaXRhcmVzIGRlIGFsdGEgamVyYXJxdcOtYSwgYWx0b3MgZWplY3V0aXZvcyBkZSBlbXByZXNhcyBlc3RhdGFsZXMsIGZ1bmNpb25hcmlvcyBpbXBvcnRhbnRlcyBkZSBwYXJ0aWRvcyBwb2zDrXRpY29zLic7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "¿Qué cargo público desempeña?",
+                "fullName": "CarPubDesCli",
+                "isRequired": true,
+                "elementType": 0
+              },
+              {
+                "label": "¿Es él/la titular víctima del postconflicto?",
+                "fullName": "TitVictPosCon",
+                "isRequired": true,
+                "elementType": 0
+              },
+              {
+                "label": "¿Cuenta con certificado?",
+                "fullName": "CueConCer",
+                "isRequired": true,
+                "isHidden": true,
+                "elementType": 0
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "¿Algún miembro de este hogar tiene un trabajo con un contrato escrito?",
+                "fullName": "Ppi4_MieHogTieTraCon",
+                "isRequired": true,
+                "isHidden": true,
+                "elementType": 0
+              },
+              {
+                "label": "¿Algún miembro de este hogar es un obrero o empleado de empresa particular/privada?",
+                "fullName": "Ppi5_MieHogObrEmp",
+                "isRequired": true,
+                "isHidden": true,
+                "elementType": 0
+              },
+              {
+                "label": "¿Algún miembro de este hogar es un patrón o empleador?",
+                "fullName": "Ppi6_MieHogPatEmp",
+                "isRequired": true,
+                "isHidden": true,
+                "elementType": 0
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Adicional a su negocio, ¿Es empleado?",
+                "fullName": "AdiNegEsEmpCli",
+                "isRequired": true,
+                "isHidden": true,
+                "elementType": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Datos Laborales de Otras Actividades",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Empresa donde trabaja",
+                "fullName": "NomEmpLabCli",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Antigüedad (meses)",
+                "fullName": "AntVinEmp",
+                "elementType": 0,
+                "isHidden": true,
+                "isRequired": true
+              },
+              {
+                "label": "Dirección empresa",
+                "fullName": "DatLaboOtraAct.Direccion.DirEmp",
+                "isHidden": true,
+                "isRequired": false,
+                "elementType": 3
+              },
+              {
+                "label": "Departamento",
+                "fullName": "DatLaboOtraAct.Direccion.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Municipio",
+                "fullName": "DatLaboOtraAct.Direccion.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 1
+              },
+              {
+                "label": "Barrio",
+                "fullName": "DatLaboOtraAct.Direccion.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 2
+              },
+              {
+                "label": "Cargo / Profesión / Actividad",
+                "fullName": "DatLaboOtraAct.CarEmpLabCli",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 2
+              },
+              {
+                "label": "Salario",
+                "fullName": "DatLaboOtraAct.SalEmpLabCli",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "NomConEmpLabCli",
+                "fullName": "DatLaboOtraAct.NomConEmpLabCli",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "TelConEmpLabCli",
+                "fullName": "DatLaboOtraAct.TelConEmpLabCli",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "ObsConLabli",
+                "fullName": "DatLaboOtraAct.ObsConLabli",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Datos Personales Cónyuge",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Tipo documento identidad",
+                "fullName": "TipIdeCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Numero documento identidad",
+                "fullName": "NumIdeCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Numero documento identidad en el Sistema",
+                "fullName": "NumIdeConOri",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Seleccionar país de expedición",
+                "fullName": "Conyuge.DatosConyuge.SelPaiOriCon",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Desea cargar la información del Cónyuge?",
+                "fullName": "DesCarInfCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Mensaje respuesta",
+                "fullName": "MenResConCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Mensaje respuesta",
+                "fullName": "MenResConCon",
+                "elementType": 0,
+                "isRequired": false,
+                "isHidden": true
+              },
+              {
+                "label": "Código de riesgo en listas de control",
+                "fullName": "CodRieValLisConCon",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Lista de control",
+                "fullName": "LisConValLisConCon",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Advertencia en Listas de control",
+                "fullName": "AdvLisConCon",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre Cónyuge",
+                "fullName": "SecNomCod",
+                "elementType": 0,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Nombre Cónyuge",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Primer nombre",
+                "fullName": "PriNomCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Segundo nombre",
+                "fullName": "SegNomCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PriApeCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegApeCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Firma el crédito",
+                "fullName": "FirCreCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Motivo de no firma",
+                "fullName": "MotFirCreCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subRequestForm": null,
+        "elementSize": 6,
+        "elements": [
+          {
+            "fullName": "EtqTenCueSolExt",
+            "elementType": 0,
+            "isRequired": true,
+            "isHidden": true,
+            "isCalculated": true,
+            "enableRule": {
+              "fieldReferences": [
+                "EtqTenCueSolExt"
+              ],
+              "fieldFunction": ""
+            },
+            "calculatedValue": {
+              "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnUmVjdWVyZGUgcXVlIHBhcmEgcmVhbGl6YXIgbGEgY29uc3VsdGEgYSBDZW50cmFsZXMgZGUgUmllc2dvIHNlIGRlYmUgZmlybWFyIGxhIHNvbGljaXR1ZCBkZSBjcsOpZGl0by4nOw0KICAgICAgICAgICAgICAgcmV0dXJuKGV0aXF1ZXRhKTsNCiAgICAgICAgICAgICB9KShfdl8pOw=="
+            }
+          }
+        ]
+      },
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "¿Aprobó centrales de riesgo, relaciones internas y listas de control?",
+                "fullName": "AprCenRieCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "AprCenRieCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Causal de negación",
+                "fullName": "CauDenCenRieCon",
+                "elementType": 0,
+                "isRequired": false,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CauDenCenRieCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Comentario causal de negación",
+                "fullName": "ComCauNegCenRieCon",
+                "elementType": 0,
+                "isRequired": false,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "ComCauNegCenRieCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Fecha de expedición",
+                "fullName": "FecExpIdeCon",
+                "elementType": 0,
+                "isRequired": false,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "FecExpIdeCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Departamento",
+                "fullName": "LugarExpeConyuge.ColombianPlace",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "enableRule": {
+                  "fieldReferences": [
+                    "LugarExpeConyuge.ColombianPlace"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Municipio",
+                "fullName": "LugarExpeConyuge.ColombianPlace",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 1,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "LugarExpeConyuge.ColombianPlace"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Fecha de nacimiento",
+                "fullName": "FecNacCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "FecNacCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Género",
+                "fullName": "GenCon",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "GenCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Teléfono cónyuge",
+                "fullName": "TelCon",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "TelCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Celular cónyuge",
+                "fullName": "CelCon",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CelCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "¿Cuál es el nivel educativo de él/la cónyuge?",
+                "fullName": "NivEduCon",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "NivEduCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "¿En los últimos 3 años él/la cónyuge ha sido Públicamente expuesta (PEP)?",
+                "fullName": "ConFuePEP",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "ConFuePEP"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "¿Qué cargo público desempeña el cónyuge?",
+                "fullName": "CarPubDesCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CarPubDesCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Actividad del cónyuge",
+                "fullName": "ActDelCon",
+                "elementType": 0,
+                "isRequired": true,
+                "selectionIndex": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "ActDelCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subRequestForm": null,
+        "elementSize": 6,
+        "elements": [
+          {
+            "fullName": "EtqActCon",
+            "elementType": 0,
+            "isRequired": true,
+            "isHidden": true,
+            "isCalculated": true,
+            "enableRule": {
+              "fieldReferences": [
+                "EtqActCon"
+              ],
+              "fieldFunction": ""
+            },
+            "calculatedValue": {
+              "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnRWxpamEgbGEgb3BjacOzbiBkZSBhY3VlcmRvIGE6IA0KICAgICAgICAgICAgICAgIDEuIEF5dWRhIGVuIGVsIG5lZ29jaW86IFNpIGVsIGPDs255dWdlIGF5dWRhIGVuIGVsIG5lZ29jaW8geSBsb3MgaW5ncmVzb3MgZGUgc3UgYWN0aXZpZGFkIHNvbiB0b21hZG9zIGVuIGVsIGVzdHVkaW8gZGUgY3LDqWRpdG8NCiAgICAgICAgICAgICAgICAyLiBJbmRlcGVuZGllbnRlOiBTaSBzdSBhY3RpdmlkYWQgbm8gZnXDqSB0b21hZGEgZW4gZWwgZXN0dWRpbw0KICAgICAgICAgICAgICAgIDMuIEVtcGxlYWRvOiBTaSB0aWVuZSB1biBlbXBsZW8gZm9ybWFsDQogICAgICAgICAgICAgICAgNC4gSG9nYXI6IFNpIHJlYWxpemEgbGFzIGFjdGl2aWRhZGVzIGRlIGFwb3lvIGVuIGVsIGhvZ2FyJzsNCiAgICAgICAgICAgICAgIHJldHVybihldGlxdWV0YSk7DQogICAgICAgICAgICAgfSkoX3ZfKTs="
+            }
+          }
+        ]
+      },
+      {
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "label": "Motivo del por qué no se toma dentro de las actividades del negocio",
+                "fullName": "MotNoActNegCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "MotNoActNegCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Datos Laborales Cónyuge",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Motivo del por qué no se toma dentro de las actividades del negocio",
+                "fullName": "SecDatLabCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "SecDatLabCon"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": ""
+                }
+              },
+              {
+                "label": "Empresa donde trabaja",
+                "fullName": "EmpLabCon",
+                "elementType": 0
+              },
+              {
+                "label": "Antigüedad (meses)",
+                "fullName": "AntVinEmpCon",
+                "elementType": 0
+              },
+              {
+                "label": "Salario",
+                "fullName": "SalEmpLabCon",
+                "elementType": 0
+              },
+              {
+                "label": "Salario",
+                "fullName": "DirEmpLabCon.CalleYNumero",
+                "elementType": 0
+              },
+              {
+                "label": "Departamento empresa",
+                "fullName": "DirEmpLabCon.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Municipio empresa",
+                "fullName": "DirEmpLabCon.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 1
+              },
+              {
+                "label": "Nombre barrio empresa",
+                "fullName": "DirEmpLabCon.DepartamentoMunicipioBarrio",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 2
+              },
+              {
+                "label": "Cargo / Profesión / Actividad",
+                "fullName": "CarEmpLabCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Nombre contacto laboral",
+                "fullName": "NomConEmpLabCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Cargo contacto laboral",
+                "fullName": "CarConEmpLabCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Teléfono contacto laboral",
+                "fullName": "TelConEmpLabCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Observaciones contacto laboral. (Después de la confirmación de la referencia laboral)",
+                "fullName": "ObsConLabCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Observaciones Generales Cónyuge",
+                "fullName": "ObsGenCon",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Bienes Inmuebles",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "fullName": "EtqBieInm",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqBieInm"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnRW4gZXN0ZSBlc3BhY2lvIGFuYWxpY2UgbGEgRXN0YWJpbGlkYWQgRG9taWNpbGlhcmlhIGRlbCBjbGllbnRlIHkgc3UgZmFtaWxpYSwgcHVlZGUgcmVhbGl6YXIgcHJlZ3VudGFzIGNvbW86IA0KICAgICAgICAgICAgICAgIDEuIMK/SGFjZSBjdWFudG8gdml2ZSBhcXXDrT8NCiAgICAgICAgICAgICAgICAyLiDCv0VzIHByb3BpYSBsYSB2aXZpZW5kYT8NCiAgICAgICAgICAgICAgICAzLiDCv0RlIHF1acOpbiBlcyBsYSB2aXZpZW5kYSA/DQogICAgICAgICAgICAgICAgNC4gwr9DdcOhbmRvIHBhZ2EgcG9yIGxhIHZpdmllbmRhPw0KICAgICAgICAgICAgICAgIDUuIMK/QSBxdWnDqW4gbGUgcGFnYT8NCiAgICAgICAgICAgICAgICA2LiDCv1F1w6kgZMOtYSBwYWdhPyc7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              },
+              {
+                "label": "Tipo vivienda",
+                "fullName": "TipVivCli",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Información Vivienda Familiar",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Nombre del Familiar o tercero",
+                "fullName": "NomFamViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Parentesco",
+                "fullName": "ParFamViv",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Cancela arriendo?",
+                "fullName": "CanArrCasFam",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Valor de arriendo que cancela al familiar",
+                "fullName": "ValArrCanFam",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Teléfono familiar",
+                "fullName": "TelFamArr",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Celular familiar",
+                "fullName": "CelFamArr",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Observaciones de la confirmación del arriendo",
+                "fullName": "ObsConArr",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "label": "Tiempo de residencia (meses)",
+                "fullName": "TieResViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Información Vivienda Familiar",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "fullName": "AyuAif4",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "AyuAif4"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnSW5kYWd1ZToNCiAgICAgICAgICAgICAgICAqRWwgbW90aXZvIHBvciBlbCBjdWFsIHNlIGNhbWJpw7MgZGUgcmVzaWRlbmNpYQ0KICAgICAgICAgICAgICAgICpTaSBzZSBtdWRhIGNvbiBmcmVjdWVuY2lhIHkgZGUgc2VyIGFzw60gZWwgbW90aXZvLic7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              },
+              {
+                "label": "¿Es Legalizado?",
+                "fullName": "EsLegViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true
+              },
+              {
+                "fullName": "EstPreTit",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "selectionIndex": 5
+              },
+              {
+                "label": "Foto Recibo Público",
+                "fullName": "FotRecPubTit",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "selectionIndex": 5
+              },
+              {
+                "fullName": "AyuAif11",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "AyuAif11"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnU2kgZWwgcmVjaWJvIHDDumJsaWNvIHByZXNlbnRhZG8gZXN0YSB2ZW5jaWRvIG8gY29uIGRvcyBtZXNlcyBkZSBhdHJhc28sIGluZGFndWUgZWwgbW90aXZvLCBlc3RvIGVzIHVuYSBhbGVydGEuJzsNCiAgICAgICAgICAgICAgIHJldHVybihldGlxdWV0YSk7DQogICAgICAgICAgICAgfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "¿Tiene más bienes inmuebles?",
+                "fullName": "TieMasBieInm",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true
+              },
+              {
+                "label": "¿Cuantos bienes inmuebles adicionales?",
+                "fullName": "CanBieInmAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true
+              },
+              {
+                "label": "¿Legalizados?",
+                "fullName": "EsLegBieInmAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Los bienes inmuebles adicionales son propios o financiados?",
+                "fullName": "BieInmAdiProFin",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Información Arriendo Vivienda",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Nombre arrendador",
+                "fullName": "NomArrViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Valor del arriendo",
+                "fullName": "ValArrViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono arrendador",
+                "fullName": "TelArrViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Celular arrendador",
+                "fullName": "CelArrViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Observaciones Arrendador Actual",
+                "fullName": "ObsArrAct",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Anteriormente vivía en arriendo?",
+                "fullName": "AntVivArr",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre arrendador anterior",
+                "fullName": "NomArrAnt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Valor del arriendo anterior",
+                "fullName": "ValArrAnt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono arrendador anterior",
+                "fullName": "TelArrAnt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Celular arrendador anterior",
+                "fullName": "CelArrAnt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Observaciones Arrendador Anterior",
+                "fullName": "ObsArrAnt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Cuenta con agua potable en la vivienda?",
+                "fullName": "CueAguPotViv",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Cuenta con acceso a Internet?",
+                "fullName": "CueAccInt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Principalmente, desde dónde se conecta?",
+                "fullName": "DesDonCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Realiza transacciones en moneda extranjera?",
+                "fullName": "ReaTraMonExt",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Identificador de sector",
+                "fullName": "IdeSecEcoMon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre de sector",
+                "fullName": "NomSecEcoMon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Identificador de actividad",
+                "fullName": "IdeActEcoMon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre de actividad",
+                "fullName": "NomActEcoMon",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Con cuál moneda comercializa?",
+                "fullName": "TipMonCom",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Cuál es el monto mensual transado?",
+                "fullName": "MonMenTra",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Datos Negocio",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Posesión del Negocio",
+                "fullName": "FecPosNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Experiencia en el Negocio",
+                "fullName": "FecExpNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Número de empleados fijos",
+                "fullName": "NumEmpFijNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Número de empleados fijos",
+                "fullName": "NumEmpFijNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "fullName": "EtqDenEmpFijIncPro",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqDenEmpFijIncPro"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnRGVudHJvIGRlbCBuw7ptZXJvIGRlIGVtcGxlYWRvcyBmaWpvcyBkZWJlIGluY2x1aXJzZSBlbCBwcm9waWV0YXJpbyB5IGPDs255dWdlIChzaSDDqXN0ZSBoYWNlIHBhcnRlIGRlbCBuZWdvY2lvKSc7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              },
+              {
+                "label": "Número de empleados temporales",
+                "fullName": "NumEmpTemNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true,
+                "isHidden": true
+              },
+              {
+                "label": "Número de empleados",
+                "fullName": "NumEmpNeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isCalculated": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Formalización del Negocio",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Cámara de Comercio",
+                "fullName": "NegTieCamCom",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Rut",
+                "fullName": "NegTieRut",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Tipo local",
+                "fullName": "TipLocNeg",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Tipo local",
+                "fullName": "TipLocNeg",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Información Arriendo Negocio",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Teléfono",
+                "fullName": "TelArrNeg",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Celular",
+                "fullName": "CelArrNeg",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Valor de arriendo",
+                "fullName": "CanArrNeg",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Fecha de funcionamiento en local comercial o ubicación",
+                "fullName": "FecFunLoc",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Observaciones Arriendo Local",
+                "fullName": "ObsArrLoc",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Verificación Zonal",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Observaciones Arriendo Local",
+                "fullName": "ObsArrLoc",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Nombre",
+                "fullName": "NomVerZonCom",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Dirección de verificación",
+                "fullName": "DirVerZonCom",
+                "elementType": 0
+              },
+              {
+                "label": "Número de Contacto",
+                "fullName": "TelVerZonCom",
+                "elementType": 0
+              },
+              {
+                "label": "Por lo menos dirección o número de contacto requerido",
+                "fullName": "ValDirConZon",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿La referencia zonal tiene actividad económica?",
+                "fullName": "ZonTieActEco",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Identificador de sector referencia zonal",
+                "fullName": "IdeSecRefZon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre de sector referencia zonal",
+                "fullName": "NomSecRefZon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Identificador de actividad referencia zonal",
+                "fullName": "IdeActRefZon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre de actividad referencia zonal",
+                "fullName": "NomActRefZon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Es cliente vigente?",
+                "fullName": "EsCliVigVerZonCom",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Está interesado en crédito?",
+                "fullName": "EstIntCreVerZonCom",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Programación Visita",
+                "fullName": "ProVisVerZonCom",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Observaciones",
+                "fullName": "ObsVerZonCom",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Estructura del Negocio",
+                "fullName": "EstDelNeg",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Hay más clientes en la misma vivienda?",
+                "fullName": "CanTitIguViv",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Información preliminar de pago",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Cuota mensual que puede pagar",
+                "fullName": "CuoMenPuePag",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Día de pago oportuno",
+                "fullName": "DiaDePagOpo",
+                "elementType": 5,
+                "isRequired": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Promedio de ahorros mensual",
+                "fullName": "ProAhoMen",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Comentarios (Incluye: Gestión del Empresario, Fortalezas y Aspectos por mejorar del negocio, Riesgos, Plan de Inversión)",
+                "fullName": "ComAnaCre",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ad36dbd3-542f-4735-b7b3-bcbcb8055bc4",
+  "containerId": "9580909E-777F-4F12-A93A-5F4A27E24AD6",
+  "values": {
+    "Ppi1_CuaMieTieHog": null,
+    "CanMieUniFam": 21,
+    "CanPerDepCli": 1,
+    "CanHijCli": 8,
+    "Ppi2_NinActAsiEsc": null,
+    "Ppi3_MieConNivEduAlt": null,
+    "TipSegSoc": true,
+    "TitFuePEP": true,
+    "CarPubDesCli": "Bcbxnz",
+    "TitVictPosCon": true,
+    "CueConCer": true,
+    "Ppi4_MieHogTieTraCon": null,
+    "Ppi5_MieHogObrEmp": null,
+    "Ppi6_MieHogPatEmp": null,
+    "AdiNegEsEmpCli": true,
+    "DatLabCli": {
+      "NomEmpLabCli": "Bgjfkfn",
+      "AntVinEmp": "9",
+      "CarEmpLabCli": "Nxirufnxmd",
+      "SalEmpLabCli": 95998,
+      "NomConEmpLabCli": "Bfhf",
+      "TelConEmpLabCli": 99464994,
+      "ObsConLabli": null,
+      "Direccion": {
+        "DirEmp": "Bcncncjf",
+        "DepartamentoMunicipioBarrio": [
+          "13",
+          "42",
+          "1"
+        ]
+      }
+    },
+    "CarConEmpLabCli": "Bbxjdb",
+    "IdentificacionConyuge": {
+      "TipIdeCon": [
+        "C"
+      ],
+      "NumIdeConExtrangeria": null,
+      "NumIdeConCiudadania": null,
+      "SelPaiOriCon": null
+    },
+    "NumIdeConOri": null,
+    "DesCarInfCon": null,
+    "CodRieValLisConCon": null,
+    "MenResConCon": null,
+    "LisConValLisConCon": null,
+    "AdvLisConCon": null,
+    "Conyuge": {
+      "PriNomCon": null,
+      "SegNomCon": null,
+      "PriApeCon": null,
+      "SegApeCon": null,
+      "GenCon": null,
+      "FecNacCon": null
+    },
+    "FirCreCon": null,
+    "MotFirCreCon": null,
+    "VisCenRieCon": null,
+    "EjeConCenRieCon": null,
+    "AprCenRieCon": null,
+    "CauDenCenRieCon": null,
+    "ComCauNegCenRieCon": null,
+    "FecExpIdeCon": null,
+    "NomDepExpDocCon": null,
+    "TelCon": null,
+    "CelCon": null,
+    "NivEduCon": null,
+    "ConFuePEP": null,
+    "CarPubDesCon": null,
+    "ActDelCon": null,
+    "MotNoActNegCon": null,
+    "EmpLabCon": null,
+    "AntVinEmpCon": null,
+    "DatEmpLabCon": {
+      "DirEmpLabCon": null,
+      "DeptoMunicipioBarrioDomicilio": null,
+      "IndDirEmpLabClie": null,
+      "UbiEmpLabCli": {
+        "Latitud": null,
+        "Longitud": null
+      }
+    },
+    "CarEmpLabCon": null,
+    "SalEmpLabCon": null,
+    "NomConEmpLabCon": null,
+    "CarConEmpLabCon": null,
+    "TelConEmpLabCon": null,
+    "ObsConLabCon": null,
+    "ObsGenCon": null,
+    "TipVivCli": [
+      "N"
+    ],
+    "NomFamViv": null,
+    "ParFamViv": null,
+    "CanArrCasFam": null,
+    "ValArrCanFam": null,
+    "TelFamArr": null,
+    "CelFamArr": null,
+    "ObsConArr": null,
+    "TieResViv": 5,
+    "EsLegViv": null,
+    "EstPreTit": [
+      "2"
+    ],
+    "FotRecPubTit": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "TieMasBieInm": true,
+    "CanBieInmAdi": 2,
+    "EsLegBieInmAdi": false,
+    "BieInmAdiProFin": [
+      "Propio"
+    ],
+    "NomArrViv": null,
+    "ValArrViv": null,
+    "TelArrViv": null,
+    "CelArrViv": null,
+    "ObsArrAct": null,
+    "AntVivArr": null,
+    "NomArrAnt": "Bgnxjfjfn",
+    "ValArrAnt": 53,
+    "TelArrAnt": "98649464",
+    "CelArrAnt": "9464946494",
+    "ObsArrAnt": "Bfjfhfbdbfjdn",
+    "CueAguPotViv": true,
+    "CueAccInt": true,
+    "DesDonCon": [
+      "N"
+    ],
+    "ReaTraMonExt": true,
+    "IdeSecEcoMon": [
+      "05",
+      "602"
+    ],
+    "TipMonCom": null,
+    "MonMenTra": null,
+    "FecPosNeg": "05/28/2017",
+    "FecExpNeg": "05/28/2017",
+    "NumEmpFijNeg": 3,
+    "NumEmpTemNeg": 8,
+    "NumEmpNeg": 11,
+    "NegTieCamCom": false,
+    "NegTieRut": false,
+    "TipLocNeg": null,
+    "NomComArrNeg": null,
+    "TelArrNeg": null,
+    "CelArrNeg": null,
+    "CanArrNeg": null,
+    "FecFunLoc": "05/28/1920",
+    "ObsArrLoc": null,
+    "NomVerZonCom": "Bgjfkzndbf",
+    "DirVerZonCom": "Bfnxbxnfb",
+    "TelVerZonCom": "94946494",
+    "ZonTieActEco": true,
+    "IdeSecRefZon": [
+      "01",
+      "356"
+    ],
+    "EsCliVigVerZonCom": false,
+    "EstIntCreVerZonCom": [
+      "Si"
+    ],
+    "ProVisVerZonCom": "05/29/2019",
+    "ObsVerZonCom": "Nfkxjxnxb",
+    "EstDelNeg": [
+      "T"
+    ],
+    "CanTitIguViv": true,
+    "CuoMenPuePag": 96865,
+    "DiaDePagOpo": [
+      "2"
+    ],
+    "ProAhoMen": 62,
+    "ComAnaCre": "Nxjfufjfnfbfb"
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}

@@ -1,0 +1,30 @@
+{
+  "Id": "4CB552CD-0BCD-422F-BADC-6FBD446F8037",
+  "ClientId": "fd9690bc-31b3-4e9a-b498-6ff908a4231b",
+  "ProductId": "179f7adb-0077-476f-abde-462d92e0fb26",
+  "ContainerId": "ED64A5F1-66C9-4262-B65A-A4FFA6F38F27",
+  "Type": "Solicitud",
+  "Version": "1.0",
+  "UserName": "qamovil2@fdlmb2c.onmicrosoft.com",
+  "Priority": 1,
+  "ExpirationDate": "09/05/2019 22:43",
+  "CancellationDate": "09/05/2019 22:43",
+  "ParametersAsDictionary": {
+    "Nombre": "",
+    "Calle": "",
+    "Colonia": "",
+    "CodigoPostal": "",
+    "Estado": "",
+    "Municipio": "",
+    "Ciudad": "",
+    "TipoDocumento": "3",
+    "PaisExpedicion": "Colombia",
+    "NumeroDocumento": "1234",
+    "NumeroTelefono": "5534218252",
+    "Correo": "guijac2000@gmail.com",
+    "Procesado": "true",
+    "HayError": "",
+    "HavePayTaxesAnotherCountry": "false",
+    "TaxesRecipientCountry": "Cubano"
+  }
+}

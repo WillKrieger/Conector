@@ -1,0 +1,8 @@
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.deps.json
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.AssemblyInfoInputs.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.AssemblyInfo.cs
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.csprojAssemblyReference.cache

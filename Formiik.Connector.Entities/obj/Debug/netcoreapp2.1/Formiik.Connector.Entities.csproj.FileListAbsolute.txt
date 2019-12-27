@@ -1,0 +1,8 @@
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.deps.json
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/Debug/netcoreapp2.1/Formiik.Connector.Entities.csprojAssemblyReference.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/Debug/netcoreapp2.1/Formiik.Connector.Entities.AssemblyInfoInputs.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/Debug/netcoreapp2.1/Formiik.Connector.Entities.AssemblyInfo.cs
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/Debug/netcoreapp2.1/Formiik.Connector.Entities.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/Debug/netcoreapp2.1/Formiik.Connector.Entities.pdb

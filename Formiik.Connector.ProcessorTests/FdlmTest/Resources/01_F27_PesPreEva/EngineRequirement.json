@@ -1,0 +1,74 @@
+{
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "instanceId": "greg10Jun2019_01",
+  "containerId": "F5057794-0AC3-4C3A-A131-04858E764F27",
+  
+  "status": 0,
+  "statusContainer": 3,
+  "values": {
+    "VisAyu": null,
+    "AyuAif1": null,
+    "MotDevCred": null,
+    "Identificacion": {
+      "TipDocIdeCli": [
+        "C"
+      ],
+      "NumDocIdeCliPassport": null,
+      "NumDocIdeCliExtrajeria": null,
+      "NumDocIdeCliCiudadania": null,
+      "PaiExpCli": [
+        "AW"
+      ]
+    },
+    "NumSolCre": null,
+    "DesCarInfCli": null,
+    "MenResConCliSol": null,
+    "CodRieValLisConCli": null,
+    "LisConValLisConCli": null,
+    "AdvLisConCli": null,
+    "CalCli": null,
+    "Titular": {
+      "PriNomCli": "Flor",
+      "SegNomCli": null,
+      "PriApeCli": "Medina",
+      "SegApeCli": null
+    },
+    "RutForUltCre": null,
+    "TelDomCli": null,
+    "CelPerCli": null,
+    "TelNegCli": null,
+    "CelNegCli": null,
+    "NegEnDom": true,
+    "LocalizacionDomicilioTitular": {
+      "DirDomCli": "Violetas 100",
+      "DeptoMunicipioBarrioDomicilio": [
+        "17"
+      ],
+      "IndDirDomCli": "s",
+      "UbiDomCli": {
+        "Latitud": null,
+        "Longitud": null
+      }
+    },
+    "TipNeg": null,
+    "LocalizacionNegocioTitular": {
+      "DirNegCli": null,
+      "DeptoMunicipioBarrioNegocio": null,
+      "IndDirNegCli": null,
+      "UbiNegCli": {
+        "Latitud": null,
+        "Longitud": null
+      }
+    },
+    "HaPadSigEnf": false,
+    "HaPadLimFis": false,
+    "CumReqMin": true,
+    "CauDenPreEva": null,
+    "ComCauDenPreEva": null,
+    "LleSolOtroMom": false,
+    "FecProVis": null
+  },
+  "comments": null,
+  "customStatusContainer": 3,
+  "action": "edit"
+}

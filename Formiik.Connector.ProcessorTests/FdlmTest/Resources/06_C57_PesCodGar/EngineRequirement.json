@@ -1,0 +1,2057 @@
+{
+  "dataFront": {
+    "description": "Referencias, Codeudores y garantíasento",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "Referencias",
+        "rows": [
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Referencias Familiares",
+              "formEditSection": {
+                "baseFullName": "Reference",
+                "fullName": "RefFam",
+                "sections": [
+                  {
+                    "description": "Referencias Familiares",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Nombre completo",
+                            "fullName": "Nombre",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Parentesco",
+                            "fullName": "Parentesco",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Dirección",
+                            "fullName": "Direccion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Departamento Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Teléfono",
+                            "fullName": "TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Celular",
+                            "fullName": "TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Ocupación",
+                            "fullName": "Ocupacion",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "¿Actvidad económica indepediente?",
+                            "fullName": "ActividadIndependiente",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Sector",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Actividad",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "¿Está interesado en un crédito?",
+                            "fullName": "Interesado",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Programación Visita",
+                            "fullName": "ProgramacionVisita",
+                            "elementType": 8,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Nombre",
+                    "fullName": "Nombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Teléfono",
+                    "fullName": "TelefonoLocal",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Celular",
+                    "fullName": "TelefonoCelular",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Dirección",
+                    "fullName": "Location.Direccion",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Referencias Personales",
+              "formEditSection": {
+                "baseFullName": "Reference",
+                "fullName": "RefPer",
+                "sections": [
+                  {
+                    "description": "Referencias Personales",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Nombre completo",
+                            "fullName": "Nombre",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Parentesco",
+                            "fullName": "Parentesco",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Dirección",
+                            "fullName": "Direccion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Departamento Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio Domicilio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Teléfono",
+                            "fullName": "TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Celular",
+                            "fullName": "TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Ocupación",
+                            "fullName": "Ocupacion",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "¿Actvidad económica indepediente?",
+                            "fullName": "ActividadIndependiente",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Sector",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Actividad",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "¿Está interesado en un crédito?",
+                            "fullName": "Interesado",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Progrmación Visita",
+                            "fullName": "ProgramacionVisita",
+                            "elementType": 8,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Nombre",
+                    "fullName": "Nombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Teléfono",
+                    "fullName": "TelefonoLocal",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Celular",
+                    "fullName": "TelefonoCelular",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Dirección",
+                    "fullName": "Location.Direccion",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Referencias Comerciales",
+              "formEditSection": {
+                "baseFullName": "ComercialReference",
+                "fullName": "RefComCli",
+                "sections": [
+                  {
+                    "description": "Referencia",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Nombre / Empresa / Identidad",
+                            "fullName": "NombreEntidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Dirección",
+                            "fullName": "Dirección",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Departamento",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Teléfono",
+                            "fullName": "TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Celular",
+                            "fullName": "TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Antigüedad (meses)",
+                            "fullName": "Antigüedad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Monto",
+                            "fullName": "Monto",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "forma de Pago",
+                            "fullName": "FormaPago",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "¿Está interesado en un crédito?",
+                            "fullName": "Interesado",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Programación Visita",
+                            "fullName": "ProgramacionVisita",
+                            "elementType": 8,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Nombre / Entidad / Identidad",
+                    "fullName": "NombreEntidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Teléfono",
+                    "fullName": "TelefonoLocal",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Referencias Bancarias",
+              "formEditSection": {
+                "baseFullName": "BankReference",
+                "fullName": "RefBanCli",
+                "sections": [
+                  {
+                    "description": "Referencia",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Entidad / Banco",
+                            "fullName": "EntidadBanco",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Producto",
+                            "fullName": "Producto",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Entidad / Banco",
+                    "fullName": "EntidadBanco",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Producto",
+                    "fullName": "Producto",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Ingreso de Recomendados",
+              "formEditSection": {
+                "baseFullName": "RecommendedSubject",
+                "fullName": "RefCli",
+                "sections": [
+                  {
+                    "description": "Nombre Recomendado",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Primer Nombre",
+                            "fullName": "PrimerNombre",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Segundo Nombre",
+                            "fullName": "SegundoNombre",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Primer Apellido",
+                            "fullName": "PrimerApellido",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Segundo Apellido",
+                            "fullName": "SegundoApellido",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "¿Tiene número de identificación?",
+                            "fullName": "TieneDocumento",
+                            "elementType": 3,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Tipo documento identidad",
+                            "fullName": "TipoDocumento",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TieneDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIERvY3VtZW50ID0gIlRpZW5lRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoRG9jdW1lbnQpKSB7CgkJdmFyIF92YWx1ZSA9IHJlZmVyZW5jZVZhbHVlc1tEb2N1bWVudF07CgkJaWYgKHR5cGVvZiBfdmFsdWUgPT0gImJvb2xlYW4iKSB7CgkJCXJlc3VsdCA9IF92YWx1ZTsKCQl9IGVsc2UgaWYgKHR5cGVvZiBfdmFsdWUgPT0gInN0cmluZyIpIHsKCQkJcmVzdWx0ID0gKC9eKD86c2l8c8OtfHllc3x0cnVlKSQvaS50ZXN0KF92YWx1ZSkpCgkJfQoJfQogCXJldHVybiByZXN1bHQ7CiB9KShfdl8pOw=="
+                            }
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "ForeignIdNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIlAiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "CitizenshipNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIkMiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "PassportNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIlQiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Pais",
+                            "fullName": "PaisExpedicion",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TieneDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIERvY3VtZW50ID0gIlRpZW5lRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoRG9jdW1lbnQpKSB7CgkJdmFyIF92YWx1ZSA9IHJlZmVyZW5jZVZhbHVlc1tEb2N1bWVudF07CgkJaWYgKHR5cGVvZiBfdmFsdWUgPT0gImJvb2xlYW4iKSB7CgkJCXJlc3VsdCA9IF92YWx1ZTsKCQl9IGVsc2UgaWYgKHR5cGVvZiBfdmFsdWUgPT0gInN0cmluZyIpIHsKCQkJcmVzdWx0ID0gKC9eKD86c2l8c8OtfHllc3x0cnVlKSQvaS50ZXN0KF92YWx1ZSkpCgkJfQoJfQogCXJldHVybiByZXN1bHQ7CiB9KShfdl8pOw=="
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Datos de contacto",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Teléfono",
+                            "fullName": "TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Dirección negocio",
+                            "fullName": "Direccion",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Celular",
+                            "fullName": "TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Departamento del negocio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Municipio del negocio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Barrio del negocio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Indicaciones dirección negocio",
+                            "fullName": "Ubicacion",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "¿Tiene Actividad el Recomendado?",
+                            "fullName": "ActividadRecomendado",
+                            "elementType": 3,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Nombre de Sector",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": false,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "ActividadRecomendado"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIEFjdGl2aWRhZFJlY29tZW5kYWRvID0gIkFjdGl2aWRhZFJlY29tZW5kYWRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoQWN0aXZpZGFkUmVjb21lbmRhZG8pKSB7CgkJdmFyIF92YWx1ZSA9IHJlZmVyZW5jZVZhbHVlc1tBY3RpdmlkYWRSZWNvbWVuZGFkb107CgkJaWYgKHR5cGVvZiBfdmFsdWUgPT0gImJvb2xlYW4iKSB7CgkJCXJlc3VsdCA9IF92YWx1ZTsKCQl9IGVsc2UgaWYgKHR5cGVvZiBfdmFsdWUgPT0gInN0cmluZyIpIHsKCQkJcmVzdWx0ID0gKC9eKD86c2l8c8OtfHllc3x0cnVlKSQvaS50ZXN0KF92YWx1ZSkpCgkJfQoJfQogCXJldHVybiByZXN1bHQ7CiB9KShfdl8pOw=="
+                            }
+                          },
+                          {
+                            "label": "Nombre Actividad",
+                            "fullName": "ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "ActividadRecomendado"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIEFjdGl2aWRhZFJlY29tZW5kYWRvID0gIkFjdGl2aWRhZFJlY29tZW5kYWRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoQWN0aXZpZGFkUmVjb21lbmRhZG8pKSB7CgkJdmFyIF92YWx1ZSA9IHJlZmVyZW5jZVZhbHVlc1tBY3RpdmlkYWRSZWNvbWVuZGFkb107CgkJaWYgKHR5cGVvZiBfdmFsdWUgPT0gImJvb2xlYW4iKSB7CgkJCXJlc3VsdCA9IF92YWx1ZTsKCQl9IGVsc2UgaWYgKHR5cGVvZiBfdmFsdWUgPT0gInN0cmluZyIpIHsKCQkJcmVzdWx0ID0gKC9eKD86c2l8c8OtfHllc3x0cnVlKSQvaS50ZXN0KF92YWx1ZSkpCgkJfQoJfQogCXJldHVybiByZXN1bHQ7CiB9KShfdl8pOw=="
+                            }
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Origen del Recomendado",
+                            "fullName": "Origen",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Primer Nombre",
+                    "fullName": "PrimerNombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Segundo Nombre",
+                    "fullName": "SegundoNombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Primer Apellido",
+                    "fullName": "PrimerApellido",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Teléfono",
+                    "fullName": "TelefonoLocal",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Celular",
+                    "fullName": "TelefonoCelular",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "description": "Codeudores",
+        "rows": [
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Codeudores",
+              "formEditSection": {
+                "baseFullName": "CodebtorSubject",
+                "fullName": "Cod",
+                "sections": [
+                  {
+                    "description": "Identificación",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Tipo documento identidad",
+                            "fullName": "TipoDocumento",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "ForeignIdNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIlAiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "CitizenshipNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIkMiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Número  documento identidad",
+                            "fullName": "PassportNumber",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoDocumento"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIERvY3VtZW50VHlwZSA9ICJUaXBvRG9jdW1lbnRvIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KERvY3VtZW50VHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbRG9jdW1ldFR5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIlQiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Pais",
+                            "fullName": "PaisExpedicion",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Tipo de Codeudor en el sistema",
+                            "fullName": "TipoCodeudor",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Clase de Codeudor",
+                            "fullName": "ClaseCodeudor",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Nombre Codeudor",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Primer Nombre",
+                            "fullName": "PrimerNombre",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Segundo Nombre",
+                            "fullName": "Segundo Nombre",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Primer Apellido",
+                            "fullName": "PrimerApellido",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Segundo Apellido",
+                            "fullName": "SegundoApellido",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Datos de Expedición",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Departameto",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio",
+                            "fullName": "DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Fecha de nacimiento",
+                            "fullName": "FechaNacimiento",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Genero",
+                            "fullName": "Genero",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Datos Contacto",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Dirección Domicilio",
+                            "fullName": "DomicilioLocation.Dirección",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Departameto",
+                            "fullName": "DomicilioLocation.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio",
+                            "fullName": "DomicilioLocation.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio",
+                            "fullName": "DomicilioLocation.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Genero",
+                            "fullName": "Genero",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Datos Personales",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "¿En los últimos 3 años el Codeudor ha sido PEP?",
+                            "fullName": "PEP",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Parentesco con titular",
+                            "fullName": "Parentesco",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Actividad / Ocupacion Codeudor",
+                            "fullName": "ActividadOcupacion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Estado Civil",
+                            "fullName": "EstadoCivil",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Tipo de Vivienda",
+                            "fullName": "TipoVivienda",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "¿Cuál?",
+                            "fullName": "Cual",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoVivienda"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIEhvdXNpbmdUeXBlID0gIlRpcG9WaXZpZW5kYSI7CglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShIb3VzaW5nVHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSG91c2luZ1R5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIk8iKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Tiempo Habitada / Antigüedad (meses)",
+                            "fullName": "TiempoHabitada",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Es legalizdo?",
+                            "fullName": "Legalizdo",
+                            "elementType": 0,
+                            "isRequired": true,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoVivienda"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIEhvdXNpbmdUeXBlID0gIlRpcG9WaXZpZW5kYSI7CglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShIb3VzaW5nVHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSG91c2luZ1R5cGVdOwoJIAlyZXN1bHQgPSAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIlAiKTsKCX0KCXJldHVybiByZXN1bHQ7Cn0pKF92Xyk7"
+                            }
+                          },
+                          {
+                            "label": "Nombre Arrendador",
+                            "fullName": "NombreArrendador",
+                            "elementType": 0,
+                            "isRequired": false,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoVivienda"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIEhvdXNpbmdUeXBlID0gIlRpcG9WaXZpZW5kYSI7CglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShIb3VzaW5nVHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSG91c2luZ1R5cGVdOwoJIAlyZXN1bHQgPSAoKCgodHlwZW9mIGNhdGVnb3J5PT0ib2JqZWN0Iik/Y2F0ZWdvcnlbMF06Y2F0ZWdvcnkpID09ICJBIil8fCAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIkYiKSkgOwoJfQoJcmV0dXJuIHJlc3VsdDsKfSkoX3ZfKTs="
+                            }
+                          },
+                          {
+                            "label": "Teléfono Arrendador",
+                            "fullName": "ContactArrendador.TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": false,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoVivienda"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIEhvdXNpbmdUeXBlID0gIlRpcG9WaXZpZW5kYSI7CglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShIb3VzaW5nVHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSG91c2luZ1R5cGVdOwoJIAlyZXN1bHQgPSAoKCgodHlwZW9mIGNhdGVnb3J5PT0ib2JqZWN0Iik/Y2F0ZWdvcnlbMF06Y2F0ZWdvcnkpID09ICJBIil8fCAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIkYiKSkgOwoJfQoJcmV0dXJuIHJlc3VsdDsKfSkoX3ZfKTs="
+                            }
+                          },
+                          {
+                            "label": "Celular Arrendador",
+                            "fullName": "ContactArrendador.TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": false,
+                            "isHidden": true,
+                            "enableRule": {
+                              "fieldReferences": [
+                                "TipoVivienda"
+                              ],
+                              "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewogICAgdmFyIHJlc3VsdCA9IGZhbHNlOwogICAgdmFyIEhvdXNpbmdUeXBlID0gIlRpcG9WaXZpZW5kYSI7CglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShIb3VzaW5nVHlwZSkpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSG91c2luZ1R5cGVdOwoJIAlyZXN1bHQgPSAoKCgodHlwZW9mIGNhdGVnb3J5PT0ib2JqZWN0Iik/Y2F0ZWdvcnlbMF06Y2F0ZWdvcnkpID09ICJBIil8fCAoKCh0eXBlb2YgY2F0ZWdvcnk9PSJvYmplY3QiKT9jYXRlZ29yeVswXTpjYXRlZ29yeSkgPT0gIkYiKSkgOwoJfQoJcmV0dXJuIHJlc3VsdDsKfSkoX3ZfKTs="
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "elementSize": 6,
+                    "elements": [],
+                    "subRequestForm": {
+                      "description": "Referencia Codeudor",
+                      "isHidden": false,
+                      "sections": [
+                        {
+                          "description": "Referencia Codeudor",
+                          "rows": [
+                            {
+                              "subRequestForm": null,
+                              "elementSize": 2,
+                              "elements": [
+                                {
+                                  "label": "Nombre completo",
+                                  "fullName": "ReferenciaCodeudor.Nombre",
+                                  "elementType": 0,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Parentesco",
+                                  "fullName": "ReferenciaCodeudor.Parentesco",
+                                  "elementType": 5,
+                                  "selectionIndex": 0,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Departameto domicilio Referencia",
+                                  "fullName": "ReferenciaCodeudor.DepartamentoMunicipioBarrio",
+                                  "elementType": 5,
+                                  "selectionIndex": 0,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Municipio domicilio Referencia",
+                                  "fullName": "ReferenciaCodeudor.DepartamentoMunicipioBarrio",
+                                  "elementType": 5,
+                                  "selectionIndex": 1,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Barrio domicilio Referencia",
+                                  "fullName": "ReferenciaCodeudor.DepartamentoMunicipioBarrio",
+                                  "elementType": 5,
+                                  "selectionIndex": 2,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Teléfono",
+                                  "fullName": "ReferenciaCodeudor.Contact.TelefonoLocal",
+                                  "elementType": 0,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "Celular",
+                                  "fullName": "ReferenciaCodeudor.Contact.TelefonoCelular",
+                                  "elementType": 0,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "Ocupación",
+                                  "fullName": "ReferenciaCodeudor.Ocupacion",
+                                  "elementType": 0,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "¿Actvidad económica indepediente?",
+                                  "fullName": "ReferenciaCodeudor.ActividadIndependiente",
+                                  "elementType": 3,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "¿Actvidad económica indepediente?",
+                                  "fullName": "ReferenciaCodeudor.ActividadIndependiente",
+                                  "elementType": 3,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "Sector",
+                                  "fullName": "ReferenciaCodeudor.ActividadSector",
+                                  "elementType": 5,
+                                  "selectionIndex": 0,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Actividad",
+                                  "fullName": "ReferenciaCodeudor.ActividadSector",
+                                  "elementType": 5,
+                                  "selectionIndex": 1,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "¿Esta interesado en un crédito?",
+                                  "fullName": "ReferenciaCodeudor.Interesado",
+                                  "elementType": 3,
+                                  "isRequired": true
+                                },
+                                {
+                                  "label": "Programación de Visita",
+                                  "fullName": "ReferenciaCodeudor.ProgramacionVisita",
+                                  "elementType": 8,
+                                  "isRequired": false
+                                },
+                                {
+                                  "label": "Observaciones",
+                                  "fullName": "ReferenciaCodeudor.Observaciones",
+                                  "elementType": 0,
+                                  "isRequired": false
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "description": "Datos Laborales",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "¿Es empleado el Codeudor?",
+                            "fullName": "EsEmpleadoCodeudor",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Empresa donde trabaja",
+                            "fullName": "CodeudorEmpleado.Empresa",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Antigüedad (meses)",
+                            "fullName": "CodeudorEmpleado.Antigüedad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Dirección empresa",
+                            "fullName": "CodeudorEmpleado.Location.Dirección",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Departameto empresa",
+                            "fullName": "CodeudorEmpleado.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio empresa",
+                            "fullName": "CodeudorEmpleado.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio empresa",
+                            "fullName": "CodeudorEmpleado.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Cargo / Prefesión / Actividad",
+                            "fullName": "CodeudorEmpleado.CargoProfesion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Salario",
+                            "fullName": "CodeudorEmpleado.Salario",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Nombre contacto laboral",
+                            "fullName": "CodeudorEmpleado.ContactoLaboral",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Cargo contacto laboral",
+                            "fullName": "CodeudorEmpleado.CargoContactoLaboral",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Observaciones contacto laboral",
+                            "fullName": "CodeudorEmpleado.ObservacionesLaboral",
+                            "elementType": 0,
+                            "isRequired": true
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Datos Negocio del Codeudor",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "¿Codeudor tiene negocio indepediente?",
+                            "fullName": "DatosNegocioCodeudor.TieneNegocio",
+                            "elementType": 3,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Nombre o Razón Social",
+                            "fullName": "DatosNegocioCodeudor.NombreRazonSocial",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Fecha de inicio Negocio Codeudor ",
+                            "fullName": "DatosNegocioCodeudor.FechaInicio",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Negocio en domicilio",
+                            "fullName": "DatosNegocioCodeudor.Location.Direccion",
+                            "elementType": 3,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Departameto negocio",
+                            "fullName": "DatosNegocioCodeudor.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Municipio negocio",
+                            "fullName": "DatosNegocioCodeudor.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Barrio negocio",
+                            "fullName": "DatosNegocioCodeudor.Location.DepartamentoMunicipioBarrio",
+                            "elementType": 5,
+                            "selectionIndex": 2,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Teléfono negocio",
+                            "fullName": "DatosNegocioCodeudor.Contact.TelefonoLocal",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Teléfono Celular",
+                            "fullName": "DatosNegocioCodeudor.Contact.TelefonoCelular",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Sector",
+                            "fullName": "DatosNegocioCodeudor.ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Nombre de Actividad",
+                            "fullName": "DatosNegocioCodeudor.ActividadSector",
+                            "elementType": 5,
+                            "selectionIndex": 1,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Ingresos Codeudor",
+                            "fullName": "CodebtorSubject.Ingresos",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Ventas",
+                            "fullName": "CodebtorSubject.Ventas",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "TotalActivos",
+                            "fullName": "CodebtorSubject.TotalActivos",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Observaciones",
+                            "fullName": "CodebtorSubject.Observaciones",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Garantias Codeudor",
+                    "rows": [
+                      {
+                        "elementSize": 6,
+                        "subRequestForm": {
+                          "description": "Garantias Codeudor",
+                          "formEditSection": {
+                            "baseFullName": "Assurance",
+                            "fullName": "GarantiasCodeudor",
+                            "sections": [
+                              {
+                                "description": "Garantia",
+                                "rows": [
+                                  {
+                                    "subRequestForm": null,
+                                    "elementSize": 2,
+                                    "elements": [
+                                      {
+                                        "label": "Cantidad",
+                                        "fullName": "Cantidad",
+                                        "elementType": 0,
+                                        "isRequired": true
+                                      },
+                                      {
+                                        "label": "Descripción",
+                                        "fullName": "Descripcion",
+                                        "elementType": 0,
+                                        "isRequired": true
+                                      },
+                                      {
+                                        "label": "Valor",
+                                        "fullName": "Valor",
+                                        "elementType": 0,
+                                        "isRequired": true
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "elements": [
+                              {
+                                "label": "Cantidad",
+                                "fullName": "Cantidad",
+                                "isTitle": true,
+                                "formatFunction": null,
+                                "columnFunction": null
+                              },
+                              {
+                                "label": "Descripcion",
+                                "fullName": "Descripcion",
+                                "isTitle": true,
+                                "formatFunction": null,
+                                "columnFunction": null
+                              },
+                              {
+                                "label": "Valor",
+                                "fullName": "Valor",
+                                "isTitle": true,
+                                "showedInSection": true,
+                                "formatFunction": null,
+                                "columnFunction": null
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Nombre",
+                    "fullName": "Nombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Teléfono",
+                    "fullName": "TelefonoLocal",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Celular",
+                    "fullName": "TelefonoCelular",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Dirección",
+                    "fullName": "Location.Direccion",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "description": "Garantias",
+        "rows": [
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Garantias ",
+              "formEditSection": {
+                "baseFullName": "Assurance",
+                "fullName": "GarCli",
+                "sections": [
+                  {
+                    "description": "Garantias",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Tipo de Garantia",
+                            "fullName": "TipoGarantia",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Descripción ",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Valor",
+                            "fullName": "Valor",
+                            "elementType": 5,
+                            "selectionIndex": 0,
+                            "isRequired": true
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Nombre",
+                    "fullName": "Nombre",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor",
+                    "fullName": "Valor",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "label": "¿Este hogar tiene una maquina lavadora de ropa?",
+            "fullName": "Ppi7_HogTieLav",
+            "elementType": 3,
+            "isRequired": true
+          },
+          {
+            "label": "¿Este hotar tiene un horno de microondas?",
+            "fullName": "Ppi8_HogTieHorMic",
+            "elementType": 3,
+            "isRequired": true
+          },
+          {
+            "label": "¿Este hogar tiene un carro particular?",
+            "fullName": "Ppi9_HogTieCarPar",
+            "elementType": 3,
+            "isRequired": true
+          },
+          {
+            "label": "¿Titular o cónyude poseen Smartphone?",
+            "fullName": "TitConPosSma",
+            "elementType": 3,
+            "isRequired": true
+          },
+          {
+            "label": "Foto 1 garantias",
+            "fullName": "Fot1GarCli",
+            "url": "FileUrl",
+            "fileName": "FileName",
+            "elementType": 10
+          },
+          {
+            "label": "Foto 2 garantías",
+            "fullName": "Fot2GarCli",
+            "url": "FileUrl",
+            "fileName": "FileName",
+            "elementType": 10
+          },
+          {
+            "label": "Foto 3 garantías",
+            "fullName": "Fot1GarCliSolCor",
+            "url": "FileUrl",
+            "fileName": "FileName",
+            "elementType": 10
+          },
+          {
+            "label": "Foto 4 garantías",
+            "fullName": "Fot2GarCliSolCor",
+            "url": "FileUrl",
+            "fileName": "FileName",
+            "elementType": 10
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ccd0f7d5-9696-4749-a526-34e37ee8aa39",
+  "containerId": "3F6F9972-901B-49AB-86CB-4E07AFA51C57",
+  "values": {
+    "RefFam": [
+      {
+        "Nombre": "Jxjfndbd",
+        "Parentesco": [
+          "HI"
+        ],
+        "Location": {
+          "Direccion": "Bxbdjfjd",
+          "DepartamentoMunicipioBarrio": null,
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "Contact": {
+          "TelefonoLocal": "64649494",
+          "TelefonoCelular": "9464949494",
+          "CorreoElectronico": null
+        },
+        "Ocupacion": "Bfjfjdndnnf",
+        "ActividadIndependiente": true,
+        "ActividadSector": null,
+        "Interesado": false,
+        "ProgramacionVisita": null,
+        "Observaciones": "Hxjdidndbdbxbfjdbdbdbduxbf dkdidj"
+      }
+    ],
+    "RefPer": [
+      {
+        "Nombre": "Kfjdnznd",
+        "Parentesco": [
+          "HE"
+        ],
+        "Location": {
+          "Direccion": "Nfjfkd",
+          "DepartamentoMunicipioBarrio": null,
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "Contact": {
+          "TelefonoLocal": "94649497",
+          "TelefonoCelular": "9494649494",
+          "CorreoElectronico": null
+        },
+        "Ocupacion": "Jfirkdndb",
+        "ActividadIndependiente": true,
+        "ActividadSector": null,
+        "Interesado": true,
+        "ProgramacionVisita": null,
+        "Observaciones": "Ifurhrbfjfjdbdjdjdbdbduebfndjdbd "
+      }
+    ],
+    "RefComCli": [
+      {
+        "NombreEntidad": "Jxifndnd",
+        "Location": {
+          "Direccion": null,
+          "DepartamentoMunicipioBarrio": null,
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "Contact": {
+          "TelefonoLocal": "67649494",
+          "TelefonoCelular": "9464349498",
+          "CorreoElectronico": null
+        },
+        "ConfirmarRef": true,
+        "Antigüedad": null,
+        "Monto": "656",
+        "FormaPago": [
+          "O"
+        ],
+        "Interesado": null,
+        "ProgramacionVisita": null,
+        "Observaciones": "Fjdjfjfjdjdjd"
+      }
+    ],
+    "CanRefFamCon": 1,
+    "CanRefComCon": 1,
+    "RefBanCli": null,
+    "RefCli": [
+      {
+        "Subject": {
+          "Person": {
+            "Id": {
+              "TipoDocumento": [
+                "C"
+              ],
+              "NumeroDocPasaporte": null,
+              "NumeroDocExtrajeria": null,
+              "NumeroDocCiudadania": "74737",
+              "PaisExpedicion": [
+                "CO"
+              ],
+              "DepartamentoMunicipioBarrioExpedicion": null
+            },
+            "PrimerNombre": "Jfirkfnfbd",
+            "SegundoNombre": "Jfkrkfnd",
+            "PrimerApellido": "Jfjfifnd",
+            "SegundoApellido": "Nxkdifbx",
+            "FechaNacimiento": null,
+            "Genero": null,
+            "EstadoCivil": null
+          },
+          "Parentesco": null
+        },
+        "TieneDocumento": null,
+        "Contact": {
+          "TelefonoLocal": "67643494",
+          "TelefonoCelular": "9464649499",
+          "CorreoElectronico": null
+        },
+        "Location": {
+          "Direccion": "Jfkfnfjfkfn",
+          "DepartamentoMunicipioBarrio": null,
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "ActividadRecomendado": true,
+        "ActividadSector": null,
+        "Observaciones": null,
+        "Origen": "Solicitud"
+      }
+    ],
+    "Cod": [
+      {
+        "Id": {
+          "TipoDocumento": [
+            "C"
+          ],
+          "NumDocIdeCliPasaporte": null,
+          "NumDocIdeCliExtrangeroa": null,
+          "NumDocIdeCliCiudadania": "36333",
+          "PaisExpedicion": [
+            "CO"
+          ],
+          "DepartamentoMunicipioBarrioExpedicion": [
+            "5",
+            "34"
+          ]
+        },
+        "Subject": {
+          "Person": {
+            "PrimerNombre": "Fjficjfnx",
+            "SegundoNombre": "Gjkfnfn",
+            "PrimerApellido": "Nfjfufbx",
+            "SegundoApellido": "Nxnfifj",
+            "FechaNacimiento": "05/27/2001",
+            "Genero": [
+              "M"
+            ],
+            "EstadoCivil": [
+              "S"
+            ]
+          },
+          "Parentesco": [
+            "PA"
+          ]
+        },
+        "Contact": {
+          "TelefonoLocal": "97649494",
+          "TelefonoCelular": "9864949494",
+          "CorreoElectronico": null
+        },
+        "TipoCodeudor": [
+          "Q"
+        ],
+        "ClaseCodeudor": [
+          "I"
+        ],
+        "Mensaje": null,
+        "CodigoRiesgo": null,
+        "ListaControl": null,
+        "AdverteciaControl": null,
+        "DomicilioLocation": {
+          "Direccion": "Jfjfjdnxnf",
+          "DepartamentoMunicipioBarrio": [
+            "81",
+            "220",
+            "1"
+          ],
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "NegocioLocation": {
+          "Direccion": null,
+          "DepartamentoMunicipioBarrio": null,
+          "Ubicacion": null,
+          "Geoposicion": {
+            "Latitud": null,
+            "Longitud": null
+          }
+        },
+        "PEP": null,
+        "ActividadOcupacion": "g hfjfksjfbf",
+        "NombreConyuge": null,
+        "TipoVivienda": [
+          "P"
+        ],
+        "Cual": null,
+        "TiempoHabitada": "32",
+        "Legalizado": true,
+        "NombreArrendador": null,
+        "ContactArrendador": {
+          "TelefonoLocal": null,
+          "TelefonoCelular": null,
+          "CorreoElectronico": null
+        },
+        "ReferenciaCodeudor": {
+          "Nombre": "Jfkdnxnxbf",
+          "Parentesco": [
+            "HE"
+          ],
+          "Location": {
+            "Direccion": "Bnxjfkfnx",
+            "DepartamentoMunicipioBarrio": [
+              "88",
+              "1",
+              "101"
+            ],
+            "Ubicacion": null,
+            "Geoposicion": {
+              "Latitud": null,
+              "Longitud": null
+            }
+          },
+          "Contact": {
+            "TelefonoLocal": "94646497",
+            "TelefonoCelular": "9797646494",
+            "CorreoElectronico": null
+          },
+          "Ocupacion": null,
+          "ActividadIndependiente": null,
+          "ActividadSector": null,
+          "Interesado": null,
+          "ProgramacionVisita": null,
+          "Observaciones": "Bxbfjfjfb"
+        },
+        "EsEmpleadoCodeudor": true,
+        "CodeudorEmpleado": {
+          "Empresa": "Nxjfjfnfnr",
+          "Antigüedad": "9",
+          "CargoProfesion": "Bvkfmznxbf n",
+          "Salario": "959",
+          "ContactoLaboral": "Hfhncifnx b",
+          "CargoContactoLaboral": "Jfndhxnz",
+          "TelefonoLaboral": "97945767",
+          "ObservacionesLaboral": null,
+          "Location": {
+            "Direccion": "Bfbfbfjf",
+            "DepartamentoMunicipioBarrio": null,
+            "Ubicacion": null,
+            "Geoposicion": {
+              "Latitud": null,
+              "Longitud": null
+            }
+          }
+        },
+        "TieneNegocio": true,
+        "DatosNegocioCodeudor": {
+          "NombreRazonSocial": "Bfncmxnx n",
+          "FechaInicio": "05/28/2019",
+          "NegoocioDomicilio": false,
+          "ActividadSector": [
+            "10",
+            "1001"
+          ],
+          "TipoLocal": [
+            "A"
+          ],
+          "Location": {
+            "Direccion": "Ncjfkfmxn",
+            "DepartamentoMunicipioBarrio": null,
+            "Ubicacion": "Bfbfjfnxnnd",
+            "Geoposicion": {
+              "Latitud": null,
+              "Longitud": null
+            }
+          },
+          "Contact": {
+            "TelefonoLocal": "97949794",
+            "TelefonoCelular": "9794677986",
+            "CorreoElectronico": null
+          }
+        },
+        "Ingresos": null,
+        "Ventas": "9562",
+        "TotalActivos": "9562",
+        "Observaciones": "Bxbfjdnfbfb",
+        "GarantiasCodeudor": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor2": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor3": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor4": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor5": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor6": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor7": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor8": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor9": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        },
+        "GarantiasCodeudor10": {
+          "TipoGarantia": null,
+          "Cantidad": null,
+          "Descripcion": null,
+          "Valor": null
+        }
+      }
+    ],
+    "CanCodCom": 1,
+    "CanKnoOutCod": 0,
+    "ValTotGarCod": 0,
+    "TipGarCre": null,
+    "GarCli": [
+      {
+        "TipoGarantia": [
+          "5"
+        ],
+        "Cantidad": 797,
+        "Descripcion": "Nxjxnxndj",
+        "Valor": "986"
+      }
+    ],
+    "CanGarCli": null,
+    "Ppi7_HogTieLav": null,
+    "Ppi8_HogTieHorMic": null,
+    "Ppi9_HogTieCarPar": null,
+    "TitConPosSma": true,
+    "Fot1GarCli": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "Fot2GarCli": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "Fot1GarCliSolCor": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "Fot2GarCliSolCor": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "TipoGarantia": null,
+    "Cantidad": null,
+    "Descripcion": null,
+    "Valor": null
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}

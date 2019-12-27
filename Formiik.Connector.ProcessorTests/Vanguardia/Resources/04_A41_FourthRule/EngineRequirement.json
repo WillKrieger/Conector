@@ -1,0 +1,35 @@
+{
+  "agentUsername": "qamovil2@fdlmb2c.onmicrosoft.com",
+  "instanceId": "3C73A16C-2D38-4018-B30E-BEC079E8E742",
+  "definitionId": "68832771-e0e5-4bff-b22a-7d7997e8e00a",
+  "tenantId": null,
+  "containerId": "943CEF99-66C3-4553-B269-DF436FFDD819",
+  "status": 0,
+  "statusContainer": 0,
+  "values": {
+    "MontoActivos": "100000000000",
+    "GastosMensuales": "1000000",
+    "Table": [
+      {
+        "NombreSocio": "Accionista 1",
+        "TipoDocumento": [
+          "Cédula de Identificación"
+        ],
+        "Participacion": "20"
+      },
+      {
+        "NombreSocio": "Accionista 2",
+        "TipoDocumento": [
+          "Cédula de Identificación"
+        ],
+        "Participacion": "50"
+      }
+    ],
+    "NombreSocio": null,
+    "Participacion": null,
+    "TipoDocumento": null
+  },
+  "comments": null,
+  "customStatusContainer": 2,
+  "action": "edit"
+}

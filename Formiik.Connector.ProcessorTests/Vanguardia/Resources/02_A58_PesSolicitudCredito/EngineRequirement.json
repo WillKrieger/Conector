@@ -1,0 +1,39 @@
+{
+  "agentUsername": "martin@vanguardiab2c.onmicrosoft.com",
+  "instanceId": "F909AE93-E47B-41D1-8792-F5A14246070E",
+  "definitionId": "4c51eef0-c786-6b2e-a667-1b728399a70b",
+  "tenantId": "35412e1e-9e4d-4e46-82f9-6a0985277522",
+  "containerId": "edde7a95-2ec6-49e8-998b-80af65e63a58",
+  "status": 0,
+  "statusContainer": 0,
+  "values": {
+    "NombreNegocio": "asdasdasd",
+    "BarrioNegocio": {
+      "DireccionNegocio": "asdasdasda",
+      "DeptoMunicipioBarrioNegocio": [
+        "15",
+        "87",
+        "5"
+      ]
+    },
+    "ConActEco": [
+      "01",
+      "304"
+    ],
+    "FechaInicioNegocio": null,
+    "Destino": [
+      "01"
+    ],
+    "FormaPago": [
+      "T"
+    ],
+    "Monto": "121212",
+    "Plazo": "12",
+    "Producto": [
+      "01"
+    ]
+  },
+  "comments": null,
+  "customStatusContainer": 2,
+  "action": "edit"
+}

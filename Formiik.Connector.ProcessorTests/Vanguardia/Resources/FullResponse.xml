@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response ProductId="8b3ca9af-0d76-4df6-afb1-17648cc4092c"
+          ExternalId="9CAA6708-B62F-4651-A5E8-2543A6FF6F72"
+          ExternalType="SprintReview1" AssignedTo="qamovil2@fdlmb2c.onmicrosoft.com"
+          InitialDate="20190905 11:29:14" FinalDate="20190905 11:37:33"
+          ResponseDate="20190905 16:37:34" InitialLatitude="0" FinalLatitude="0"
+          InitialLongitude="0" FinalLongitude="0" FormiikResponseSource="Web"
+          IdWorkOrderFormType="69e59963-c994-4e3a-9662-83f4fb6d31f1">
+    <SprintReview1>
+        <TabRegistroCliente>
+            <TipoDocumento>Pasaporte</TipoDocumento>
+            <TipoDocumento>Pasaporte</TipoDocumento>
+            <NumeroTelefono>5534218252</NumeroTelefono>
+            <Correo>guillermo.guerrrero@gmail.com</Correo>
+            <TaxesRecipientCountry>Cubano</TaxesRecipientCountry>
+            <Nombre>Guillermo</Nombre>
+            <PrimerApellido>guerrero</PrimerApellido>
+            <SegundoApellido>Jaime</SegundoApellido>
+            <FechaNacimiento>04/09/2019</FechaNacimiento>
+            <EstadoCivil>Casado</EstadoCivil>
+            <CalleYNumero>Florines</CalleYNumero>
+            <Zona>Centro</Zona>
+            <UbicacionDomicilioTitular>Lat:0Lon:0Sat:-1Fecha:2019-09-05 11:37:31</UbicacionDomicilioTitular>
+        </TabRegistroCliente>
+        <TabEvaluacionNegocio>
+            <NombreNegocio>Mobiik</NombreNegocio>
+            <Antiguedad>10</Antiguedad>
+            <CalleYNumeroNegocio>Vito Alessio</CalleYNumeroNegocio>
+            <UbicacionDomicilioNegocio>Lat:0Lon:0Sat:-1Fecha:2019-09-05 11:37:31</UbicacionDomicilioNegocio>
+            <MontoActivos>100</MontoActivos>
+            <GastosMensuales>100</GastosMensuales>
+        </TabEvaluacionNegocio>
+        <FormiikResponseSource>Web</FormiikResponseSource>
+    </SprintReview1>
+</Response>

@@ -1,0 +1,364 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/DataTests/DataTests.csproj": {}
+  },
+  "projects": {
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/DataTests/DataTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/DataTests/DataTests.csproj",
+        "projectName": "DataTests",
+        "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/DataTests/DataTests.csproj",
+        "packagesPath": "/Users/willkrieger/.nuget/packages/",
+        "outputPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/DataTests/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/willkrieger/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj"
+              },
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj"
+              },
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/Formiik.Connector.Logging.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/Formiik.Connector.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Aurochses.Xunit.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/Formiik.Connector.Data.RestServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/Formiik.Connector.Data.RestServices.csproj",
+        "projectName": "Formiik.Connector.Data.RestServices",
+        "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/Formiik.Connector.Data.RestServices.csproj",
+        "packagesPath": "/Users/willkrieger/.nuget/packages/",
+        "outputPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/willkrieger/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj",
+        "projectName": "Formiik.Connector.Data",
+        "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj",
+        "packagesPath": "/Users/willkrieger/.nuget/packages/",
+        "outputPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/willkrieger/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/Formiik.Connector.Data.RestServices.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data.RestServices/Formiik.Connector.Data.RestServices.csproj"
+              },
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj",
+        "projectName": "Formiik.Connector.Entities",
+        "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/Formiik.Connector.Entities.csproj",
+        "packagesPath": "/Users/willkrieger/.nuget/packages/",
+        "outputPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Entities/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/willkrieger/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/Formiik.Connector.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/Formiik.Connector.Logging.csproj",
+        "projectName": "Formiik.Connector.Logging",
+        "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/Formiik.Connector.Logging.csproj",
+        "packagesPath": "/Users/willkrieger/.nuget/packages/",
+        "outputPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Logging/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/willkrieger/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj": {
+                "projectPath": "/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/Formiik.Connector.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response ProductId="9a7f1f24-1e18-4795-8734-64a6f1f0851f" ExternalId="93B4A66B-7251-404C-A539-370E0A0B885A"
+          ExternalType="SolicitudAsignada" AssignedTo="ana.lucia@formiikplatform.onmicrosoft.com"
+          InitialDate="20190212 15:28:21" FinalDate="20190212 15:36:27" ResponseDate="20190212 21:36:30"
+          InitialLatitude="19.3521" FinalLatitude="19.3521" InitialLongitude="-99.1805" FinalLongitude="-99.1805"
+          FormiikResponseSource="Mobile">
+    <Solicitud>
+        <PesPreEva>
+            <VisAyu>Si</VisAyu>
+            
+            <TipDocIdeCli>C</TipDocIdeCli>
+            <TmpTipDocIdeCli>CO</TmpTipDocIdeCli>
+            <NumDocIdeCedCiuCli>0079937877</NumDocIdeCedCiuCli>
+            <NumDocIdeCedExtCli>1234</NumDocIdeCedExtCli>
+            <NumDocIdeNitCli>12345</NumDocIdeNitCli>
+            <NumDocIdePasCli>1234</NumDocIdePasCli>
+            
+        </PesPreEva>
+        
+        <FormiikResponseSource>Mobile</FormiikResponseSource>
+    </Solicitud>
+</Response>

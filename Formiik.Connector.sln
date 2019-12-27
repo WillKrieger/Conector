@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Processor", "Formiik.Connector.Processor\Formiik.Connector.Processor.csproj", "{15D41072-8BC6-483D-84FD-1F58171F06F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Entities", "Formiik.Connector.Entities\Formiik.Connector.Entities.csproj", "{45A81BE9-2913-4DEA-B627-799B0A78FF79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Data", "Formiik.Connector.Data\Formiik.Connector.Data.csproj", "{71250852-D7ED-4642-A8AB-F689FDD7B07A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{96111FE4-BB42-4F1E-9CF7-05448E45C64B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comun", "Comun", "{424ECB8C-1821-4437-8149-BDC3089693F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processors", "Processors", "{3F21EA98-EF7F-495E-BD26-CDFBE532AF06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{A99C5F79-D1C2-4461-B276-C9D875EEFE53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.ProcessorTests", "Formiik.Connector.ProcessorTests\Formiik.Connector.ProcessorTests.csproj", "{70198C01-26FC-437F-B9B3-D27F2999EC7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Logging", "Formiik.Connector.Logging\Formiik.Connector.Logging.csproj", "{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logging", "Logging", "{16E90439-54E9-4726-9C49-788653521B58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Web.Services", "Formiik.Connector.Web.Services\Formiik.Connector.Web.Services.csproj", "{0ADEF9E9-1F35-4E38-99D7-4190A086B132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formiik.Connector.Data.RestServices", "Formiik.Connector.Data.RestServices\Formiik.Connector.Data.RestServices.csproj", "{E134636A-3EB6-42D5-9112-781DFEE0AF22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EFBC15C0-0569-4CAF-A65A-5E43A6A8F1B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTests", "DataTests\DataTests.csproj", "{8142091B-B4D8-4B53-9570-5868E140814A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15D41072-8BC6-483D-84FD-1F58171F06F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D41072-8BC6-483D-84FD-1F58171F06F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D41072-8BC6-483D-84FD-1F58171F06F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D41072-8BC6-483D-84FD-1F58171F06F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A81BE9-2913-4DEA-B627-799B0A78FF79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A81BE9-2913-4DEA-B627-799B0A78FF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A81BE9-2913-4DEA-B627-799B0A78FF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A81BE9-2913-4DEA-B627-799B0A78FF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71250852-D7ED-4642-A8AB-F689FDD7B07A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71250852-D7ED-4642-A8AB-F689FDD7B07A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71250852-D7ED-4642-A8AB-F689FDD7B07A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71250852-D7ED-4642-A8AB-F689FDD7B07A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70198C01-26FC-437F-B9B3-D27F2999EC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70198C01-26FC-437F-B9B3-D27F2999EC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70198C01-26FC-437F-B9B3-D27F2999EC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70198C01-26FC-437F-B9B3-D27F2999EC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ADEF9E9-1F35-4E38-99D7-4190A086B132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ADEF9E9-1F35-4E38-99D7-4190A086B132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ADEF9E9-1F35-4E38-99D7-4190A086B132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ADEF9E9-1F35-4E38-99D7-4190A086B132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E134636A-3EB6-42D5-9112-781DFEE0AF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E134636A-3EB6-42D5-9112-781DFEE0AF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E134636A-3EB6-42D5-9112-781DFEE0AF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E134636A-3EB6-42D5-9112-781DFEE0AF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8142091B-B4D8-4B53-9570-5868E140814A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8142091B-B4D8-4B53-9570-5868E140814A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8142091B-B4D8-4B53-9570-5868E140814A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8142091B-B4D8-4B53-9570-5868E140814A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06683F27-24B0-4BCE-AD0D-EFBBBA6DCEBC}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71250852-D7ED-4642-A8AB-F689FDD7B07A} = {96111FE4-BB42-4F1E-9CF7-05448E45C64B}
+		{45A81BE9-2913-4DEA-B627-799B0A78FF79} = {424ECB8C-1821-4437-8149-BDC3089693F9}
+		{15D41072-8BC6-483D-84FD-1F58171F06F7} = {3F21EA98-EF7F-495E-BD26-CDFBE532AF06}
+		{A99C5F79-D1C2-4461-B276-C9D875EEFE53} = {3F21EA98-EF7F-495E-BD26-CDFBE532AF06}
+		{70198C01-26FC-437F-B9B3-D27F2999EC7D} = {A99C5F79-D1C2-4461-B276-C9D875EEFE53}
+		{5F6FBCBF-5232-4C6F-A58A-F089A27EABDE} = {16E90439-54E9-4726-9C49-788653521B58}
+		{E134636A-3EB6-42D5-9112-781DFEE0AF22} = {96111FE4-BB42-4F1E-9CF7-05448E45C64B}
+		{EFBC15C0-0569-4CAF-A65A-5E43A6A8F1B5} = {96111FE4-BB42-4F1E-9CF7-05448E45C64B}
+		{8142091B-B4D8-4B53-9570-5868E140814A} = {EFBC15C0-0569-4CAF-A65A-5E43A6A8F1B5}
+	EndGlobalSection
+EndGlobal

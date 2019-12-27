@@ -1,0 +1,67 @@
+{
+  "Titular": {
+    "PrimerNombre": "Esteban",
+    "SegundoNombre": "Alberto",
+    "SegundoApellido": "Hernandez",
+    "FechaNacimiento": "1978/04/03",
+    "Genero": "M",
+    "EstadoCivil": "Casado",
+    "NivelEducativo": "SU14",
+    "EsEmpleado": "Si"
+  },
+  "Conyuge": {
+    "TipoDocumento": "C",
+    "PaisExpedicion": "CO",
+    "NumeroDocumento": "0023755845",
+    "PrimerNombre": "",
+    "SegundoNombre": "",
+    "PrimerApellido": "TORRES",
+    "SegundoApellido": "VACA",
+    "FechaNacimiento": "1925/07/31",
+    "Genero": null,
+    "EstadoCivil": null,
+    "NivelEducativo": null
+  },
+  "ContactoConyuge": {
+    "Telefono": "",
+    "TelefonoCelular": "",
+    "CorreoElectronico": ""
+  },
+  "ActividadConyuge": null,
+  "TipoDomicilio": null,
+  "TiempoResidencia": null,
+  "RentaMensualArrendado": null,
+  "CostoAnualPredial": null,
+  "ValorPropiedadFinanciado": null,
+  "PagoMensualFinanciado": null,
+  "NombreArrendador": null,
+  "TelefonoArrendador": null,
+  "CorreoElectronicoArrendador": null,
+  "NombreDuenioHogarFamiliar": null,
+  "TelefonoDuenioHogarFamiliar": null,
+  "CorreoElectronicoDuenioHogarFamiliar": null,
+  "AntiguedadPropiedad": null,
+  "CuentaConAguaPotable": null,
+  "CuentaConAccesoAInternet": null,
+  "DomicilioTitular": {
+    "DepartamentoMunicipioBarrio": null,
+    "CalleYNumero": null
+  },
+  "ContactoTitular": {
+    "Direccion": null,
+    "Telefono": null,
+    "TelefonoCelular": null,
+    "CorreoElectronico": null
+  },
+  "EmpresaDondeLaboraTitular": null,
+  "AntiguedadEmpleoTitular": null,
+  "SalarioEmpleoTitular": null,
+  "DireccionEmpresaEmpleoTitular": null,
+  "TelefonoEmpresaEmpleoTitular": null,
+  "NombreContactoEmpleoTitular": null,
+  "NumeroMiembrosFamilia": null,
+  "TotalPersonasACargo": null,
+  "NumeroHijos": null,
+  "CabezaHogar": null,
+  "SabeLeerEscribir": null
+}

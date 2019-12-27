@@ -1,0 +1,241 @@
+    {
+      "agentUsername": "ana.lucia@formiikplatform.onmicrosoft.com",
+      "agentsAssigned": {
+        "100-00000-0000-0001": {
+          "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+          "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+          "JobName": null,
+          "Name": null
+        },
+        "100-00000-0000-0012": {
+          "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+          "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+          "JobName": null,
+          "Name": null
+        },
+        "100-00000-0000-0113": {
+          "AgentId": "fadc285b-5113-4867-94b2-cded9f7931ce",
+          "Email": "ana.lucia@formiikplatform.onmicrosoft.com",
+          "JobName": "Asesor Comercial",
+          "Name": "Ana"
+        },
+        "100-00000-0000-0121": {
+          "AgentId": null,
+          "Email": null,
+          "JobName": null,
+          "Name": null
+        }
+      },
+      "comments": [
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "18bd5ed9-fc94-4b2b-ab07-0d966dbbdaf0",
+          "creation": "2019-02-12T21:23:22.999Z",
+          "description": "no coincide",
+          "isInformative": false,
+          "keyName": "TipoNegocio",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "21225517-9f1e-4979-bc5e-a3b7eda8283e",
+          "creation": "2019-02-12T21:23:33.196Z",
+          "description": "no coincide",
+          "isInformative": false,
+          "keyName": "ActividadSector",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "8c68a701-a8f0-4274-bd2e-e5daca0e1a82",
+          "creation": "2019-02-12T21:23:56.951Z",
+          "description": "corregir",
+          "isInformative": false,
+          "keyName": "TiempoExperiencia",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "3bd4bcf2-0820-4c46-ab04-27b1f9b3bd46",
+          "creation": "2019-02-12T21:24:11.286Z",
+          "description": "verificar",
+          "isInformative": false,
+          "keyName": "InscritoCamaraComercio",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "d6a9bdf9-f017-4115-bf08-c3c10442cc38",
+          "creation": "2019-02-12T21:24:33.743Z",
+          "description": "verificar",
+          "isInformative": false,
+          "keyName": "PosicionNegocio",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "27170dc4-d40a-493a-8c95-d4b9165a6508",
+          "creation": "2019-02-12T21:24:47.372Z",
+          "description": "corregir",
+          "isInformative": false,
+          "keyName": "ReferenciaUbicacion",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "24da77ff-3019-4a72-a478-87b79b8dfd86",
+          "creation": "2019-02-12T21:25:20.967Z",
+          "description": "corregir",
+          "isInformative": false,
+          "keyName": "Activos[0].OrigenActivo",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "4c9ecae0-e030-46ee-b30b-aa473166b0cd",
+          "creation": "2019-02-12T21:25:31.697Z",
+          "description": "corregir",
+          "isInformative": false,
+          "keyName": "Activos[0].FechaAdquisicion",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "4b824103-e5c6-4a6c-b950-16ad0c51490b",
+          "creation": "2019-02-12T21:25:48.309Z",
+          "description": "verificar",
+          "isInformative": false,
+          "keyName": "Activos[1].TipoActivo",
+          "openedBy": 2,
+          "status": 0
+        },
+        {
+          "agent": {
+            "AgentId": "968a7194-c009-4584-9730-76681a2f659a",
+            "Email": "danielafuentes@formiikplatform.onmicrosoft.com",
+            "JobName": "Validador",
+            "Name": "Daniela Fuentes"
+          },
+          "commentId": "c10e095d-46b6-46e6-81c1-d19284ccb4e2",
+          "creation": "2019-02-12T21:25:58.32Z",
+          "description": "corregir",
+          "isInformative": false,
+          "keyName": "Activos[1].OrigenActivo",
+          "openedBy": 2,
+          "status": 0
+        }
+      ],
+      "containerId": "100-00000-0000-0113",
+      "instanceId": "93B4A66B-7251-404C-A539-370E0A0B885A",
+      "status": 0,
+      "statusContainer": 8,
+      "values": {
+        "ActividadSector": [
+          "1",
+          "345"
+        ],
+        "Activos": [
+          {
+            "DescripcionActivo": "Sillas",
+            "FechaAdquisicion": "12/02/2019",
+            "OrigenActivo": "M",
+            "TipoActivo": "Fijo",
+            "ValorActual": "0",
+            "ValorAnterior": "0",
+            "ValorComercial": "1",
+            "Valorizacion": "1"
+          },
+          {
+            "DescripcionActivo": "Monitor",
+            "FechaAdquisicion": "12/02/2019",
+            "OrigenActivo": "U",
+            "TipoActivo": "Fijo",
+            "ValorActual": "5",
+            "ValorAnterior": "5",
+            "ValorComercial": "2",
+            "Valorizacion": "6"
+          }
+        ],
+        "ComentarioNegocio": null,
+        "DescripcionActivo": null,
+        "DireccionNegocio": null,
+        "EgresosMensuales": "5",
+        "EmpleadosFijos": 1,
+        "EmpleadosTemporales": 1,
+        "FechaAdquisicion": null,
+        "IngresosMensuales": "4",
+        "InscritoCamaraComercio": false,
+        "NegocioEnDomicilio": false,
+        "NombreNegocio": "Formiik",
+        "OrigenActivo": null,
+        "PosicionNegocio": {
+          "Latitude": "19.352054781701867",
+          "Longitude": "-99.18049838393927"
+        },
+        "ReferenciaUbicacion": "X",
+        "TelefonoNegocio": "69874123",
+        "TiempoExperiencia": 3,
+        "TiempoOperacion": 3,
+        "TipoActivo": null,
+        "TipoNegocio": [
+          "LE"
+        ],
+        "ValorActual": null,
+        "ValorAnterior": null,
+        "ValorComercial": null,
+        "Valorizacion": null
+      }
+    }

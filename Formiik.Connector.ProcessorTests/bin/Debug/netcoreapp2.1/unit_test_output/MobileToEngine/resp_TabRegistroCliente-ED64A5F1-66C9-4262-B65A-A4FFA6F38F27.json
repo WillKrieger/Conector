@@ -1,0 +1,19 @@
+{
+  "Values": {
+    "TipoDocumento": [
+      "Pasaporte"
+    ],
+    "PaisExpedicion": [
+      ""
+    ],
+    "NumeroDocumento": "",
+    "NumeroTelefono": "5534218252",
+    "Correo": "guillermo.guerrrero@gmail.com",
+    "Procesado": "",
+    "HayError": "",
+    "HavePayTaxesAnotherCountry": "",
+    "TaxesRecipientCountry": "Cubano"
+  },
+  "NewComments": {},
+  "ResolveComments": {}
+}

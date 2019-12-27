@@ -1,0 +1,19 @@
+{
+  "Action": "BusqCliente",
+  "ExternalId": "gregor@formiikplatform.onmicrosoft.com_20190510_121612",
+  "IdWorkOrder": "a359e091-e0cf-4739-9552-16769df910a7",
+  "IdWorkOrderFormType": "bd49e520-453b-4f30-9073-ffc02cd7c068",
+  "InputFields": {
+    "ExternalType": "Solicitud",
+    "FolioCre": "",
+    "IdReaderCedula_Cedula": "",
+    //"NumCli": "{\"a\":\"1234\",\"b\":{\"b\":\"Actualizado\"}}",
+    "NumCli": "1234",
+    "TipDocCli": ""
+  },
+  "Latitude": 0.0,
+  "Longitude": 0.0,
+  "Sender": null,
+  "Username": "gregor@formiikplatform.onmicrosoft.com",
+  "WorkOrderType": "Solicitud"
+}

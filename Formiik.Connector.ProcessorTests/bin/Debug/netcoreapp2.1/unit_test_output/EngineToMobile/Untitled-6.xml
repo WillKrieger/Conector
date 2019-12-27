@@ -1,0 +1,1136 @@
+<XFA
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" noNamespaceSchemaLocation="XFA.xsd">
+    <Template Name="SprintReview1" Version="1.0" Caption="SprintReview1">
+        <FormiikExpressionLanguage>
+            <variables>
+                <!--<var key="" keyForSave="" type="number o string" default="" />-->
+            </variables>
+            <behaviors>
+                <!--One or more repetitions:-->
+                <behavior key="">
+                    <!--<widget keyForSave="" visible="" required="" readonly="" value="" /><tab name="SubForm1" visible="" />-->
+                </behavior>
+            </behaviors>
+            <expressions>
+                <!--<exp key="" value="" />-->
+            </expressions>
+        </FormiikExpressionLanguage>
+        <Subform Name="TabRegistroCliente" Caption="Registro del Cliente">
+            <Field Name="SeccionIdentificacionSujeto">
+                <UI>
+                    <Heading />
+                </UI>
+                <Value>
+                    <Text>Identificación del Sujeto</Text>
+                </Value>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Identificación del Sujeto</Text>
+                    </Value>
+                </Caption>
+            </Field>
+            <Field Name="TipoDocumento">
+                <UI>
+                    <ChoiceList />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Tipo Documento Identidad</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="TipoDocumento" />
+                </Value>
+                <Items>
+                    <UserCatalog DataSource="TipoDocumentosEngine">
+                        <KeyForField DataDisplay="Val_TipoDocumentosEngine" DataKey="Lla_TipoDocumentosEngine" />
+                    </UserCatalog>
+                </Items>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="selectleyend" value="true" />
+                    <add key="scanner" value="false" />
+                    <add key="search" value="false" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="PaisExpedicion">
+                <UI>
+                    <ChoiceList />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Pais de Expedición</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave=PaisExpedicion>PaisExpedicion</PaisExpedicion>
+                </Value>
+                <Items>
+                    <UserCatalog DataSource="PaisEngine">
+                        <KeyForField DataDisplay="Val_PaisEngine" DataKey="Lla_PaisEngine" />
+                    </UserCatalog>
+                </Items>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="selectleyend" value="true" />
+                    <add key="scanner" value="false" />
+                    <add key="search" value="false" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="NumeroDocumento">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Número Documento</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="NumeroDocumento">NumeroDocumento</Dictionary>
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="NumeroTelefono">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Teléfono</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="NumeroTelefono">NumeroTelefono</Dictionary>
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="true" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="Correo">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Correo Electrónico</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="Correo">Correo</Dictionary>
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="HavePayTaxesAnotherCountry">
+                <UI>
+                    <RadioButton />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>¿Está obligado a tributar en otro país?</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="HavePayTaxesAnotherCountry">HavePayTaxesAnotherCountry</Dictionary>
+                </Value>
+                <Items>
+                    <Text>Sí</Text>
+                    <Text>No</Text>
+                </Items>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="TaxesRecipientCountry">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Otra Nacionalidad</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="TaxesRecipientCountry">TaxesRecipientCountry</Dictionary>
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="Procesar1">
+                <UI>
+                    <UpdateEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Procesar información</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Procesar1" />
+                </Value>
+                <Settings>
+                    <add key="action" value="Tarea1" />
+                    <add key="action_url" value="" />
+                    <add key="timeout" value="20" />
+                    <add key="validateregex" value="false" />
+                    <add key="config" value="process" />
+                </Settings>
+                <Items>
+                    <Text KeyForSave="TipoDocumento" requested="False" />
+                    <Text KeyForSave="PaisExpedicion" requested="False" />
+                    <Text KeyForSave="NumeroDocumento" requested="False" />
+                    <Text KeyForSave="NumeroTelefono" requested="False" />
+                    <Text KeyForSave="Correo" requested="False" />
+                    <Text KeyForSave="HavePayTaxesAnotherCountry" requested="False" />
+                    <Text KeyForSave="TaxesRecipientCountry" requested="False" />
+                </Items>
+            </Field>
+            <Field Name="SeccionDatosSujeto">
+                <UI>
+                    <Heading />
+                </UI>
+                <Value>
+                    <Text>Datos del Sujeto</Text>
+                </Value>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Datos del Sujeto</Text>
+                    </Value>
+                </Caption>
+            </Field>
+            <Field Name="Nombre">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Nombre</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Nombre" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="PrimerApellido">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Primer Apellido</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="PrimerApellido" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="SegundoApellido">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Segundo Apellido</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="SegundoApellido" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="FechaNacimiento">
+                <UI>
+                    <DateTimeEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Fecha de Nacimiento</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="FechaNacimiento">FechaNacimiento</Dictionary>
+                </Value>
+                <Settings>
+                    <add key="DateFormat" value="dd/MM/yyyy" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="visible" value="true" />
+                    <add key="pickOutside" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="EstadoCivil">
+                <UI>
+                    <ChoiceList />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Estado Civil</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="EstadoCivil" />
+                </Value>
+                <Items>
+                    <UserCatalog DataSource="EstadoCivilEngine">
+                        <KeyForField DataDisplay="Val_EstadoCivilEngine" DataKey="Lla_EstadoCivilEngine" />
+                    </UserCatalog>
+                </Items>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="selectleyend" value="true" />
+                    <add key="scanner" value="false" />
+                    <add key="search" value="false" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="IdentificacionFrente">
+                <UI>
+                    <ImageEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Identificación frente</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="IdentificacionFrente" />
+                </Value>
+                <Settings>
+                    <add key="priority" value="a" />
+                    <add key="quality" value="media" />
+                    <add key="signdate" value="false" />
+                    <add key="signexternalid" value="false" />
+                    <add key="monochrome" value="false" />
+                    <add key="showPreview" value="false" />
+                    <add key="counter" value="0" />
+                    <add key="sharpness" value="80" />
+                    <add key="validateSharpness" value="no" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="compression" value="100" />
+                    <add key="orientation" value="portrait" />
+                    <add key="fillResolutionOrientation" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="IdentificacionAtras">
+                <UI>
+                    <ImageEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Identificación atras</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="IdentificacionAtras" />
+                </Value>
+                <Settings>
+                    <add key="priority" value="a" />
+                    <add key="quality" value="media" />
+                    <add key="signdate" value="false" />
+                    <add key="signexternalid" value="false" />
+                    <add key="monochrome" value="false" />
+                    <add key="showPreview" value="false" />
+                    <add key="counter" value="0" />
+                    <add key="sharpness" value="80" />
+                    <add key="validateSharpness" value="no" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="compression" value="100" />
+                    <add key="orientation" value="portrait" />
+                    <add key="fillResolutionOrientation" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="CalleYNumero">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Calle y Numero</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="CalleYNumero" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="Zona">
+                <UI>
+                    <ChoiceList />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Zona</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Zona" />
+                </Value>
+                <Items>
+                    <UserCatalog DataSource="ZonaEngine">
+                        <KeyForField DataDisplay="Val_ZonaEngine" DataKey="Lla_ZonaEngine" />
+                    </UserCatalog>
+                </Items>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="selectleyend" value="true" />
+                    <add key="scanner" value="false" />
+                    <add key="search" value="false" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio">
+                <UI>
+                    <UpdateEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Seleccionar barrio domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio" />
+                </Value>
+                <Items>
+                    <Text KeyForSave="Barrios_level0_DeptoMunicipioBarrioDomicilio0ID" requested="False" />
+                    <Text KeyForSave="Barrios_level0_DeptoMunicipioBarrioDomicilio0VL" requested="False" />
+                    <Text KeyForSave="Barrios_level1_DeptoMunicipioBarrioDomicilio1ID" requested="False" />
+                    <Text KeyForSave="Barrios_level1_DeptoMunicipioBarrioDomicilio1VL" requested="False" />
+                    <Text KeyForSave="Barrios_level2_DeptoMunicipioBarrioDomicilio2ID" requested="False" />
+                    <Text KeyForSave="Barrios_level2_DeptoMunicipioBarrioDomicilio2VL" requested="False" />
+                </Items>
+                <Settings>
+                    <add key="action" value="local_formiik_catalogs" />
+                    <add key="action_url" value="" />
+                    <add key="timeout" value="20" />
+                    <add key="validateregex" value="false" />
+                    <add key="config" value="apk" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio0ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID departamento domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio0ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio0VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Departamento domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio0VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio1ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID municipio domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio1ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio1VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Municipio domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio1VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio2ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID barrio domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio2ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioDomicilio2VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Barrio domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio2VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="UbicacionDomicilioTitular">
+                <UI>
+                    <GpsEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Ubicación</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="UbicacionDomicilioTitular" />
+                </Value>
+                <Settings>
+                    <add key="timeout" value="50" />
+                    <add key="agps" value="true" />
+                    <add key="isValid" value="false" />
+                    <add key="firstValid" value="false" />
+                    <add key="levelRequired" value="LOW" />
+                    <add key="numberTry" value="10" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="automatic" value="false" />
+                    <add key="version" value="2" />
+                </Settings>
+            </Field>
+            <Field Name="ComprobanteDomicilio">
+                <UI>
+                    <AttachmentEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Comprobante de domicilio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="ComprobanteDomicilio" />
+                </Value>
+                <Settings>
+                    <add key="priority" value="a" />
+                    <add key="validtype" value="" />
+                    <add key="sendInResponse" value="visible" />
+                </Settings>
+            </Field>
+            <Field Name="Procesar2">
+                <UI>
+                    <UpdateEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Procesar información</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Procesar2" />
+                </Value>
+                <Settings>
+                    <add key="action" value="Tarea2" />
+                    <add key="action_url" value="" />
+                    <add key="timeout" value="20" />
+                    <add key="validateregex" value="false" />
+                    <add key="config" value="process" />
+                </Settings>
+                <Items>
+                    <Text KeyForSave="Nombre" requested="False" />
+                    <Text KeyForSave="PrimerApellido" requested="False" />
+                    <Text KeyForSave="SegundoApellido" requested="False" />
+                    <Text KeyForSave="FechaNacimiento" requested="False" />
+                    <Text KeyForSave="EstadoCivil" requested="False" />
+                    <Text KeyForSave="IdentificacionFrente" requested="False" />
+                    <Text KeyForSave="IdentificacionAtras" requested="False" />
+                    <Text KeyForSave="CalleYNumero" requested="False" />
+                    <Text KeyForSave="Zona" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio0ID" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio1ID" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioDomicilio2ID" requested="False" />
+                    <Text KeyForSave="UbicacionDomicilioTitular" requested="False" />
+                    <Text KeyForSave="ComprobanteDomicilio" requested="False" />
+                </Items>
+            </Field>
+        </Subform>
+        <Subform Name="TabEvaluacionNegocio" Caption="Evaluación del Negocio">
+            <Field Name="SeccionDatosNegocio">
+                <UI>
+                    <Heading />
+                </UI>
+                <Value>
+                    <Text>Datos del Negocio</Text>
+                </Value>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Datos del Negocio</Text>
+                    </Value>
+                </Caption>
+            </Field>
+            <Field Name="NombreNegocio">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Nombre del Negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="NombreNegocio" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="Antiguedad">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Antiguedad</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Antiguedad" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="CalleYNumeroNegocio">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Calle y Numero</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="CalleYNumeroNegocio" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio">
+                <UI>
+                    <UpdateEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Seleccionar barrio negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio" />
+                </Value>
+                <Items>
+                    <Text KeyForSave="Barrios_level0_DeptoMunicipioBarrioNegocio0ID" requested="False" />
+                    <Text KeyForSave="Barrios_level0_DeptoMunicipioBarrioNegocio0VL" requested="False" />
+                    <Text KeyForSave="Barrios_level1_DeptoMunicipioBarrioNegocio1ID" requested="False" />
+                    <Text KeyForSave="Barrios_level1_DeptoMunicipioBarrioNegocio1VL" requested="False" />
+                    <Text KeyForSave="Barrios_level2_DeptoMunicipioBarrioNegocio2ID" requested="False" />
+                    <Text KeyForSave="Barrios_level2_DeptoMunicipioBarrioNegocio2VL" requested="False" />
+                </Items>
+                <Settings>
+                    <add key="action" value="local_formiik_catalogs" />
+                    <add key="action_url" value="" />
+                    <add key="timeout" value="20" />
+                    <add key="validateregex" value="false" />
+                    <add key="config" value="apk" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio0ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID departamento negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio0ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio0VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Departamento negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio0VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio1ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID municipio negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio1ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio1VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Municipio negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio1VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio2ID">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>ID barrio negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio2ID" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="DeptoMunicipioBarrioNegocio2VL">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Barrio negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio2VL" />
+                </Value>
+                <Settings>
+                    <add key="readonly" value="true" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="password" value="false" />
+                    <add key="multiline" value="false" />
+                    <add key="scanner" value="false" />
+                </Settings>
+            </Field>
+            <Field Name="UbicacionDomicilioNegocio">
+                <UI>
+                    <GpsEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Ubicación negocio</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="UbicacionDomicilioNegocio" />
+                </Value>
+                <Settings>
+                    <add key="timeout" value="50" />
+                    <add key="agps" value="true" />
+                    <add key="isValid" value="false" />
+                    <add key="firstValid" value="false" />
+                    <add key="levelRequired" value="LOW" />
+                    <add key="numberTry" value="10" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="automatic" value="false" />
+                    <add key="version" value="2" />
+                </Settings>
+            </Field>
+            <Field Name="Procesar3">
+                <UI>
+                    <UpdateEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Procesar información</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Text KeyForSave="Procesar3" />
+                </Value>
+                <Settings>
+                    <add key="action" value="Tarea3" />
+                    <add key="action_url" value="" />
+                    <add key="timeout" value="20" />
+                    <add key="validateregex" value="false" />
+                    <add key="config" value="process" />
+                </Settings>
+                <Items>
+                    <Text KeyForSave="NombreNegocio" requested="False" />
+                    <Text KeyForSave="Antiguedad" requested="False" />
+                    <Text KeyForSave="CalleYNumeroNegocio" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio0ID" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio1ID" requested="False" />
+                    <Text KeyForSave="DeptoMunicipioBarrioNegocio2ID" requested="False" />
+                    <Text KeyForSave="UbicacionDomicilioNegocio" requested="False" />
+                </Items>
+            </Field>
+            <Field Name="SeccionActivosNegocio">
+                <UI>
+                    <Heading />
+                </UI>
+                <Value>
+                    <Text>Activos del Negocio</Text>
+                </Value>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Activos del Negocio</Text>
+                    </Value>
+                </Caption>
+            </Field>
+            <Field Name="MontoActivos">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Monto de Activos</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="MontoActivos">MontoActivos</Dictionary>
+                </Value>
+                <Validate>
+                    <Regex>
+                        <Value>
+                            <Text>^[0-9]{0,12}$</Text>
+                        </Value>
+                        <Message>
+                            <Font Style="Alert" />
+                            <Value>
+                                <Text>Sólo se permiten números. Cantidad máximo de caracteres permitidos:12</Text>
+                            </Value>
+                        </Message>
+                    </Regex>
+                </Validate>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="scanner" value="false" />
+                    <add key="currency" value="$" />
+                </Settings>
+            </Field>
+            <Field Name="GastosMensuales">
+                <UI>
+                    <TextEdit />
+                </UI>
+                <Caption>
+                    <Font Style="Caption" />
+                    <Value>
+                        <Text>Gastos</Text>
+                    </Value>
+                </Caption>
+                <Value>
+                    <Dictionary KeyForSave="GastosMensuales">GastosMensuales</Dictionary>
+                </Value>
+                <Validate>
+                    <Regex>
+                        <Value>
+                            <Text>^[0-9]{0,12}$</Text>
+                        </Value>
+                        <Message>
+                            <Font Style="Alert" />
+                            <Value>
+                                <Text>Sólo se permiten números. Cantidad máximo de caracteres permitidos:12</Text>
+                            </Value>
+                        </Message>
+                    </Regex>
+                </Validate>
+                <Settings>
+                    <add key="readonly" value="false" />
+                    <add key="visible" value="true" />
+                    <add key="sendInResponse" value="visible" />
+                    <add key="decimals" value="" />
+                    <add key="numeric" value="false" />
+                    <add key="scanner" value="false" />
+                    <add key="currency" value="$" />
+                </Settings>
+            </Field>
+        </Subform>
+    </Template>
+</XFA>

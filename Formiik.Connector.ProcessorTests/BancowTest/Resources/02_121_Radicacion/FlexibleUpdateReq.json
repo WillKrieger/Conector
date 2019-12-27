@@ -1,0 +1,60 @@
+﻿{
+    "request": {
+        "containerId": "100-00000-0000-0121",
+        "instanceId": "CE648014-1053-440F-AD49-A88DEBC660AE",
+        "values": {
+            "Cliente": {
+                "PriApeCli": "Perez",
+                "SegApeCli": "Miguel",
+                "PriNomCli": "Bryan",
+                "SegNomCli": "Luis",
+                "FecNacCli": "18/06/1993",
+                "GenCli": [
+                    "M"
+                ],
+                "EstCivCli": [
+                    "S"
+                ]
+            },
+            "LugNacCli": "México",
+            "FecExpIdeCli": "18/06/2013",
+            "LugExpIdeCli": "México",
+            "NcnCli": "MX",
+            "PerCarCli": "1",
+            "DirResCli": "Jajajajajaja",
+            "EtrCli": [
+                "4"
+            ],
+            "CelCli": "5555555555",
+            "TipVivCli": "2",
+            "MesPerVivCli": "34",
+            "CorEleCli": "many7793e@gmail.com",
+            "NivEduCli": [
+                "P"
+            ],
+            "OcuCli": [
+                "2"
+            ],
+            "EsCliPep": "No",
+            "EstVinLabCli": "No",
+            "NegEnDom": "Si",
+            "NomNeg": "Formiik",
+            "TelNeg": "55555555",
+            "RegCamComNeg": "No",
+            "TieFunNeg": "12",
+            "NumEmpNeg": "1",
+            "TipCre": [
+                "H",
+                "H002",
+                "M"
+            ],
+            "MonSol": "200000",
+            "PlaSol": "12",
+            "EsRee": "No",
+            "OriSolCre": [
+                "12"
+            ]
+        }
+    },
+    "response": "{\"instanceId\":\"CE648014-1053-440F-AD49-A88DEBC660AE\",\"containerId\":\"100-00000-0000-0121\",\"tenantId\":\"85cf9832-e665-4950-8d76-257705460e96\",\"agentId\":\"0829139b-0d8e-4a9c-bd65-bcf5b5364f67\",\"agentUsername\":\"admin@bancowengine.onmicrosoft.com\",\"error\":\"{\\\"TipCre\\\":\\\"Valor inválido.\\\",\\\"TipVivCli\\\":\\\"Valor inválido.\\\",\\\"NcnCli\\\":\\\"Valor inválido.\\\"}\",\"status\":3}"
+}

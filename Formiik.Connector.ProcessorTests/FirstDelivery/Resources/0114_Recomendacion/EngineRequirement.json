@@ -1,0 +1,42 @@
+{
+  "agentUsername": "juan.pablo@formiikplatform.onmicrosoft.com",
+  "agentsAssigned": {
+    "100-00000-0000-0001": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null,
+      "Name": null
+    },
+    "100-00000-0000-0011": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null,
+      "Name": null
+    },
+    "100-00000-0000-0113": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": "Agente de campo",
+      "Name": "Juan Pablo"
+    },
+    "100-00000-0000-0121": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null,
+      "Name": null
+    }
+  },
+  "comments": null,
+  "containerId": "100-00000-0000-0114",
+  "instanceId": "06ABF72E-2CEB-4EA5-B24A-864521823DD6",
+  "status": 0,
+  "statusContainer": 6,
+  "values": {
+    "FormaPagoRecomendado": [
+      "1"
+    ],
+    "MontoRecomendado": "140000",
+    "NumeroCuotasRecomendado": 24,
+    "ValorCuotasRecomendado": "5833.3333333333"
+  }
+}

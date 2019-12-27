@@ -1,0 +1,1107 @@
+{
+  "dataFront": {
+    "description": "Pólizas",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "Pólizas",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "fullName": "EtqFecCob",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqFecCob"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnVGVuZXIgZW4gY3VlbnRhIHF1ZSBsYSB2aWdlbmNpYSBkZSB0b2RhcyBsYXMgcMOzbGl6YXMgbyBwbGFuZXMgc29uIGEgcGFydGlyIGRlIGxhIGZlY2hhIGRlbCBkZXNlbWJvbHNvIGRlbCBjcsOpZGl0bywgaGFzdGEgbGEgZmVjaGEgZGVsIHBsYXpvIGFjb3JkYWRvIGVudHJlIGxhIEZ1bmRhY2nDs24gZGVsYW11amVyIHkgZWwgVG9tYWRvciBvIGFmaWxpYWRvIFByaW5jaXBhbCc7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Tu Hijo Seguro",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "¿Desea adquirir Póliza Tu Hijo Seguro?",
+                "fullName": "DesAdqPolTuHijSeg",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "fullName": "EtqAdvTuHijSeg",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqAdvTuHijSeg"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnUmVjb3JkYXIgcXVlIGFwbGljYSBwYXJhIGhpam9zL2hpamFzdHJvcyBlbnRyZSAwIHkgMTggYcOxb3MsIGEgZmFsdGEgZGUgZXN0b3Mgc29icmlub3MgeSBhIGxhIGZhbHRhIGRlIGxvcyBhbnRlcmlvcmVzIG5pZXRvcyc7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              },
+              {
+                "label": "Parentesco de beneficiarios",
+                "fullName": "ParBenTuHijSeg",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elementSize": 6,
+        "subRequestForm": {
+          "description": "Beneficiarios Tu Hijo Seguro",
+          "formEditSection": {
+            "baseFullName": "Beneficiary",
+            "fullName": "Beneficiaries",
+            "sections": [
+              {
+                "description": "Beneficiario",
+                "rows": [
+                  {
+                    "subRequestForm": null,
+                    "elementSize": 2,
+                    "elements": [
+                      {
+                        "label": "Nombres",
+                        "fullName": "PrimerNombre",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Primer apellido",
+                        "fullName": "PrimerApellido",
+                        "elementType": 0,
+                        "isRequired": false
+                      },
+                      {
+                        "label": "Segundo apellido",
+                        "fullName": "SegundoApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "elements": [
+              {
+                "label": "Nombres",
+                "fullName": "PrimerNombre",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PrimerApellido",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegundoApellido",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Cantidad Beneficiarios Tu Hijo Seguro",
+                "fullName": "CanBenPolTuHijSeg",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Plan de Previsión Exequial",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "¿Desea adquirir Plan de Previsión Exequial?",
+                "fullName": "DesAdqPlaPreExe",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Traslado de entidad",
+                "fullName": "TraEntExe",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "fullName": "EtqGruFamProExe",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqGruFamProExe"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnQ29uIGxhIGFkcXVpc2ljacOzbiBkZSBlc3RlIFBsYW4gRXhlcXVpYWwgZWwgR3J1cG8gZmFtaWxpYXIgcHJvdGVnaWRvIGVzOiANCiAgICAgICAgICAgICAgICDigKIgQWZpbGlhZG8gcHJpbmNpcGFsLCBjw7NueXVnZSBvIGNvbXBhw7Flcm8gKGEpIHBlcm1hbmVudGU6IGVkYWQgZGUgaW5ncmVzbyBoYXN0YSA3MCBhw7FvcyB5IDM2NCBkw61hcyB5IHNpbiBsw61taXRlIGRlIHBlcm1hbmVuY2lhLiANCiAgICAgICAgICAgICAgICDigKIgSGVybWFub3MsIGhpam9zIGUgaGlqYXN0cm9zIGRlbCBhZmlsaWFkbyBwcmluY2lwYWw6IGVkYWQgZGUgaW5ncmVzbyBoYXN0YSA0NSBhw7FvcyB5IDM2NCBkw61hcyB5IHNpbiBsw61taXRlIGRlIHBlcm1hbmVuY2lhIHNpbiBpbXBvcnRhciBlbCBlc3RhZG8gY2l2aWwuIA0KICAgICAgICAgICAgICAgIOKAoiBIaWpvcyB5IGhlcm1hbm9zIGRlbCBhZmlsaWFkbyBwcmluY2lwYWwgY29uIGluY2FwYWNpZGFkIHRvdGFsIHkgcGVybWFuZW50ZTogc2luIGzDrW1pdGUgZGUgZWRhZCBkZSBpbmdyZXNvIHkgc2luIGzDrW1pdGUgZGUgcGVybWFuZW5jaWEuIA0KICAgICAgICAgICAgICAgIOKAoiBIaWpvcyB5IGhlcm1hbm9zIGRlbCBhZmlsaWFkbyBwcmluY2lwYWw6IHF1ZSBmYWxsZXpjYW4gZW4gZXN0YWRvIGRlIGdlc3RhY2nDs24uIA0KICAgICAgICAgICAgICAgIOKAoiBQYWRyZXMgbyBwYWRyYXN0cm9zIGRlbCBhZmlsaWFkbyBwcmluY2lwYWw6IGVkYWQgZGUgaW5ncmVzbyBoYXN0YSA3NCBhw7FvcyB5IDM2NCBkw61hcywgc2luIGzDrW1pdGUgZGUgcGVybWFuZW5jaWEuIEEgZmFsdGEgZGUgcGFkcmVzIG8gcGFkcmFzdHJvczogc2UgcG9kcsOhbiBhZmlsaWFyIGxvcyBzdWVncm9zIGRlbCBhZmlsaWFkbyBwcmluY2lwYWwgZW4gbGFzIG1pc21hcyBjb25kaWNpb25lcy4nOw0KICAgICAgICAgICAgICAgcmV0dXJuKGV0aXF1ZXRhKTsNCiAgICAgICAgICAgICB9KShfdl8pOw=="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elementSize": 6,
+        "subRequestForm": {
+          "description": "Afiliados Adicionales Plan de Previsión Exequial",
+          "formEditSection": {
+            "baseFullName": "Beneficiary",
+            "fullName": "Beneficiaries",
+            "sections": [
+              {
+                "description": "Afiliados adicionales",
+                "rows": [
+                  {
+                    "subRequestForm": null,
+                    "elementSize": 2,
+                    "elements": [
+                      {
+                        "label": "Tipo documento identidad",
+                        "fullName": "TipoDocumento",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Número documento identidad",
+                        "fullName": "NumeroDocCiudadania",
+                        "elementType": 0,
+                        "isRequired": false
+                      },
+                      {
+                        "label": "Nombres",
+                        "fullName": "PrimerNombre",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Primer apellido",
+                        "fullName": "PrimerApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Segundo apellido",
+                        "fullName": "SegundoApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Fecha Nacimiento",
+                        "fullName": "FechaNacimiento",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Parentesco",
+                        "fullName": "ParBen",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Género",
+                        "fullName": "Genero",
+                        "elementType": 5,
+                        "isRequired": true,
+                        "selectionIndex": 0
+                      },
+                      {
+                        "label": "Diligenciado",
+                        "fullName": "IncBenAdiPolExe",
+                        "elementType": 0,
+                        "isRequired": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "elements": [
+              {
+                "label": "Tipo documento identidad",
+                "fullName": "TipoDocumento",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Número documento identidad",
+                "fullName": "NumeroDocCiudadania",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Nombres",
+                "fullName": "PrimerNombre",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PrimerApellido",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegundoApellido",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Fecha Nacimiento",
+                "fullName": "FechaNacimiento",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Parentesco",
+                "fullName": "Parentesco",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Género",
+                "fullName": "Genero",
+                "isTitle": true,
+                "showedInSection": true,
+                "formatFunction": null,
+                "columnFunction": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "fullName": "EtqBenAdiExe",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqBenAdiExe"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnQWZpbGlhZG9zIGFkaWNpb25hbGVzLCBUZW5lciBlbiBjdWVudGEgZWwgY29zdG8gYWRpY2lvbmFsIHBvciBBZmlsaWFkbzogc2UgcG9kcsOhbiBhZmlsaWFyIGxhcyBzaWd1aWVudGVzIHBlcnNvbmFzLCBwcmV2aW8gZWwgcGFnbyBkZSB1bmEgY3VvdGEgYWRpY2lvbmFsIHBvciBjYWRhIHVuYTogaGVybWFub3MsIGhlcm1hbmFzdHJvcywgaGlqb3MsIGhpamFzdHJvcywgc3VlZ3JvcywgdMOtb3MsIG5pZXRvcywgc29icmlub3MsIHllcm5vcyAsIGFidWVsb3MsIHByaW1vcywgbnVlcmFzLCBiaXNuaWV0b3MsIGN1w7FhZG9zIHkgcGVyc29uYXMgZGVsIHNlcnZpY2lvIGRvbcOpc3RpY28gKGVzdGFzIMO6bHRpbWFzIG3DoXhpbW8gZG9zKS4gbm90YTogbGEgZWRhZCBtw6F4aW1hIGRlIGluZ3Jlc28gZXMgZGUgaGFzdGEgNjUgYcOxb3MgeSAzNjQgZMOtYXMsIHNpbiBsw61taXRlIGRlIGVkYWQgZGUgcGVybWFuZW5jaWEuJzsNCiAgICAgICAgICAgICAgIHJldHVybihldGlxdWV0YSk7DQogICAgICAgICAgICAgfSkoX3ZfKTs="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elementSize": 6,
+        "subRequestForm": {
+          "description": "Beneficiario Auxilio Inmediato Plan de Previsión Exequial",
+          "formEditSection": {
+            "baseFullName": "Beneficiario Auxilio Inmediato",
+            "fullName": "BenAuxInmPolExe",
+            "sections": [
+              {
+                "description": "Beneficiario Auxilio Inmediato",
+                "rows": [
+                  {
+                    "subRequestForm": null,
+                    "elementSize": 2,
+                    "elements": [
+                      {
+                        "label": "Tipo documento identidad",
+                        "fullName": "TipDocIdeBenAuxInm",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Número documento identidad",
+                        "fullName": "NumDocIdeBenAuxInm",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Nombres",
+                        "fullName": "NomBenAuxInm",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Primer apellido",
+                        "fullName": "PriApeBenAuxInm",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Segundo apellido",
+                        "fullName": "SegApeBenAuxInm",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Parentesco",
+                        "fullName": "ParBenAuxInm",
+                        "elementType": 5,
+                        "isRequired": true,
+                        "selectionIndex": 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "elements": [
+              {
+                "label": "Tipo documento identidad",
+                "fullName": "TipDocIdeBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Número documento identidad",
+                "fullName": "NumDocIdeBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Nombres",
+                "fullName": "NomBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PriApeBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegApeBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Parentesco",
+                "fullName": "ParBenAuxInm",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "description": "Vida",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "¿Desea Póliza de Vida?",
+                "fullName": "DesAdqPolVid",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Consultar al cliente si: En calidad de Asegurado Principal y Cónyuge declaran lo siguiente: Ha padecido alguna de las siguientes enfermedades: Cáncer, Leucemia, VIH Sida, Insuficiencia Renal Crónica, Esclerosis Múltiple, Infarto al miocardio, Cirrosis, Enfisema Pulmonar, Derrame Cerebral, Limitación Física",
+                "fullName": "DecNoPadEnfCroPolVid",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "fullName": "EtqPadEndCroPolVid",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqPadEndCroPolVid"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnU2kgcGFkZWNlIGN1YWxxdWllcmEgZGUgbGFzIGFudGVyaW9yZXMgZW5mZXJtZWRhZGVzIG5vIHBvZHLDoSBpbmdyZXNhciBhIGxhIHDDs2xpemEnOw0KICAgICAgICAgICAgICAgcmV0dXJuKGV0aXF1ZXRhKTsNCiAgICAgICAgICAgICB9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "Plan titular",
+                "fullName": "PlaTitPolVid",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elementSize": 6,
+        "subRequestForm": {
+          "description": "Beneficiarios Póliza Vida",
+          "formEditSection": {
+            "baseFullName": "Beneficiary",
+            "fullName": "Beneficiaries",
+            "sections": [
+              {
+                "description": "Beneficiario",
+                "rows": [
+                  {
+                    "subRequestForm": null,
+                    "elementSize": 2,
+                    "elements": [
+                      {
+                        "label": "Nombres",
+                        "fullName": "PrimerNombre",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Primer apellido",
+                        "fullName": "PrimerApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Segundo apellido",
+                        "fullName": "SegundoApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Parentesco",
+                        "fullName": "Relationship",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Porcentaje",
+                        "fullName": "Porcent",
+                        "elementType": 0,
+                        "isRequired": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "elements": [
+              {
+                "label": "Nombres",
+                "fullName": "PrimerNombre",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PriApeBenVid",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegApeBenVid",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Parentesco",
+                "fullName": "ParBenVid",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Porcentaje",
+                "fullName": "PorBenVid",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "description": "Vida",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "¿Póliza para cónyuge?",
+                "fullName": "DesPolCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Plan cónyuge",
+                "fullName": "PlaConPolVid",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elementSize": 6,
+        "subRequestForm": {
+          "description": "Beneficiarios Póliza Vida",
+          "formEditSection": {
+            "baseFullName": "Beneficiary",
+            "fullName": "Beneficiaries",
+            "sections": [
+              {
+                "description": "Beneficiarios",
+                "rows": [
+                  {
+                    "subRequestForm": null,
+                    "elementSize": 2,
+                    "elements": [
+                      {
+                        "label": "Nombres",
+                        "fullName": "PrimerNombre",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Primer apellido",
+                        "fullName": "PrimerApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Segundo apellido",
+                        "fullName": "SegundoApellido",
+                        "elementType": 0,
+                        "isRequired": true
+                      },
+                      {
+                        "label": "Parentesco",
+                        "fullName": "Parentesco",
+                        "elementType": 5,
+                        "isRequired": true,
+                        "selectionIndex": 0
+                      },
+                      {
+                        "label": "Porcentaje",
+                        "fullName": "Porcentaje",
+                        "elementType": 0,
+                        "isRequired": true
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "elements": [
+              {
+                "label": "Nombres",
+                "fullName": "PrimerNombre",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Primer apellido",
+                "fullName": "PrimerApellido",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Segundo apellido",
+                "fullName": "SegundoApellido",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Parentesco",
+                "fullName": "Parentesco",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              },
+              {
+                "label": "Porcentaje",
+                "fullName": "Porcentaje",
+                "isTitle": true,
+                "formatFunction": null,
+                "columnFunction": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Total porcentaje beneficiarios",
+                "fullName": "SumPorConPolVid",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Daños",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Total porcentaje beneficiarios",
+                "fullName": "SumPorConPolVid",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Cuál es el material predominante de los pisos de la vivienda?",
+                "fullName": "Ppi10_MatPrePisViv",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Desea Póliza de Daños?",
+                "fullName": "DesAdqPolDan",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "fullName": "EtqRieAsePolDan",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqRieAsePolDan"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnVGVuZXIgZW4gY3VlbnRhIHF1ZSBzw7NsbyBzZSBwdWVkZSBzZWxlY2Npb25hciBlc3TDoSBvcGNpw7NuIHNpIGVsIG5lZ29jaW8gZXN0w6EgZW4gZWwgZG9taWNpbGlvJzsNCiAgICAgICAgICAgICAgIHJldHVybihldGlxdWV0YSk7DQogICAgICAgICAgICAgfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "Tipo de construcción",
+                "fullName": "TipConPolDan",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Desea Asegurar Edificio?",
+                "fullName": "DesAseEdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Plan",
+                "fullName": "PlaCobEdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Desea Asegurar Contenidos?",
+                "fullName": "DesAseCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Plan",
+                "fullName": "PlaCobCon",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "¿Desea Subsidio Empresarial?",
+                "fullName": "DesAseSub",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Desea agregar riesgo adicional?",
+                "fullName": "DesAgrRieAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Riesgo Adicional",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Riesgo a asegurar",
+                "fullName": "RieAsePolDanAdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Tipo de construcción",
+                "fullName": "TipConPolDanAdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Desea Asegurar Edificio?",
+                "fullName": "DesAseEdiAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Plan",
+                "fullName": "PlaCobEdiAdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Desea Asegurar Contenidos?",
+                "fullName": "DesAseConAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Plan",
+                "fullName": "PlaCobConAdi",
+                "elementType": 5,
+                "isRequired": true,
+                "isHidden": true,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Desea Subsidio Empresarial?",
+                "fullName": "DesAseSubAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Plan",
+                "fullName": "PlaConSubAdi",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿La unidad familiar cuenta con seguros externos?",
+                "fullName": "UniFamSegExt",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Cuál?",
+                "fullName": "TipSegUniFam",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ccd0f7d5-9696-4749-a526-34e37ee8aa39",
+  "containerId": "21D50DF8-A522-4E58-9FD8-90F8916EBEEF",
+  "values": {
+    "DesAdqPolTuHijSeg": true,
+    "ParBenTuHijSeg": [
+      "NI"
+    ],
+    "BenPolTuHijSeg": [
+      {
+        "Subject": {
+          "Person": {
+            "Id": {
+              "TipoDocumento": null,
+              "NumeroDocPasaporte": null,
+              "NumeroDocExtrajeria": null,
+              "NumeroDocCiudadania": null,
+              "PaisExpedicion": null,
+              "DepartamentoMunicipioBarrioExpedicion": null
+            },
+            "PrimerNombre": "Nfkdkdndb",
+            "SegundoNombre": null,
+            "PrimerApellido": "Nfjfjdbd",
+            "SegundoApellido": "Bxjfjdbd",
+            "FechaNacimiento": null,
+            "Genero": null,
+            "EstadoCivil": null
+          },
+          "Parentesco": null
+        },
+        "Porcentaje": null,
+        "ParentescoExe": null
+      }
+    ],
+    "CanBenPolTuHijSeg": 1,
+    "DesAdqPlaPreExe": true,
+    "TraEntExe": true,
+    "AfiAdiPolExe": [
+      {
+        "Subject": {
+          "Person": {
+            "Id": {
+              "TipoDocumento": [
+                "C"
+              ],
+              "NumeroDocPasaporte": null,
+              "NumeroDocExtrajeria": null,
+              "NumeroDocCiudadania": "36373",
+              "PaisExpedicion": null,
+              "DepartamentoMunicipioBarrioExpedicion": null
+            },
+            "PrimerNombre": "Bxjfjdn",
+            "SegundoNombre": null,
+            "PrimerApellido": "Bxidjdb",
+            "SegundoApellido": "Nxjfud",
+            "FechaNacimiento": "05/28/1979",
+            "Genero": [
+              "F"
+            ],
+            "EstadoCivil": null
+          },
+          "Parentesco": [
+            "PRI"
+          ]
+        },
+        "Porcentaje": null,
+        "ParentescoExe": null
+      }
+    ],
+    "CanAfiAdiPolExe": 1,
+    "BenAuxInmPolExe": [
+      {
+        "Subject": {
+          "Person": {
+            "Id": {
+              "TipoDocumento": [
+                "C"
+              ],
+              "NumeroDocPasaporte": null,
+              "NumeroDocExtrajeria": null,
+              "NumeroDocCiudadania": "536373",
+              "PaisExpedicion": null,
+              "DepartamentoMunicipioBarrioExpedicion": null
+            },
+            "PrimerNombre": "Jfjzkdbbd",
+            "SegundoNombre": null,
+            "PrimerApellido": "Hfjdjdbbd",
+            "SegundoApellido": "Hfjeydbbdv",
+            "FechaNacimiento": null,
+            "Genero": null,
+            "EstadoCivil": null
+          },
+          "Parentesco": [
+            "HEI"
+          ]
+        },
+        "Porcentaje": null,
+        "ParentescoExe": null
+      }
+    ],
+    "DecNoPadEnfCroPolVid": true,
+    "PlaTitPolVid": [
+      "36"
+    ],
+    "BenTitPolVid": [
+      {
+        "Subject": {
+          "Person": {
+            "Id": {
+              "TipoDocumento": null,
+              "NumeroDocPasaporte": null,
+              "NumeroDocExtrajeria": null,
+              "NumeroDocCiudadania": null,
+              "PaisExpedicion": null,
+              "DepartamentoMunicipioBarrioExpedicion": null
+            },
+            "PrimerNombre": "Jxjsnxbx",
+            "SegundoNombre": null,
+            "PrimerApellido": "Bdhdufh",
+            "SegundoApellido": "Bxjshnd",
+            "FechaNacimiento": null,
+            "Genero": null,
+            "EstadoCivil": null
+          },
+          "Parentesco": [
+            "HRO"
+          ]
+        },
+        "Porcentaje": "100",
+        "ParentescoExe": null
+      }
+    ],
+    "SumPorTitPolVid": 100,
+    "DesPolCon": null,
+    "PlaConPolVid": null,
+    "BenConPolVid": null,
+    "SumPorConPolVid": null,
+    "Ppi10_MatPrePisViv": [
+      "CoG"
+    ],
+    "DesAdqPolDan": true,
+    "RieAsePolDan": [
+      "1"
+    ],
+    "TipConPolDan": [
+      "2"
+    ],
+    "DesAdqPolVid": true,
+    "DesAseEdi": true,
+    "PlaCobEdi": [
+      "O2"
+    ],
+    "PlaCobCon": [
+      "O1"
+    ],
+    "DesAseCon": true,
+    "PlaConSub": null,
+    "DesAgrRieAdi": true,
+    "RieAsePolDanAdi": [
+      "1"
+    ],
+    "TipConPolDanAdi": [
+      "2"
+    ],
+    "DesAseEdiAdi": true,
+    "PlaCobEdiAdi": [
+      "O3"
+    ],
+    "DesAseConAdi": false,
+    "PlaCobConAdi": null,
+    "DesAseSub": null,
+    "DesAseSubAdi": true,
+    "PlaConSubAdi": [
+      "O1"
+    ],
+    "UniFamSegExt": true,
+    "TipSegUniFam": null
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}

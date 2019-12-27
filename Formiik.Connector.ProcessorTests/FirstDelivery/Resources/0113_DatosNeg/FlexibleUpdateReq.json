@@ -1,0 +1,28 @@
+{
+  "IdWorkOrderFormType": "e2c91257-8a04-4a0c-aa9e-ad37598a0f70",
+  "IdWorkOrder": "afa6bb45-f4a6-4ae1-8434-eed39c44f134",
+  "ExternalId": "2598A479-800F-43DE-B11C-4488EBB6A9EB",
+  "Action": "DatosNeg",
+  "InputFields": {
+    "ComentarioNegocio": "",
+    "TipoNeg": "LE",
+    "NomActEco": "",
+    "NomSecEco": "",
+    "NombreNeg": "cafes",
+    "TiempoExpNeg": "12",
+    "TiempoOpeNeg": "12",
+    "InscCamComercio": "No",
+    "NumEmpleadoFij": "1",
+    "NumEmpleadoTem": "2",
+    "IngPromMens": "10000",
+    "EgrPromMens": "9000",
+    "InfoLugTra": "<FormEditResponse><InformacionNeg><SubForm1><AddressNeg>Calle 20 # 103 A - 21, Bogotá, Fontibón, Colombia</AddressNeg><UbicacionNegocio><gpsLat>19.5421089</gpsLat><gpsLng>-99.0382587</gpsLng><gpsDate>2019-01-26 20:15:53</gpsDate><gpsAddress>Otumba, El Cegor, 55127 Ecatepec de Morelos, Méx., México , Ecatepec de Morelos, México</gpsAddress><sat>0</sat><manualLat>19.5421107719901</manualLat><manualLng>-99.03825882822275</manualLng><manualDate>2019-01-26 20:15:57</manualDate><manualAddress>Otumba, El Cegor, 55127 Ecatepec de Morelos, Méx., México , Ecatepec de Morelos, México</manualAddress></UbicacionNegocio><RefUbiNeg>uno</RefUbiNeg></SubForm1></InformacionNeg></FormEditResponse>",
+    "ActNeg": "<FormEditResponse><ActivosNeg><ActivosNeg><TipoActivo>uno</TipoActivo><DescActivo>uno</DescActivo><OrigenAct>uno</OrigenAct><FechAdq>26/01/2019</FechAdq><ValorAnt>33</ValorAnt><ValorAct>3</ValorAct><ValorCom>3</ValorCom><Valorizacion>3</Valorizacion></ActivosNeg></ActivosNeg></FormEditResponse>",
+    "ExternalType": "SolicitudAsignada"
+  },
+  "Username": "luis@formiikplatform.onmicrosoft.com",
+  "WorkOrderType": "SolicitudAsignada",
+  "Sender": null,
+  "Latitude": 0.0,
+  "Longitude": 0.0
+}

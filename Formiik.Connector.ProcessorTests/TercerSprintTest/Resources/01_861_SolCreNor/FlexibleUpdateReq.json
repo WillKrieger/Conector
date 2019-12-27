@@ -1,0 +1,20 @@
+{
+  "IdWorkOrderFormType": "69e59963-c994-4e3a-9662-83f4fb6d31f1",
+  "IdWorkOrder": "0e17c365-72c2-4719-8eef-ddc13fc8a132",
+  "ExternalId": "334BBD8D-D082-4745-945B-BD102B2508A9",
+  "Action": "Tarea1",
+  "InputFields": {
+    "TipoDocumento": "Pasaporte",
+    "PaisExpedicion": "Colombia",
+    "NumeroTelefono": "5534218252",
+    "Correo": "xxx@xxx.com",
+    "HavePayTaxesAnotherCountry": "",
+    "TaxesRecipientCountry": "Cubano",
+    "ExternalType": "SprintReview1"
+  },
+  "Username": "qamovil2@fdlmb2c.onmicrosoft.com",
+  "WorkOrderType": "SprintReview1",
+  "Sender": null,
+  "Latitude": 0.0,
+  "Longitude": 0.0
+}

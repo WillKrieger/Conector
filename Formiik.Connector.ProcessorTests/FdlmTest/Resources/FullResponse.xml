@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response ProductId="179f7adb-0077-476f-abde-462d92e0fb26" ExternalId="dulce_20190516_172131" ExternalType="Solicitud" AssignedTo="dulce" InitialDate="20190517 13:17:44" FinalDate="20190517 18:19:16" ResponseDate="20190517 23:19:23" InitialLatitude="19.4766" FinalLatitude="19.4766" InitialLongitude="-99.1519" FinalLongitude="-99.1519" FormiikResponseSource="Mobile">
+    <Solicitud>
+        <PesPreEva>
+            <VisAyu>No</VisAyu>
+            <TipDocIdeCli>P</TipDocIdeCli>
+            <NumDocIdeCedExtCli>5211871</NumDocIdeCedExtCli>
+            <NumDocIdeCli>5211871</NumDocIdeCli>
+            <PaiExpCli>CO</PaiExpCli>
+            <DesCarInfCli>Si</DesCarInfCli>
+            <KnoOutAut>Recomendacion</KnoOutAut>
+            <GestionSolicitud>0.0</GestionSolicitud>
+            <PriNomCli>NOHEMY</PriNomCli>
+            <PriApeCli>CRUZ</PriApeCli>
+            <SegApeCli>FORERO</SegApeCli>
+            <CelPerCli>3195454520</CelPerCli>
+            <TelNegCli>31954545</TelNegCli>
+            <NegEnDom>No</NegEnDom>
+            <DirDomCli>DG 56 A BIS N 84 D 17 SUR</DirDomCli>
+            <Ppi5_EstTarSerEneViv>Tres</Ppi5_EstTarSerEneViv>
+            <IdeBarDomCli>108</IdeBarDomCli>
+            <NomBarDomCli>VILLA SONIA I</NomBarDomCli>
+            <IdeMunBarDomCli>100</IdeMunBarDomCli>
+            <NomMunBarDomCli>Bosa</NomMunBarDomCli>
+            <IdeDepBarDomCli>25</IdeDepBarDomCli>
+            <NomDepBarDomCli>Cundinamarca</NomDepBarDomCli>
+            <UbiDomCli>Lat:0.0Lon:0.0Sat:0Fecha:null</UbiDomCli>
+            <TipNeg>Ambulante</TipNeg>
+            <DirNegCli>DG 56 A BIS N 84 D17 SUR</DirNegCli>
+            <IdeBarNegCli>1177</IdeBarNegCli>
+            <NomBarNegCli>LOMBARDIA (SUBA AURES II)</NomBarNegCli>
+            <IdeMunBarNegCli>1</IdeMunBarNegCli>
+            <NomMunBarNegCli>Bogota</NomMunBarNegCli>
+            <IdeDepBarNegCli>11</IdeDepBarNegCli>
+            <NomDepBarNegCli>Bogota  D.C</NomDepBarNegCli>
+            <UbiNegCli>Lat:0.0Lon:0.0Sat:0Fecha:null</UbiNegCli>
+            <HaPadSigEnf>No</HaPadSigEnf>
+            <HaPadLimFis>No</HaPadLimFis>
+            <CumReqMin>Si</CumReqMin>
+            <LleSolOtrMom>No</LleSolOtrMom>
+        </PesPreEva>
+        <PesCenRie>
+            <AprCenRie>Si</AprCenRie>
+        </PesCenRie>
+        <PesPreSol>
+            <IdeMunExpDocIdeCli />
+            <NomMunExpDocIdeCli />
+            <FecExpDocIdeCli>17/05/2019</FecExpDocIdeCli>
+            <FecNacCli>02/07/1970</FecNacCli>
+            <GenCli>F</GenCli>
+            <EstCivCli>V</EstCivCli>
+            <NomNeg>SIN NOMBRE</NomNeg>
+            <FecCreNeg>01/04/2009</FecCreNeg>
+            <CanActCli>2</CanActCli>
+            <IdeSecEco>02</IdeSecEco>
+            <NomSecEco>SERVICIO</NomSecEco>
+            <IdeActEco>421</IdeActEco>
+            <NomActEco>ACTIVIDADES INMOBILIARIAS REALIZADAS CON BIENES PROPIOS O ARRENDADOS - ARRENDAMIENTOS</NomActEco>
+            <IdeSecEco1>02</IdeSecEco1>
+            <NomSecEco1>SERVICIO</NomSecEco1>
+            <IdeActEco1>421</IdeActEco1>
+            <NomActEco1>ACTIVIDADES INMOBILIARIAS REALIZADAS CON BIENES PROPIOS O ARRENDADOS - ARRENDAMIENTOS</NomActEco1>
+            <TipSol>N</TipSol>
+            <ProSol>389</ProSol>
+            <DesCreSol>200</DesCreSol>
+            <PlaInvCre>
+                <FormEditResponse>
+                    <PlaInvCre>
+                        <PesPlaInv>
+                            <CanPlaInv>1</CanPlaInv>
+                            <DesPlaInv>Mantenimiento del vehículo</DesPlaInv>
+                            <ValPlaInv>4000000</ValPlaInv>
+                            <IncPlaInv>1</IncPlaInv>
+                        </PesPlaInv>
+                    </PlaInvCre>
+                    <PlaInvCre>
+                        <PesPlaInv>
+                            <CanPlaInv>1</CanPlaInv>
+                            <DesPlaInv>Comprar</DesPlaInv>
+                            <ValPlaInv>2400000</ValPlaInv>
+                            <IncPlaInv>1</IncPlaInv>
+                        </PesPlaInv>
+                    </PlaInvCre>
+                </FormEditResponse>
+            </PlaInvCre>
+            <TotPlaInvCre>6400000</TotPlaInvCre>
+            <MonSol>6400000</MonSol>
+            <PlaSol>24</PlaSol>
+            <PerSol>30</PerSol>
+            <ProCli>17</ProCli>
+            <DesCarInfCliCreSol>No</DesCarInfCliCreSol>
+        </PesPreSol>
+        <PesAnaSol>
+            <CanMieUniFam>5</CanMieUniFam>
+            <CanPerDepCli>1</CanPerDepCli>
+            <CanHijCli>2</CanHijCli>
+            <Ppi1_MieHogMen18>Uno</Ppi1_MieHogMen18>
+            <MieHogEst>1</MieHogEst>
+            <TitSabLeeEsc>Si</TitSabLeeEsc>
+            <Ppi2_NivEduMasAltCabHog>Básica primaria o básica secundaria</Ppi2_NivEduMasAltCabHog>
+            <Ppi3_MieHogTraSemPas>Dos o más</Ppi3_MieHogTraSemPas>
+            <Ppi4_MieHogTraEmp>Dos o más</Ppi4_MieHogTraEmp>
+            <TipVivCli>P</TipVivCli>
+            <TieResViv>96</TieResViv>
+            <EsLegViv>No</EsLegViv>
+            <TieMasBieInm>No</TieMasBieInm>
+            <CueAguPotViv>No</CueAguPotViv>
+            <Ppi6_ConQueEneComCos>Gas natural conectado a red pública</Ppi6_ConQueEneComCos>
+            <CliTieOtrActGenIng>No</CliTieOtrActGenIng>
+            <FecExpNeg>01/04/2009</FecExpNeg>
+            <NumEmpFijNeg>1</NumEmpFijNeg>
+            <NumEmpTemNeg>0</NumEmpTemNeg>
+            <NumEmpNeg>1</NumEmpNeg>
+            <NegTieCamCom>No</NegTieCamCom>
+            <NegTieRut>No</NegTieRut>
+            <TipLocNeg>Propio</TipLocNeg>
+            <NomVerZonCom>Hahahah</NomVerZonCom>
+            <DirVerZonCom>Bsbsbsbsbsbsbsbs</DirVerZonCom>
+            <ObsVerZonCom>Nsjsbzbsnsbz</ObsVerZonCom>
+            <CuoMenPuePag>20000</CuoMenPuePag>
+            <ProAhoMen>65000</ProAhoMen>
+            <ComAnaCre>Bxbzbzjsns</ComAnaCre>
+        </PesAnaSol>
+        <TomInfBal>
+        </TomInfBal>
+        <PesCodGar>
+            <RefFam>
+                <FormEditResponse>
+                    <Ref>
+                        <PesRef>
+                            <NomComRef>Ismael</NomComRef>
+                            <ParRef>HI</ParRef>
+                            <DirRef>Hijo</DirRef>
+                            <IdeDepDomRef>88</IdeDepDomRef>
+                            <NomDepDomRef>Archipielago de San Andres. Providencia y Santa Catalina</NomDepDomRef>
+                            <IdeMunDomRef>1</IdeMunDomRef>
+                            <NomMunDomRef>San Andres</NomMunDomRef>
+                            <IdeBarRef>81</IdeBarRef>
+                            <NomBarRef>AVENIDA LAS AMERICAS</NomBarRef>
+                            <TelRef>53556855</TelRef>
+                            <ConRef>Si</ConRef>
+                            <OcuRef>Diseñador</OcuRef>
+                            <ActEcoInd>No</ActEcoInd>
+                            <ObsRef>Si cumplebzbzbbdbdbdbdbdbdbdbdbdb</ObsRef>
+                            <IncRef>1</IncRef>
+                        </PesRef>
+                    </Ref>
+                </FormEditResponse>
+            </RefFam>
+            <RefComCli>
+                <FormEditResponse>
+                    <RefCom>
+                        <PesRefCom>
+                            <NomEmpRefCom>Formiik</NomEmpRefCom>
+                            <IdeDepDomRef>8</IdeDepDomRef>
+                            <NomDepDomRef>Atlantico</NomDepDomRef>
+                            <IdeMunDomRef>372</IdeMunDomRef>
+                            <NomMunDomRef>Juan De Acosta</NomMunDomRef>
+                            <IdeBarRef>4</IdeBarRef>
+                            <NomBarRef>EL BOLSILLO</NomBarRef>
+                            <CelRefCom>5050606067</CelRefCom>
+                            <ConRefCom>Si</ConRefCom>
+                            <MonRefCom>200000</MonRefCom>
+                            <ForPagRefCom>Q</ForPagRefCom>
+                            <ObsRefCom>100000</ObsRefCom>
+                            <IncRefCom>1</IncRefCom>
+                        </PesRefCom>
+                    </RefCom>
+                </FormEditResponse>
+            </RefComCli>
+            <GarCli>
+                <FormEditResponse>
+                    <Garantia>
+                        <PesGar>
+                            <TipGar>2</TipGar>
+                            <Can>1</Can>
+                            <DesBie>Jajaja sjsbsbjsbs</DesBie>
+                            <ValBie>100000</ValBie>
+                            <IncGar>1</IncGar>
+                        </PesGar>
+                    </Garantia>
+                </FormEditResponse>
+            </GarCli>
+            <TotGarCli>100000</TotGarCli>
+            <Ppi7_PosLav>Si</Ppi7_PosLav>
+            <Ppi8_PosNev>Si</Ppi8_PosNev>
+            <Ppi9_PosDvd>Si</Ppi9_PosDvd>
+            <Ppi10_PosMotCar>Ninguno</Ppi10_PosMotCar>
+            <TitConPosSma>Si</TitConPosSma>
+        </PesCodGar>
+        <PesPol>
+            <DesAdqPolTuHijSeg>No</DesAdqPolTuHijSeg>
+            <DesAdqPlaPreExe>No</DesAdqPlaPreExe>
+            <DesAdqPolVid>No</DesAdqPolVid>
+            <DesAdqPolDan>Si</DesAdqPolDan>
+            <RieAsePolDan>1</RieAsePolDan>
+            <TipConPolDan>1</TipConPolDan>
+            <DesAseEdi>Si</DesAseEdi>
+            <PlaCobEdi>OU</PlaCobEdi>
+            <DesAseCon>No</DesAseCon>
+            <PreAseUniPro />
+            <DesAgrRieAdi>No</DesAgrRieAdi>
+        </PesPol>
+        <PesEva>
+            <FecEstCre>17/05/2019</FecEstCre>
+            <EfeBanEva>1000000</EfeBanEva>
+            <CueCobEva>1000000</CueCobEva>
+            <IncCueCobEva>0</IncCueCobEva>
+            <InvMerCom>6000000</InvMerCom>
+            <InvMatPri>0</InvMatPri>
+            <InvPtoPro>6000000</InvPtoPro>
+            <InvPtoTer>6000000</InvPtoTer>
+            <TotInvEva>6000000</TotInvEva>
+            <TotActCorEva>8000000</TotActCorEva>
+            <TotActFijEva>1000000</TotActFijEva>
+            <TotActEva>9000000</TotActEva>
+            <CreProEva>No</CreProEva>
+            <SalCreProEva>100000</SalCreProEva>
+            <OtrPasCorEva>100000</OtrPasCorEva>
+            <PasCorEva>200000</PasCorEva>
+            <OtrPasNoCorEva>60000</OtrPasNoCorEva>
+            <PasNoCorEva>60000</PasNoCorEva>
+            <TotPasEva>260000</TotPasEva>
+            <TotPatEva>8740000</TotPatEva>
+            <TotActFamEva>100000</TotActFamEva>
+            <TotPasFamEva>100000</TotPasFamEva>
+            <PatFamEva>0.0</PatFamEva>
+            <PatConNegFamEva>8740000</PatConNegFamEva>
+            <VenConEva>200000</VenConEva>
+            <RecCarEva>5000000</RecCarEva>
+            <CosVenEva>2000000</CosVenEva>
+            <SalEva>558044</SalEva>
+            <GasGenEva>999999</GasGenEva>
+            <OblFinEva>1000000</OblFinEva>
+            <IngLiqEva>641957</IngLiqEva>
+            <OtrIngFamEva>100000</OtrIngFamEva>
+            <GasOblFamEva>1000000</GasOblFamEva>
+            <LiqDisEva>-258043</LiqDisEva>
+            <CapTraEva>7800000</CapTraEva>
+            <RazCorEva>40.00</RazCorEva>
+            <MarBruEva>61.54</MarBruEva>
+            <EndEva>2.89</EndEva>
+            <LiqCubEva>0.00</LiqCubEva>
+            <FecAna>17/05/2019</FecAna>
+            <PatNeg>1000000</PatNeg>
+            <PatNegAnt>100000</PatNegAnt>
+            <PatCon>58499</PatCon>
+            <PatConDif>99999</PatConDif>
+            <LiqDis>999</LiqDis>
+            <LiqDisDif>999</LiqDisDif>
+            <ProLiqDis>999</ProLiqDis>
+            <MesTraAnaAnt>994</MesTraAnaAnt>
+            <TotLiqNPer>994</TotLiqNPer>
+            <PatConAnaAnt>994</PatConAnaAnt>
+            <TotLiqNPerPatAnt>9444</TotLiqNPerPatAnt>
+            <ParConAnaAct>94444</ParConAnaAct>
+            <ExcJus>Vsvsbsbsbdb</ExcJus>
+        </PesEva>
+        <PesRec>
+            <ProSolEsp>389</ProSolEsp>
+            <MonSugEsp>6400000</MonSugEsp>
+            <PerSolEsp>30</PerSolEsp>
+            <PlaSolEsp>24</PlaSolEsp>
+            <ProSug>353</ProSug>
+            <MonSug>7000000</MonSug>
+            <PerSug>30</PerSug>
+            <DesCre>210</DesCre>
+            <PlaSug>24</PlaSug>
+            <RelMonRecPat>80.09</RelMonRecPat>
+            <EndConCre>80.67</EndConCre>
+            <LiqCubEva>0.00</LiqCubEva>
+            <RecEva>A</RecEva>
+        </PesRec>
+        <FormiikResponseSource>Mobile</FormiikResponseSource>
+    </Solicitud>
+</Response>

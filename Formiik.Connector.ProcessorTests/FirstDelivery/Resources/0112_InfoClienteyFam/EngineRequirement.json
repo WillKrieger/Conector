@@ -1,0 +1,142 @@
+{
+  "agentUsername": null,
+  "instanceId": "40940EFD-4489-4112-95D8-2867D28CF5C0",
+  "containerId": "100-00000-0000-0112",
+  "status": 0,
+  "statusContainer": 3,
+  "values": {
+    "Titular": {
+      "TipoDocumento": [
+        "C"
+      ],
+      "PaisExpedicion": [
+        "CO"
+      ],
+      "NumeroDocumento": "0065546599",
+      "PrimerNombre": "Mary",
+      "SegundoNombre": "Luz",
+      "PrimerApellido": "Rico",
+      "SegundoApellido": "Sierra",
+      "FechaNacimiento": "03/03/1982",
+      "Genero": [
+        "F"
+      ],
+      "EstadoCivil": [
+        "Viudo"
+      ],
+      "NivelEducativo": [
+        "M"
+      ]
+    },
+    "TipoDomicilio": [
+      "P"
+    ],
+    "ContactoTitular": {
+      "Direccion": {
+        "CalleYNumero": "Carrera 9 - 25",
+        "DepartamentoMunicipioBarrio": [
+          "11",
+          "1",
+          "736"
+        ]
+      },
+      "Telefono": "55556367",
+      "TelefonoCelular": "5555613469",
+      "CorreoElectronico": "maria@gmail.com"
+    },
+    "TitularEsEmpleado": null,
+    "Conyuge": {
+      "DatosConyuge": {
+        "TipoDocumento": null,
+        "PaisExpedicion": null,
+        "NumeroDocumento": null,
+        "PrimerNombre": null,
+        "SegundoNombre": null,
+        "PrimerApellido": null,
+        "SegundoApellido": null,
+        "FechaNacimiento": null,
+        "Genero": null,
+        "EstadoCivil": null,
+        "NivelEducativo": null
+      },
+      "ActividadConyuge": null
+    },
+    "ContactoConyuge": {
+      "Direccion": null,
+      "Telefono": null,
+      "TelefonoCelular": null,
+      "CorreoElectronico": null
+    },
+    "NumeroMiembrosFamilia": null,
+    "TotalPersonasACargo": null,
+    "NumeroHijos": null,
+    "TitularCabezaHogar": null,
+    "TitularSabeLeerEscribir": null,
+    "CostoAnualPredial": null,
+    "TiempoResidencia": null,
+    "AntiguedadPropiedad": null,
+    "CuentaConAguaPotable": null,
+    "CuentaConAccesoAInternet": null,
+    "ValorPropiedadFinanciado": null,
+    "PagoMensualFinanciado": null,
+    "AntiguedadPropiedadFinanciado": null,
+    "CuentaConAguaPotableFinanciado": null,
+    "CuentaConAccesoAInternetFinanciado": null,
+    "RentaMensualArrendado": null,
+    "NombreArrendador": null,
+    "TelefonoArrendador": null,
+    "CorreoElectronicoArrendador": null,
+    "CuentaConAguaPotableArrendado": null,
+    "CuentaConAccesoAInternetArrendado": null,
+    "NombreDuenioHogarFamiliar": null,
+    "TelefonoDuenioHogarFamiliar": null,
+    "CorreoElectronicoDuenioHogarFamiliar": null,
+    "CuentaConAguaPotableFamiliar": null,
+    "CuentaConAccesoAInternetFamiliar": null,
+    "EmpresaDondeLaboraTitular": null,
+    "AntiguedadEmpleoTitular": null,
+    "SalarioEmpleoTitular": null,
+    "DireccionEmpresaEmpleoTitular": null,
+    "TelefonoEmpresaEmpleoTitular": null,
+    "NombreContactoEmpleoTitular": null,
+    "Reopened": "false",
+    "PosicionNegocio": {
+      "Longitude": -74.142634,
+      "Latitude": 4.681667
+    },
+    "DireccionNegocio": "Calle 20 # 103 A - 21, Bogotá, Fontibón, Colombia",
+    "ImagenCedulaAnverso": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "ImagenCedulaReverso": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "ImagenComprobanteDomicilio": {
+      "FileUrl": null,
+      "FileName": null
+    }
+  },
+  "comments": null,
+  "agentsAssigned": {
+    "100-00000-0000-0001": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Name": null,
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null
+    },
+    "100-00000-0000-0011": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Name": null,
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null
+    },
+    "100-00000-0000-0112": {
+      "AgentId": "a0ac08f5-14b9-40ee-ad83-efcc7c21f6ec",
+      "Name": null,
+      "Email": "juan.pablo@formiikplatform.onmicrosoft.com",
+      "JobName": null
+    }
+  }
+}

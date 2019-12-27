@@ -1,0 +1,29 @@
+{
+  "IdWorkOrderFormType": "e2e601e6-f4fa-415f-92bc-6513be13bfa6",
+  "IdWorkOrder": "574ba11f-75b7-461f-ba00-1cb3785698cf",
+  "ExternalId": "admin.fdlm@fdlmb2c.onmicrosoft.com_20190526_085220",
+  "Action": "TomInfBal",
+  "InputFields": {
+    "CuePorCob": "",
+    "CliRelCueCob": "Si",
+    "NumCliCueCob": "50",
+    "ObsCuePorCob": "Clientes seguros",
+    "MonCuePorCob": "1000",
+    "IncCueCob": "0",
+    "TotCuePorCob": "1000",
+    "Inv": "",
+    "InvMer": "",
+    "InvMatPri1": "",
+    "InvPtoPro1": "",
+    "InvPtoTer1": "",
+    "TotInv": "",
+    "ComActFij": "",
+    "ComActFijNeg": "",
+    "ComActFijFam": "",
+    "FotNegCli": "",
+    "FotNegCliSolCor": "",
+    "ExternalType": "Solicitud"
+  },
+  "Username": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "WorkOrderType": "Solicitud"
+}

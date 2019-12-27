@@ -1,0 +1,25 @@
+{
+  "IdWorkOrderFormType": "69e59963-c994-4e3a-9662-83f4fb6d31f1",
+  "IdWorkOrder": "c97a2980-fce7-4335-a408-d25bdd1969cc",
+  "ExternalId": "DF1746B1-E3DB-423C-946B-1BF93FE577ED",
+  "Action": "Tarea2",
+  "InputFields": {
+    "Nombre": "William",
+    "PrimerApellido": "Wallace",
+    "SegundoApellido": "Krieger",
+    "FechaNacimiento": "01/09/2019",
+    "EstadoCivil": "Casado",
+    "CalleYNumero": "Florines 190",
+    "Zona": "Centro",
+    "DeptoMunicipioBarrioDomicilio0ID": "",
+    "DeptoMunicipioBarrioDomicilio1ID": "",
+    "DeptoMunicipioBarrioDomicilio2ID": "",
+    "UbicacionDomicilioTitular": "Lat:0Lon:0Sat:-1Fecha:2019-09-11 13:07:48",
+    "ExternalType": "SprintReview1"
+  },
+  "Username": "qamovil2@fdlmb2c.onmicrosoft.com",
+  "WorkOrderType": "SprintReview1",
+  "Sender": null,
+  "Latitude": 0.0,
+  "Longitude": 0.0
+}

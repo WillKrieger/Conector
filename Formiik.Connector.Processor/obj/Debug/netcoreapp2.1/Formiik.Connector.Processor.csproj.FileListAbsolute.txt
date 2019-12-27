@@ -1,0 +1,17 @@
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Processor.deps.json
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Processor.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Processor.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Logging.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Logging.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.csprojAssemblyReference.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.AssemblyInfoInputs.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.AssemblyInfo.cs
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.csproj.CopyComplete
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/obj/Debug/netcoreapp2.1/Formiik.Connector.Processor.pdb

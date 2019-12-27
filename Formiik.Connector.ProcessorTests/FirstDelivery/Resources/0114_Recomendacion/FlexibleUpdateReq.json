@@ -1,0 +1,32 @@
+{
+  "Action": "InfoClienteyFam",
+  "ExternalId": "17Oc2018_01",
+  "IdWorkOrder": "37d72875-f209-4113-8563-592c078213cb",
+  "IdWorkOrderFormType": "b29e177d-cc36-43ad-a2ef-f6301a279e44",
+  "InputFields": {
+    "CalleNum": "Calle 7 - 13",
+    "CelPerCli": "5556374234",
+    "CliEmpl": "Si",
+    "CorEleCli": "esteban@gmail.com",
+    "DatDom": "<FormEditResponse><DatosDomicilio> <DatosDomicilio> <TiempoResid>125</TiempoResid> <CostAnPred>12500</CostAnPred> <AntigProp>15</AntigProp> <CuentaAguaPot>Si</CuentaAguaPot> <CuentaAccInter>Si</CuentaAccInter> </DatosDomicilio> </DatosDomicilio> </FormEditResponse>",
+    "DatEmp": "<FormEditResponse><DatosLaborales> <DatosLaborales> <EmpresaCli>Evolucionev</EmpresaCli> <AntigEmpCli>75</AntigEmpCli> <SalEmpCli>16500</SalEmpCli> <DirEmpCli>Manuel Ma Contreras 167</DirEmpCli> <NomContEmp>Carolina Cisneros</NomContEmp> </DatosLaborales> </DatosLaborales> </FormEditResponse>",
+    "DatosNuc": "<FormEditResponse><DatosNucleo> <DatNucleo> <NumMiemFam>3</NumMiemFam> <TotPersCargo>1</TotPersCargo> <NumHijos>1</NumHijos> <TitularCabHogar>Si</TitularCabHogar> <TitLeerEsc>Si</TitLeerEsc> </DatNucleo> </DatosNucleo> </FormEditResponse>",
+    "DatosPLCon": "<FormEditResponse><DatosConyuge> <DatosPeryLabCon> <TipDocCon>C</TipDocCon> <PaiExpCon>CO</PaiExpCon> <IdReaderCedula_CedulaCon>0023755845</IdReaderCedula_CedulaCon> <NombresCon>CARMEN </NombresCon> <IdReaderPrimerApellido_ApellidoPatCon>TORRES</IdReaderPrimerApellido_ApellidoPatCon> <IdReaderSegundoApellido_ApellidoMatCon>VACA</IdReaderSegundoApellido_ApellidoMatCon> <FechNacCon>1925/07/31</FechNacCon> <TelefonosCon>53556808 / 8885588055</TelefonosCon> <NivEducCon>SU5</NivEducCon> <ActiCon>EM</ActiCon> </DatosPeryLabCon> </DatosConyuge> </FormEditResponse>",
+    "EstadoCivil": "Casado",
+    "FechNac": "1978/04/03",
+    "IdReaderPrimerApellido_ApellidoPat": "Rodriguez",
+    "IdReaderPrimerNombre_PrimerNombre": "Esteban",
+    "IdReaderSegundoApellido_ApellidoMat": "Hernandez",
+    "IdReaderSegundoNombre_SegundoNombre": "Alberto",
+    "IdReaderSexo_Sexo": "M",
+    "NivEduc": "SU14",
+    "NomBarDomCli": "BELEN RINCON",
+    "NomDepBarDomCli": "Antioquia",
+    "NomMunBarDomCli": "Medellin",
+    "Nombres": "Esteban Alberto",
+    "TelDomCli": "53556080",
+    "TipoDomCli": "P"
+  },
+  "Username": "juan.perez@formiikplatform.onmicrosoft.com",
+  "WorkOrderType": "Solicitud"
+}

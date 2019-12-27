@@ -1,0 +1,77 @@
+<InfoClienteyFam>
+    <IdReaderPrimerNombre_PrimerNombre>Esteban</IdReaderPrimerNombre_PrimerNombre>
+    <IdReaderSegundoNombre_SegundoNombre>Alberto</IdReaderSegundoNombre_SegundoNombre>
+    <Nombres>Esteban Alberto</Nombres>
+    <IdReaderPrimerApellido_ApellidoPat>Rodríguez</IdReaderPrimerApellido_ApellidoPat>
+    <IdReaderSegundoApellido_ApellidoMat>Hernández</IdReaderSegundoApellido_ApellidoMat>
+    <FechNac>1978/04/03</FechNac>
+    <IdReaderSexo_Sexo>M</IdReaderSexo_Sexo>
+    <EstadoCivil>Casado</EstadoCivil>
+    <DatosPLCon>
+        <FormEditResponse>
+            <DatosConyuge>
+                <DatosPeryLabCon>
+                    <TipDocCon>C</TipDocCon>
+                    <PaiExpCon>CO</PaiExpCon>
+                    <IdReaderCedula_CedulaCon>0023755845</IdReaderCedula_CedulaCon>
+                    <NombresCon>CARMEN</NombresCon>
+                    <IdReaderPrimerApellido_ApellidoPatCon>TORRES</IdReaderPrimerApellido_ApellidoPatCon>
+                    <IdReaderSegundoApellido_ApellidoMatCon>VACA</IdReaderSegundoApellido_ApellidoMatCon>
+                    <FechNacCon>1925/07/31</FechNacCon>
+                    <TelefonosCon>53556808 / 8885588055</TelefonosCon>
+                    <NivEducCon>SU5</NivEducCon>
+                    <ActiCon>EM</ActiCon>
+                </DatosPeryLabCon>
+            </DatosConyuge>
+        </FormEditResponse>
+    </DatosPLCon>
+    <TipoDomCli>P</TipoDomCli>
+    <DatDom>
+        <FormEditResponse>
+            <DatosDomicilio>
+                <DatosDomicilio>
+                    <TiempoResid>125</TiempoResid>
+                    <CostAnPred>12500</CostAnPred>
+                    <AntigProp>15</AntigProp>
+                    <CuentaAguaPot>Si</CuentaAguaPot>
+                    <CuentaAccInter>Si</CuentaAccInter>
+                </DatosDomicilio>
+            </DatosDomicilio>
+        </FormEditResponse>
+    </DatDom>
+    <NomDepBarDomCli>Antioquia</NomDepBarDomCli>
+    <NomMunBarDomCli>Medellin</NomMunBarDomCli>
+    <NomBarDomCli>BELEN RINCON</NomBarDomCli>
+    <CalleNum>Calle 7 - 13</CalleNum>
+    <TelDomCli>53556080</TelDomCli>
+    <CelPerCli>5556374234</CelPerCli>
+    <CorEleCli>esteban@gmail.com</CorEleCli>
+    <NivEduc>SU14</NivEduc>
+    <CliEmpl>Si</CliEmpl>
+    <DatEmp>
+        <FormEditResponse>
+            <DatosLaborales>
+                <DatosLaborales>
+                    <EmpresaCli>Evolucionev</EmpresaCli>
+                    <AntigEmpCli>75</AntigEmpCli>
+                    <SalEmpCli>16500</SalEmpCli>
+                    <DirEmpCli>Manuel Ma Contreras 167</DirEmpCli>
+                    <NomContEmp>Carolina Cisneros</NomContEmp>
+                </DatosLaborales>
+            </DatosLaborales>
+        </FormEditResponse>
+    </DatEmp>
+    <DatosNuc>
+        <FormEditResponse>
+            <DatosNucleo>
+                <DatNucleo>
+                    <NumMiemFam>3</NumMiemFam>
+                    <TotPersCargo>1</TotPersCargo>
+                    <NumHijos>1</NumHijos>
+                    <TitularCabHogar>Si</TitularCabHogar>
+                    <TitLeerEsc>Si</TitLeerEsc>
+                </DatNucleo>
+            </DatosNucleo>
+        </FormEditResponse>
+    </DatosNuc>
+</InfoClienteyFam>

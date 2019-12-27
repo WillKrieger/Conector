@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca159b76-de17-49d3-bbd4-97024d1a1ee8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/EngineRequirement.json" beforeDir="false" afterPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/EngineRequirement.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_EngineToFormiik.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_EngineToFormiik.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_FormiikToEngine.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_FormiikToEngine.xslt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/Tranform_FormiikToEngine.xslt" beforeDir="false" afterPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/Tranform_FormiikToEngine.xslt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACC221FB-25A8-4587-87C3-E2256FB0A7D2/b4/6462f413/XmlElement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/MobileToEngineTest/TransformFormiikToEngineTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/BancowTest/BancowTestConstants.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/0a/2fff2d6b/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataTests/obj/Debug/netcoreapp2.1/DataTests.AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataTests/obj/Debug/netcoreapp2.1/DataTests.Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/f0/52dcb4ec/TimeoutHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data/ServiceBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data/MessagesSvc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/BancowTest/MobileToEngineTest/TransformFormiikToEngineTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/BancowTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/BancowTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/AppCode/SignalRClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/AppCode/Config/SignalRConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Middleware/ErrorHandlingMiddleware.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/9c/2a7af04e/TimeSpan.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Controllers/FormiikFacadeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/ca/21002cad/ClientBase`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Controllers/EngineFacadeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FirstDelivery/TestConstants.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/CustomExtenssions/WebAppExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/RequirementProcessorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data/Azure/AzureTableStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data/ServiceBackEnd/BackEndClientProxy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Logging/ApplicationLogger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data/WorkorderSvc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/RequirementProcessorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/FlexibleUpdateProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/TransformFormiikToEngineTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FirstDelivery/EngineToFormiikTest/RequirementProcessorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/4a/443ca38f/TaskHelpers.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FirstDelivery/FormiikToEngineTest/ResponsesProcessorTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/TercerSprintTestConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/8e/1bedfe44/Binding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/bf/2a3c79c4/Monitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/GeneralConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/5a/dbe57eb7/Guid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data.RestServices/RestServiceCaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data.RestServices/RestServiceException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Data.RestServices/WebClientResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/TransformRuleByRequirementStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/ApiEngineConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/InstanceInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/EngineContainerStatus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/Dto/IncomeInstanceCancelledDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/05/036d3cdd/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACC221FB-25A8-4587-87C3-E2256FB0A7D2/05/eb8efd4c/XmlNode.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/Dto/IncomeInstanceInfoDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5FB23D4F-2F91-4D1A-AE1B-31F781AECAA1/6f/ac0c2c41/XDocument.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/d2/8e23dd89/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/69/72798f96/DateTime.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/58/dbc232f1/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ACC221FB-25A8-4587-87C3-E2256FB0A7D2/f3/18baaf30/XmlTextWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/4b/1d806796/WcfEventSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/Contract/IFlexibleUpdateProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Engine/Contract/IResponsesProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/40/18175d6b/Collection`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Mobile/FormiikConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Mobile/NewWorkorder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/6b/efbf2be7/ContractDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Mobile/Dto/FlexibleUpdate/FlexibleUpdateReservedWordsDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Mobile/Dto/FlexibleUpdate/FlexibleUpdateRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/Mobile/Contract/IRequirementProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/TsEntity/TsRequirementTranformRule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/TsEntity/TsOrderCreatedInFormiik.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/d4/49d23134/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Entities/CustomExceptions/MissingConfirmEngineEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/46E7F1DD-0A58-4A2B-B6C0-C731C7791320/5c/65edc544/TableOperation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/a1/d36c7ef9/Guid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8517F607-C12A-4B50-8364-C3F896F0FE6F/2e/7a648d42/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377B61B6-13EA-444F-826F-377D9474FFCA/f9/75c0df3a/TestInvoker`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/377B61B6-13EA-444F-826F-377D9474FFCA/37/f062c102/ExecutionTimer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2A925EDF-E558-4632-978E-98FD8509CDF4/e7/c73096f6/ExceptionAggregator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/3a/197bf49f/Options.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ConfigRulesMobileToEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C01CF7B3-0063-44E1-B674-EDACFAF10697/6a/b36769a9/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/ConfigRulesEngineToMobile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/ee/252a3784/OptionsWrapper`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Utils/LoginUtilsTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/VanguardiaTestConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Utils/FileUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/12891E82-5FCE-44A5-81E5-BBBB579C1D49/88/31250296/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/FdlmTestConstants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/85/48ca2047/Exception.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/5e/003bc3c3/CommunicationObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/f4/9110418d/Path.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/e9/ffb4b850/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/66/d9b04a4f/EndpointAddress.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/Utils/RestServiceWrapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/Utils/FormiikGenericParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/31/57822b17/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ResponsesProcessor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/44/c60e0225/ServiceEndpoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/1a/3adf419f/Task`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/Transformer/EngineToMobileParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/Transformer/EngineToMobileTransformer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/Transformer/MobileToEngineDataMapper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/ConnectorStorage/FlexibleUpdateConfigStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/74/5b4ed28a/ChannelFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/ConnectorStorage/WorkOrderStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/ConnectorStorage/TransformationRulesStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Processor/ConnectorStorage/FlexibleUpdateStorage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B7BB7260-B456-4587-A167-B073E2C5E9F0/a2/0e4c0a73/ChannelFactory`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DataTests/TableStorageTest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ExecFlexibleUpdateTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Formiik.Connector.Web.Services/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Formiik.Connector.Entities/TsEntity/TsRequirementTranformRule.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/01_861_SolCreNor/EngineRequirement.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/04_819_TabDatNeg/EngineRequirement.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/04_819_TabDatNeg/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/01_861_SolCreNor/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/02_507_TabEvaNeg/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/03_5DF_TabEvaNeg/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/03_5DF_TabEvaNeg/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/04_819_TabDatNeg/FlexibleUpdateReq.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/04_819_TabDatNeg/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/02_507_TabEvaNeg/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/Resources/02_507_TabEvaNeg/EngineRequirement.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/Transformer/EngineToMobileParser.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ResponsesProcessor.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FirstDelivery/TestConstants.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/FlexibleUpdateProcessor.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/TercerSprintTestConstants.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Entities/GeneralConstants.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/Tranform_EngineToFormiik.xslt.xsl" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ConfigRulesMobileToEngine.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Data/ServiceBackEnd/BackEndClientProxy.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Data/ServiceBase.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/RequirementProcessorTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/ConnectorStorage/WorkOrderStorage.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/03_566_ThirdRule/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/ConfigRulesEngineToMobile.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/EngineRequirement.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/04_A41_FourthRule/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/03_566_ThirdRule/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/04_A41_FourthRule/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/FlexibleUpdateReq.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Utils/LoginUtilsTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ExecFlexibleUpdateTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/VanguardiaTestConstants.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Web.Services/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Web.Services/appsettings.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/appsettings.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.Web.Services/appsettings.Development.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/EngineRequirement.json" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/Tranform_EngineToFormiik.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/01_8AD_FirstRule/Tranform_FormiikToEngine.xslt" />
+        <option value="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/Resources/02_A58_PesSolicitudCredito/Tranform_FormiikToEngine.xslt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Q9fcDuYVQIi2du6iUfFc9mEJGI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Azure - Publish Web App.Deploy BancoW">
+    <configuration name="Deploy BancoW" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Formiik.Connector.Web.Services/Formiik.Connector.Web.Services.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiik-engine-3/providers/Microsoft.Web/sites/formiik-connector-vanguardia" />
+      <option name="AZURE_WEB_APP_NAME" value="webapp-190923104605" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="Gather-UX" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiik-engine-fdlm/providers/Microsoft.Web/serverfarms/formiik-engine-fdlm" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="appsp-190923104605" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.2" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiikengine-qa/providers/Microsoft.Sql/servers/formiik-engine-externalcatalogstest-sqlserver-qa/databases/formiik-engine-externalcatalogstest-sqldb-qa" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="DevOps" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="AzureDotNetWebAppPublish" factoryName="Azure Web App">
+      <option name="AZURE_WEB_APP_PROJECT" value="$PROJECT_DIR$/Formiik.Connector.Web.Services/Formiik.Connector.Web.Services.csproj" />
+      <option name="AZURE_WEB_APP_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP" value="0" />
+      <option name="AZURE_WEB_APP_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiik-engine-fdlm/providers/Microsoft.Web/sites/formiik-connector-bancow" />
+      <option name="AZURE_WEB_APP_NAME" value="webapp-190923104056" />
+      <option name="AZURE_WEB_APP_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_WEB_APP_RESOURCE_GROUP_NAME" value="Gather-UX" />
+      <option name="AZURE_WEB_APP_OPERATING_SYSTEM" value="WINDOWS" />
+      <option name="AZURE_WEB_APP_IS_CREATE_APP_SERVICE_PLAN" value="0" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiik-engine-fdlm/providers/Microsoft.Web/serverfarms/formiik-engine-fdlm" />
+      <option name="AZURE_WEB_APP_SERVICE_PLAN_NAME" value="appsp-190923104056" />
+      <option name="AZURE_WEB_APP_LOCATION" value="eastus" />
+      <option name="AZURE_WEB_APP_PRICING_TIER" value="" />
+      <option name="AZURE_WEB_APP_NET_FRAMEWORK" value="4.7" />
+      <option name="AZURE_WEB_APP_NET_CORE_RUNTIME" value="DOTNETCORE 2.2" />
+      <option name="AZURE_SQL_DATABASE_SUBSCRIPTION_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_ENABLED" value="0" />
+      <option name="AZURE_SQL_DATABASE_CONNECTION_STRING_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE" value="0" />
+      <option name="AZURE_SQL_DATABASE_ID" value="/subscriptions/eb02d378-a369-4338-ad5e-322a6c6ffadc/resourceGroups/formiikengine-qa/providers/Microsoft.Sql/servers/formiik-engine-externalcatalogstest-sqlserver-qa/databases/formiik-engine-externalcatalogstest-sqldb-qa" />
+      <option name="AZURE_SQL_DATABASE_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_RESOURCE_GROUP" value="0" />
+      <option name="AZURE_SQL_DATABASE_RESOURCE_GROUP_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_IS_CREATE_SQL_SERVER" value="0" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ID" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_NAME" value="" />
+      <option name="AZURE_SQL_DATABASE_SQL_SERVER_ADMIN_LOGIN" value="DevOps" />
+      <option name="AZURE_SQL_DATABASE_LOCATION" value="eastus" />
+      <option name="AZURE_SQL_DATABASE_COLLATION" value="SQL_Latin1_General_CP1_CI_AS" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Formiik.Connector.Web.Services: Formiik.Connector.Services" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Formiik.Connector.Web.Services/Formiik.Connector.Web.Services.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="Formiik.Connector.Services" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Formiik.Connector.Web.Services: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Formiik.Connector.Web.Services/Formiik.Connector.Web.Services.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.1" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.Formiik.Connector.Web.Services: Formiik.Connector.Services" />
+      <item itemvalue=".NET Launch Settings Profile.Formiik.Connector.Web.Services: IIS Express" />
+      <item itemvalue="Azure - Publish Web App.Deploy BancoW" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca159b76-de17-49d3-bbd4-97024d1a1ee8" name="Default Changelist" comment="" />
+      <created>1567187809784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567187809784</updated>
+      <workItem from="1567187811157" duration="1730000" />
+      <workItem from="1567442519105" duration="54131000" />
+      <workItem from="1567889106905" duration="1308000" />
+      <workItem from="1567890770183" duration="2708000" />
+      <workItem from="1568063683505" duration="29881000" />
+      <workItem from="1568501798161" duration="60000" />
+      <workItem from="1568659822092" duration="2661000" />
+      <workItem from="1568744032329" duration="665000" />
+      <workItem from="1568753159431" duration="4755000" />
+      <workItem from="1568824644871" duration="2162000" />
+      <workItem from="1568995101650" duration="1644000" />
+      <workItem from="1569000552338" duration="387000" />
+      <workItem from="1569002239706" duration="3384000" />
+      <workItem from="1569250826290" duration="1300000" />
+      <workItem from="1569252969288" duration="5534000" />
+      <workItem from="1569338081316" duration="17460000" />
+      <workItem from="1569970376146" duration="2014000" />
+      <workItem from="1570633242927" duration="6909000" />
+      <workItem from="1571066777384" duration="579000" />
+      <workItem from="1571094049064" duration="1240000" />
+      <workItem from="1571151291991" duration="6405000" />
+      <workItem from="1571844714703" duration="5371000" />
+      <workItem from="1571867136701" duration="566000" />
+      <workItem from="1571885043877" duration="963000" />
+      <workItem from="1571970943558" duration="22984000" />
+      <workItem from="1572285664855" duration="12297000" />
+      <workItem from="1572476439256" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" initialLine="28">
+            <startOffsets>
+              <option value="1065" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1104" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="30">
+            <startOffsets>
+              <option value="849" />
+            </startOffsets>
+            <endOffsets>
+              <option value="904" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>107</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="107">
+            <startOffsets>
+              <option value="2917" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2970" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs</url>
+          <line>143</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" initialLine="143">
+            <startOffsets>
+              <option value="4700" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4785" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" initialLine="41">
+            <startOffsets>
+              <option value="1093" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1131" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs</url>
+          <line>21</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" initialLine="21">
+            <startOffsets>
+              <option value="690" />
+            </startOffsets>
+            <endOffsets>
+              <option value="728" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs</url>
+          <line>134</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/TransforEngineToFormiikTests.cs" initialLine="134">
+            <startOffsets>
+              <option value="3911" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4045" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs</url>
+          <line>27</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" initialLine="19">
+            <startOffsets>
+              <option value="983" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1043" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="19">
+            <startOffsets>
+              <option value="567" />
+            </startOffsets>
+            <endOffsets>
+              <option value="630" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Data/WorkorderSvc.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Data/WorkorderSvc.cs" initialLine="46">
+            <startOffsets>
+              <option value="1613" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1635" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ConfigRulesMobileToEngine.cs" initialLine="17">
+            <startOffsets>
+              <option value="509" />
+            </startOffsets>
+            <endOffsets>
+              <option value="556" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/FlexibleUpdateProcessor.cs</url>
+          <line>372</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/FlexibleUpdateProcessor.cs" initialLine="372">
+            <startOffsets>
+              <option value="15111" />
+            </startOffsets>
+            <endOffsets>
+              <option value="15136" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs</url>
+          <line>56</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" initialLine="41">
+            <startOffsets>
+              <option value="1857" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1943" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/TransformFormiikToEngineTests.cs</url>
+          <line>30</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/TransformFormiikToEngineTests.cs" initialLine="34">
+            <startOffsets>
+              <option value="1033" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1100" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/TransformFormiikToEngineTests.cs</url>
+          <line>24</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/TransformFormiikToEngineTests.cs" initialLine="28">
+            <startOffsets>
+              <option value="863" />
+            </startOffsets>
+            <endOffsets>
+              <option value="929" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs</url>
+          <line>144</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" initialLine="144">
+            <startOffsets>
+              <option value="5448" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5644" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="29">
+            <startOffsets>
+              <option value="809" />
+            </startOffsets>
+            <endOffsets>
+              <option value="872" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs</url>
+          <line>32</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" initialLine="33">
+            <startOffsets>
+              <option value="970" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1029" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs</url>
+          <line>52</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" initialLine="52">
+            <startOffsets>
+              <option value="1826" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2048" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>47</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="37">
+            <startOffsets>
+              <option value="1237" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1299" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="39">
+            <startOffsets>
+              <option value="1043" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1106" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" initialLine="41">
+            <startOffsets>
+              <option value="1150" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1209" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs</url>
+          <line>61</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs" initialLine="61">
+            <startOffsets>
+              <option value="2070" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2149" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs</url>
+          <line>65</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs" initialLine="65">
+            <startOffsets>
+              <option value="2246" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2332" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs</url>
+          <line>97</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/Transformer/MobileToEngineTransformer.cs" initialLine="97">
+            <startOffsets>
+              <option value="3461" />
+            </startOffsets>
+            <endOffsets>
+              <option value="3531" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ResponsesProcessor.cs</url>
+          <line>73</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ResponsesProcessor.cs" initialLine="73">
+            <startOffsets>
+              <option value="2350" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2394" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/TercerSprintTest/MobileToEngineTest/ExecFlexibleUpdateTests.cs" initialLine="23">
+            <startOffsets>
+              <option value="738" />
+            </startOffsets>
+            <endOffsets>
+              <option value="797" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/RequirementProcessorTests.cs</url>
+          <line>25</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/RequirementProcessorTests.cs" initialLine="24">
+            <startOffsets>
+              <option value="785" />
+            </startOffsets>
+            <endOffsets>
+              <option value="847" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs</url>
+          <line>276</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs" initialLine="276">
+            <startOffsets>
+              <option value="12105" />
+            </startOffsets>
+            <endOffsets>
+              <option value="12131" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs</url>
+          <line>272</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs" initialLine="272">
+            <startOffsets>
+              <option value="11940" />
+            </startOffsets>
+            <endOffsets>
+              <option value="12087" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" initialLine="20">
+            <startOffsets>
+              <option value="811" />
+            </startOffsets>
+            <endOffsets>
+              <option value="856" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs</url>
+          <line>258</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/MobileProxy/RequirementProcessor.cs" initialLine="258">
+            <startOffsets>
+              <option value="11385" />
+            </startOffsets>
+            <endOffsets>
+              <option value="11470" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Data/WorkorderSvc.cs</url>
+          <line>65</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Data/WorkorderSvc.cs" initialLine="65">
+            <startOffsets>
+              <option value="2203" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2375" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ExecFlexibleUpdateTests.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/MobileToEngineTest/ExecFlexibleUpdateTests.cs" initialLine="23">
+            <startOffsets>
+              <option value="729" />
+            </startOffsets>
+            <endOffsets>
+              <option value="787" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs</url>
+          <line>70</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" initialLine="70">
+            <startOffsets>
+              <option value="2752" />
+            </startOffsets>
+            <endOffsets>
+              <option value="2778" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs</url>
+          <line>151</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" initialLine="151">
+            <startOffsets>
+              <option value="5658" />
+            </startOffsets>
+            <endOffsets>
+              <option value="5869" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/Formiik.Connector.ProcessorTests/Vanguardia/EngineToMobileTest/TransforEngineToFormiikTests.cs" initialLine="20">
+            <startOffsets>
+              <option value="662" />
+            </startOffsets>
+            <endOffsets>
+              <option value="706" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

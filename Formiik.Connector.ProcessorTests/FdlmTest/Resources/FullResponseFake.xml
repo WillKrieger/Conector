@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Response ProductId="179f7adb-0077-476f-abde-462d92e0fb26" ExternalId="unit_test16May2019_172101"
+          ExternalType="Solicitud" AssignedTo="admin.fdlm@fdlmb2c.onmicrosoft.com"
+          InitialDate="20190212 15:28:21" FinalDate="20190212 15:36:27" ResponseDate="20190212 21:36:30"
+          InitialLatitude="19.3521" FinalLatitude="19.3521" InitialLongitude="-99.1805" FinalLongitude="-99.1805"
+          FormiikResponseSource="Mobile">
+    <Solicitud>
+        <PesPreEva>
+            <VisAyu>¿Visualizar ayudas?</VisAyu>
+            <TipDocIdeCli>Tipo documento identidad</TipDocIdeCli>
+            <NumDocIdeCli>Número documento identidad</NumDocIdeCli>
+            <PaiExpCli>País de expedición</PaiExpCli>
+            <NumSolCre>Número solicitud de crédito</NumSolCre>
+            <DesCarInfCli>¿Desea cargar la información del cliente?</DesCarInfCli>
+            <EjeConCli>Consultar Cliente</EjeConCli>
+            <MenResConCliSol>Mensaje respuesta</MenResConCliSol>
+            <CodRieValLisConCli>Código de riesgo en listas de control</CodRieValLisConCli>
+            <LisConValLisConCli>Lista de control</LisConValLisConCli>
+            <AdvLisConCli>Advertencia en Listas de control</AdvLisConCli>
+            <CalCli>Calificación del cliente</CalCli>
+            <PriNomCli>TipoActividad</PriNomCli>
+            <SegNomCli>KO</SegNomCli>
+            <PriApeCli>Primer nombre</PriApeCli>
+            <RutForUltCre>Segundo nombre</RutForUltCre>
+            <TelDomCli>Primer apellido</TelDomCli>
+            <CelPerCli>Segundo apellido</CelPerCli>
+            <TelNegCli>Ruta de Fortalecimiento del Ultimo Crédito</TelNegCli>
+            <CelNegCli>Teléfono domicilio</CelNegCli>
+            <NegEnDom>Celular</NegEnDom>
+            <DirDomCli>Teléfono negocio</DirDomCli>
+            <IdeBarDomCli>Celular negocio</IdeBarDomCli>
+            <NomBarDomCli>¿Negocio en domicilio?</NomBarDomCli>
+            <IdeMunBarDomCli>Dirección domicilio</IdeMunBarDomCli>
+            <NomMunBarDomCli>Identificador del barrio domicilio</NomMunBarDomCli>
+            <IdeDepBarDomCli>Nombre del barrio domicilio</IdeDepBarDomCli>
+            <NomDepBarDomCli>Identificador municipio domicilio</NomDepBarDomCli>
+            <IndDirDomCli>Municipio domicilio</IndDirDomCli>
+            <UbiDomCli>Identificador departamento domicilio</UbiDomCli>
+            <TipNeg>Departamento domicilio</TipNeg>
+            <DirNegCli>Ubicación dirección domicilio</DirNegCli>
+            <IdeBarNegCli>Geoposición domicilio</IdeBarNegCli>
+            <DirNegCli>Tipo de negocio</DirNegCli>
+            <IdeBarNegCli>Dirección negocio</IdeBarNegCli>
+            <NomBarNegCli>Identificador del barrio negocio</NomBarNegCli>
+            <IdeMunBarNegCli>Nombre del barrio negocio</IdeMunBarNegCli>
+            <IdeMunBarNegCli>Identificador municipio negocio</IdeMunBarNegCli>
+            <NomMunBarNegCli>Municipio negocio</NomMunBarNegCli>
+            <IdeDepBarNegCli>Identificador departamento negocio</IdeDepBarNegCli>
+            <NomDepBarNegCli>Departamento negocio</NomDepBarNegCli>
+            <IndDirNegCli>Ubicación dirección negocio</IndDirNegCli>
+            <UbiNegCli>Geoposición negocio</UbiNegCli>
+            <HaPadSigEnf>En calidad de asegurado Principal declara lo siguiente: Ha padecido alguna de las siguientes enfermedades: Cáncer, Leucemia, VIH Sida, Insuficiencia Renal Crónica, Esclerosis múltiple, Infarto al miocardio, cirrosis, enfisema pulmonar, derrame cerebral</HaPadSigEnf>
+            <HaPadLimFis>En calidad de asegurado principal declara lo siguiente: Tiene una limitación Física</HaPadLimFis>
+            <CumReqMin>¿Cumple requisitos mínimos?</CumReqMin>
+            <CumReqMin>Causal de negación</CumReqMin>
+            <ComCauDenPreEva>Comentario causal de negación</ComCauDenPreEva>
+            <LleSolOtroMom>¿Llenar solicitud en otro momento?</LleSolOtroMom>
+            <FecProVis>Fecha próxima visita</FecProVis>
+        </PesPreEva>
+        <PesPreSol>
+            <IdeDepExpDocIdeCli>Identificador departamento expedición</IdeDepExpDocIdeCli>
+        </PesPreSol>
+        <PesCodGar>
+            <RefFam>
+                <FormEditResponse>
+                    <Ref>
+                        <PesRef>
+                            <NomComRef>Nombre completo</NomComRef>
+                            <ParRef>Parentesco</ParRef>
+                            <DirRef>Dirección</DirRef>
+                            <TelRef>Teléfono</TelRef>
+                            <CelRef>Celular</CelRef>
+                            <OcuRef>Ocupación</OcuRef>
+                            <ActEcoInd>¿Actividad económica independiente?</ActEcoInd>
+                            <EstIntCreRef>¿Está interesado en un crédito?</EstIntCreRef>
+                            <ProVisRef>Programación visita</ProVisRef>
+                            <ObsRef>Observaciones</ObsRef>
+                        </PesRef>
+                    </Ref>
+                </FormEditResponse>
+            </RefFam>
+            <CanRefFamCon>Cantidad de referencias familiares confirmadas</CanRefFamCon>
+            <ValMinRefFamCon>Minimo una referencia familiar confirmada</ValMinRefFamCon>
+            <RefPer>
+                <FormEditResponse>
+                    <Ref>
+                        <PesRef>
+                            <NomComRef>Nombre completo</NomComRef>
+                            <ParRef>Parentesco</ParRef>
+                            <DirRef>Dirección</DirRef>
+                            <TelRef>Teléfono</TelRef>
+                            <CelRef>Celular</CelRef>
+                            <OcuRef>Ocupación</OcuRef>
+                            <ActEcoInd>¿Actividad económica independiente?</ActEcoInd>
+                            <EstIntCreRef>¿Está interesado en un crédito?</EstIntCreRef>
+                            <ProVisRef>Programación visita</ProVisRef>
+                            <ObsRef>Observaciones</ObsRef>
+                        </PesRef>
+                    </Ref>
+                </FormEditResponse>
+            </RefPer>
+            <RefComCli>
+                <FormEditResponse>
+                    <RefCom>
+                        <PesRefCom>
+                            <NomEmpRefCom>Nombre / Empresa / Entidad</NomEmpRefCom>
+                            <DirRefCom>Dirección</DirRefCom>
+                            <TelRefCom>Teléfono</TelRefCom>
+                            <CelRefCom>Celular</CelRefCom>
+                            <ConRefCom>¿Confirmar referencia ahora?</ConRefCom>
+                            <AntRefCom>Antigüedad (meses)</AntRefCom>
+                            <MonRefCom>Monto</MonRefCom>
+                            <ForPagRefCom>Forma de pago</ForPagRefCom>
+                            <EstIntCreCom>¿Está interesado en crédito?</EstIntCreCom>
+                            <ProVisRefCom>Programación Visita</ProVisRefCom>
+                            <ObsRefCom>Observaciones</ObsRefCom>
+                        </PesRefCom>
+                    </RefCom>
+                </FormEditResponse>
+            </RefComCli>
+            <CanRefComCon>Cantidad de referencias comerciales confirmadas</CanRefComCon>
+            <RefBanCli>
+                <FormEditResponse>
+                    <RefBan>
+                        <PesRefBan>
+                            <EntBanRefBan>Entidad / Banco</EntBanRefBan>
+                            <ProRefBan>Producto</ProRefBan>
+                            <ObsRefBan>Observaciones</ObsRefBan>
+                        </PesRefBan>
+                    </RefBan>
+                </FormEditResponse>
+            </RefBanCli>
+            <RefCli>
+                <!--(FormEdit)Ingreso de Recomendados            -->
+                <FormEditResponse>
+                    <IngresoRecomendado>
+                        <PesRef>
+                            <SecNomRef>Nombre Recomendado</SecNomRef>
+                            <PriNomRef>Primer nombre</PriNomRef>
+                            <SegNomRef>Segundo nombre</SegNomRef>
+                            <PriApeRef>Primer apellido</PriApeRef>
+                            <SegApeRef>Segundo apellido</SegApeRef>
+                            <TipDocIdeRef>Tipo documento identidad</TipDocIdeRef>
+                            <NumDocIdeRef>Número documento identidad</NumDocIdeRef>
+                            <PaiOriRef>País</PaiOriRef>
+                            <TelRec>Teléfono</TelRec>
+                            <CelRec>Celular</CelRec>
+                            <DirNegRef>Dirección negocio</DirNegRef>
+                            <TieActRef>¿Tiene Actividad del Recomendado?</TieActRef>
+                            <IdeActNegRef>CIIU</IdeActNegRef>
+                            <OriRecIngRec>Origen del recomendado</OriRecIngRec>
+                        </PesRef>
+                    </IngresoRecomendado>
+                </FormEditResponse>
+            </RefCli>
+            <Cod>
+                <!--(FormEdit)Codeudor                -->
+                <FormEditResponse>
+                    <Codeudor>
+                        <PesDatBasCod>
+                            <TipDocIdeCod>Tipo documento identidad</TipDocIdeCod>
+                            <NumDocIdeCod>Número documento identidad</NumDocIdeCod>
+                            <PaiOriCod>País</PaiOriCod>
+                            <TipCod>Tipo de codeudor en el sistema</TipCod>
+                            <ClaCod>Clase de Codeudor</ClaCod>
+                            <MenResConCod>Mensaje respuesta</MenResConCod>
+                            <CodRieValLisCod>Código de riesgo</CodRieValLisCod>
+                            <LisConValLisCod>Lista de control</LisConValLisCod>
+                            <AdvLisConCod>Advertencia en Listas de control</AdvLisConCod>
+                            <PriNomCod>Primer nombre</PriNomCod>
+                            <SegNomCod>Segundo nombre</SegNomCod>
+                            <PriApeCod>Primer apellido</PriApeCod>
+                            <SegApeCod>Segundo apellido</SegApeCod>
+                        </PesDatBasCod>
+                        <PesDatPerCod>
+                            <IdeDepExpDocIdeCod>Identificador Departamento</IdeDepExpDocIdeCod>
+                            <IdeMunExpDocIdeCod>Identificador Municipio</IdeMunExpDocIdeCod>
+                            <FecNacCod>Fecha de nacimiento</FecNacCod>
+                            <GenCod>Género</GenCod>
+                            <TelCod>Teléfono</TelCod>
+                            <CelCod>Celular</CelCod>
+                            <IdeDepDomCod>Identificación departamento domicilio</IdeDepDomCod>
+                            <IdeMunDomCod>Identificación municipio domicilio</IdeMunDomCod>
+                            <IdeBarDomCod>Identificación barrio domicilio</IdeBarDomCod>
+                            <DirDomCod>Dirección Domicilio</DirDomCod>
+                            <CodFuePEP>¿En los últimos 3 años el codeudor ha sido PEP?</CodFuePEP>
+                            <ParTitCod>Parentesco con titular</ParTitCod>
+                            <ActOcuCod>Actividad / Ocupación Codeudor</ActOcuCod>
+                            <EstCivCod>Estado civil</EstCivCod>
+                            <NomConCod>Nombre cónyuge</NomConCod>
+                            <TipVivCod>Tipo vivienda</TipVivCod>
+                            <CuaTipVivCod>¿Cual?</CuaTipVivCod>
+                            <TieHabVivCod>Tiempo Habitada / Antigüedad (Meses)</TieHabVivCod>
+                            <EsLegVivCod>¿Es Legalizado?</EsLegVivCod>
+                            <NomArrVivCod>Nombre arrendador</NomArrVivCod>
+                            <TelArrVivCod>Teléfono arrendador</TelArrVivCod>
+                            <CelArrVivCod>Celular arrendador</CelArrVivCod>
+                        </PesDatPerCod>
+                        <PesDatRefCod>
+                            <NomComRefCod>Nombre completo</NomComRefCod>
+                            <ParRefCod>Parentesco</ParRefCod>
+                            <DirRefCod>Dirección</DirRefCod>
+                            <IdeDepDomCod>Identificación departamento domicilio</IdeDepDomCod>
+                            <IdeMunDomCod>Identificación municipio domicilio</IdeMunDomCod>
+                            <IdeBarDomCod>Identificación barrio domicilio</IdeBarDomCod>
+                            <TelRefCod>Teléfono</TelRefCod>
+                            <CelRefCod>Celular</CelRefCod>
+                            <OcuRefCod>Ocupación</OcuRefCod>
+                            <ActEcoIndRef>¿Actividad económica independiente?</ActEcoIndRef>
+                            <IdeSecNegCod>Identificador sector</IdeSecNegCod>
+                            <IdeActEcoCod>Identificador de actividad</IdeActEcoCod>
+                            <EstIntCreRefCod>¿Está interesado en un crédito?</EstIntCreRefCod>
+                            <ProVisRefCod>Programación visita</ProVisRefCod>
+                            <ObsRefCod>Observaciones</ObsRefCod>
+                        </PesDatRefCod>
+                        <PesDatLabNegCod>
+                            <EstEmpCod>¿Es empleado el codeudor?</EstEmpCod>
+                            <NomEmpLabCod>Empresa donde trabaja</NomEmpLabCod>
+                            <AntVinEmpCod>Antigüedad (meses)</AntVinEmpCod>
+                            <DirEmpCod>Dirección empresa</DirEmpCod>
+                            <IdeDepEmpCod>Identificación departamento domicilio</IdeDepEmpCod>
+                            <IdeMunEmpCod>Identificación municipio domicilio</IdeMunEmpCod>
+                            <IdeBarEmpCod>Identificación barrio domicilio</IdeBarEmpCod>
+                            <CarEmpLabCod>Cargo / Profesión / Actividad</CarEmpLabCod>
+                            <SalEmpLabCod>Salario</SalEmpLabCod>
+                            <NomConEmpLabCod>Nombre contacto laboral</NomConEmpLabCod>
+                            <CarConEmpLabCod>Cargo contacto laboral</CarConEmpLabCod>
+                            <TelConEmpLabCod>Teléfono contacto laboral</TelConEmpLabCod>
+                            <ObcConLab>Observaciones contacto laboral. (Después de la confirmación de la referencia laboral)</ObcConLab>
+                            <TieNegInd>¿Codeudor tiene negocio independiente?</TieNegInd>
+                            <NomNegCod>Nombre o Razón Social</NomNegCod>
+                            <FecCreNegCod>Fecha de inicio Negocio Codeudor</FecCreNegCod>
+                            <DirNegCod>Dirección negocio</DirNegCod>
+                            <IdeBarDomCod>Identificación barrio domicilio</IdeBarDomCod>
+                            <IdeMunDomCod>Identificación municipio domicilio</IdeMunDomCod>
+                            <IdeDepDomCod>Identificación departamento domicilio</IdeDepDomCod>
+                            <IndDirNegCod>Indicaciones dirección negocio</IndDirNegCod>
+                            <TelNegCod>Teléfono negocio</TelNegCod>
+                            <CelNegCod>Celular negocio</CelNegCod>
+                            <TipLocNegCod>Tipo de Local o Terreno</TipLocNegCod>
+                            <IdeSecNegCod>Identificador sector</IdeSecNegCod>
+                            <IdeActEcoCod>Identificador de actividad</IdeActEcoCod>
+                            <SecIngCod>Ingresos Codeudor</SecIngCod>
+                            <VenCod>Ventas</VenCod>
+                            <ObsCod>Observaciones</ObsCod>
+                            <TotActCod>Total Activos</TotActCod>
+                        </PesDatLabNegCod>
+                        <CanGarCod>
+                            <CanGarCod>Cantidad garantías codeudor</CanGarCod>
+                            <CanCod1>Cantidad1</CanCod1>
+                            <DesBieCod1>Descripción Bien1</DesBieCod1>
+                            <ValBieCod1>Valor1</ValBieCod1>
+                            <CanCod2>Cantidad2</CanCod2>
+                            <DesBieCod2>Descripción Bien2</DesBieCod2>
+                            <ValBieCod2>Valor2</ValBieCod2>
+                            <CanCod3>Cantidad3</CanCod3>
+                            <DesBieCod3>Descripción Bien3</DesBieCod3>
+                            <ValBieCod3>Valor3</ValBieCod3>
+                            <CanCod4>Cantidad4</CanCod4>
+                            <DesBieCod4>Descripción Bien4</DesBieCod4>
+                            <ValBieCod4>Valor4</ValBieCod4>
+                            <CanCod5>Cantidad4</CanCod5>
+                            <DesBieCod5>Descripción Bien5</DesBieCod5>
+                            <ValBieCod5>Valor5</ValBieCod5>
+                            <CanCod6>Cantidad6</CanCod6>
+                            <DesBieCod6>Descripción Bien6</DesBieCod6>
+                            <ValBieCod6>Valor6</ValBieCod6>
+                            <CanCod7>Cantidad7</CanCod7>
+                            <DesBieCod7>Descripción Bien7</DesBieCod7>
+                            <ValBieCod7>Valor7</ValBieCod7>
+                            <CanCod8>Cantidad8</CanCod8>
+                            <DesBieCod8>Descripción Bien8</DesBieCod8>
+                            <ValBieCod8>Valor8</ValBieCod8>
+                            <CanCod9>Cantidad9</CanCod9>
+                            <DesBieCod9>Descripción Bien9</DesBieCod9>
+                            <ValBieCod9>Valor9</ValBieCod9>
+                            <CanCod10>Cantidad10</CanCod10>
+                            <DesBieCod10>Descripción Bien10</DesBieCod10>
+                            <ValBieCod10>Valor10</ValBieCod10>
+                        </CanGarCod>
+                    </Codeudor>
+                </FormEditResponse>
+            </Cod>
+            <CanCodCom>Cantidad de codeudores completados</CanCodCom>
+            <CanKnoOutCod>Cantidad de KO codeudor</CanKnoOutCod>
+            <ValTotGarCod>Valor total de garantías de codeudor</ValTotGarCod>
+            <TipGarCre>Tipo de Garantía del crédito</TipGarCre>
+            <GarCli>
+                <!--(FormEdit)Garantías cliente-->
+                <FormEditResponse>
+                    <Garantia>
+                        <PesGar>
+                            <TipGar>Tipo de garantía</TipGar>
+                            <Can>Cantidad</Can>
+                            <DesBie>Descripción Bien</DesBie>
+                            <ValBie>Valor</ValBie>
+                        </PesGar>
+                    </Garantia>
+                </FormEditResponse>
+            </GarCli>
+            <Ppi7_HogTieLav>¿Este hogar tiene una máquina lavadora de ropa?</Ppi7_HogTieLav>
+            <Ppi8_HogTieHorMic>¿Este hogar tiene un horno microondas?</Ppi8_HogTieHorMic>
+            <Ppi9_HogTieCarPar>¿Este hogar tiene un carro particular?</Ppi9_HogTieCarPar>
+            <TitConPosSma>¿Titular o cónyuge poseen Smartphone?</TitConPosSma>
+            <Fot1GarCli>Foto 1 garantías</Fot1GarCli>
+            <Fot2GarCli>Foto 2 garantías</Fot2GarCli>
+            <Fot1GarCliSolCor>Foto 3 garantías</Fot1GarCliSolCor>
+            <Fot2GarCliSolCor>Foto 4 Garantías</Fot2GarCliSolCor>
+        </PesCodGar>
+        <FormiikResponseSource>Mobile</FormiikResponseSource>
+    </Solicitud>
+</Response>

@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.WindowsAzure.Storage, Version=9.3.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+        <HintPath>..\..\..\..\..\..\.nuget\packages\windowsazure.storage\9.3.2\lib\netstandard1.3\Microsoft.WindowsAzure.Storage.dll</HintPath>
+      </Reference>
+      <Reference Include="Microsoft.Extensions.Options">
+        <HintPath>..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.options\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+      <PackageReference Include="Microsoft.Extensions.Options" Version="2.1.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Persistance\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Formiik.Connector.Data\Formiik.Connector.Data.csproj" />
+    </ItemGroup>
+</Project>

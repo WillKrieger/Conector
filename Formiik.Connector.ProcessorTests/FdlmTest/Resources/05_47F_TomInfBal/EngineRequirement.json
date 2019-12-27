@@ -1,0 +1,696 @@
+{
+  "dataFront": {
+    "description": "Toma de Información del Negocio",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "Cuentas por cobrar ",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "fullName": "¿Cliente relaciona cuentas por cobrar?",
+                "label": "CliRelCueCob",
+                "elementType": 3,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Número de clientes",
+                "fullName": "NumCliCueCob",
+                "elementType": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CliRelCueCob"
+                  ],
+                  "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIGN1ZW50YXNQb3JDb2JyYXIgPSAiQ2xpUmVsQ3VlQ29iIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoY3VlbnRhc1BvckNvYnJhcikpIHsKCQl2YXIgX3ZhbHVlID0gcmVmZXJlbmNlVmFsdWVzW2N1ZW50YXNQb3JDb2JyYXJdOwoJCWlmICh0eXBlb2YgX3ZhbHVlID09ICJib29sZWFuIikgewoJCQlyZXN1bHQgPSBfdmFsdWU7CgkJfSBlbHNlIGlmICh0eXBlb2YgX3ZhbHVlID09ICJzdHJpbmciKSB7CgkJCXJlc3VsdCA9ICgvXig/OnNpfHPDrXx5ZXN8dHJ1ZSkkL2kudGVzdChfdmFsdWUpKQoJCX0KCX0KIAlyZXR1cm4gcmVzdWx0OwogfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "Observacioens",
+                "fullName": "ObsCuePorCob",
+                "elementType": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CliRelCueCob"
+                  ],
+                  "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIGN1ZW50YXNQb3JDb2JyYXIgPSAiQ2xpUmVsQ3VlQ29iIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoY3VlbnRhc1BvckNvYnJhcikpIHsKCQl2YXIgX3ZhbHVlID0gcmVmZXJlbmNlVmFsdWVzW2N1ZW50YXNQb3JDb2JyYXJdOwoJCWlmICh0eXBlb2YgX3ZhbHVlID09ICJib29sZWFuIikgewoJCQlyZXN1bHQgPSBfdmFsdWU7CgkJfSBlbHNlIGlmICh0eXBlb2YgX3ZhbHVlID09ICJzdHJpbmciKSB7CgkJCXJlc3VsdCA9ICgvXig/OnNpfHPDrXx5ZXN8dHJ1ZSkkL2kudGVzdChfdmFsdWUpKQoJCX0KCX0KIAlyZXR1cm4gcmVzdWx0OwogfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "Monto",
+                "fullName": "MonCuePorCob",
+                "elementType": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CliRelCueCob"
+                  ],
+                  "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIGN1ZW50YXNQb3JDb2JyYXIgPSAiQ2xpUmVsQ3VlQ29iIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoY3VlbnRhc1BvckNvYnJhcikpIHsKCQl2YXIgX3ZhbHVlID0gcmVmZXJlbmNlVmFsdWVzW2N1ZW50YXNQb3JDb2JyYXJdOwoJCWlmICh0eXBlb2YgX3ZhbHVlID09ICJib29sZWFuIikgewoJCQlyZXN1bHQgPSBfdmFsdWU7CgkJfSBlbHNlIGlmICh0eXBlb2YgX3ZhbHVlID09ICJzdHJpbmciKSB7CgkJCXJlc3VsdCA9ICgvXig/OnNpfHPDrXx5ZXN8dHJ1ZSkkL2kudGVzdChfdmFsdWUpKQoJCX0KCX0KIAlyZXR1cm4gcmVzdWx0OwogfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "Incobrables",
+                "fullName": "IncCueCob",
+                "elementType": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CliRelCueCob"
+                  ],
+                  "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIGN1ZW50YXNQb3JDb2JyYXIgPSAiQ2xpUmVsQ3VlQ29iIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoY3VlbnRhc1BvckNvYnJhcikpIHsKCQl2YXIgX3ZhbHVlID0gcmVmZXJlbmNlVmFsdWVzW2N1ZW50YXNQb3JDb2JyYXJdOwoJCWlmICh0eXBlb2YgX3ZhbHVlID09ICJib29sZWFuIikgewoJCQlyZXN1bHQgPSBfdmFsdWU7CgkJfSBlbHNlIGlmICh0eXBlb2YgX3ZhbHVlID09ICJzdHJpbmciKSB7CgkJCXJlc3VsdCA9ICgvXig/OnNpfHPDrXx5ZXN8dHJ1ZSkkL2kudGVzdChfdmFsdWUpKQoJCX0KCX0KIAlyZXR1cm4gcmVzdWx0OwogfSkoX3ZfKTs="
+                }
+              },
+              {
+                "label": "Total Cuentas por cobrar",
+                "fullName": "TotCuePorCob",
+                "elementType": 0,
+                "isRequired": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "TipoNegocio",
+                    "NegocioEnDomicilio"
+                  ],
+                  "fieldFunction": "KGZ1bmN0aW9uIChyZWZlcmVuY2VWYWx1ZXMpewoJdmFyIHJlc3VsdCA9IGZhbHNlOwoJdmFyIGN1ZW50YXNQb3JDb2JyYXIgPSAiQ2xpUmVsQ3VlQ29iIjsKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiZyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoY3VlbnRhc1BvckNvYnJhcikpIHsKCQl2YXIgX3ZhbHVlID0gcmVmZXJlbmNlVmFsdWVzW2N1ZW50YXNQb3JDb2JyYXJdOwoJCWlmICh0eXBlb2YgX3ZhbHVlID09ICJib29sZWFuIikgewoJCQlyZXN1bHQgPSBfdmFsdWU7CgkJfSBlbHNlIGlmICh0eXBlb2YgX3ZhbHVlID09ICJzdHJpbmciKSB7CgkJCXJlc3VsdCA9ICgvXig/OnNpfHPDrXx5ZXN8dHJ1ZSkkL2kudGVzdChfdmFsdWUpKQoJCX0KCX0KIAlyZXR1cm4gcmVzdWx0OwogfSkoX3ZfKTs="
+                }
+              }
+            ]
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario de mercancias",
+              "formEditSection": {
+                "baseFullName": "MerchandiseInventory",
+                "fullName": "InvMer",
+                "sections": [
+                  {
+                    "description": "Inventario de mercancias",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Unidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripcion Inventario",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PrecioCompraUnidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PrecioVentaUnidad",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MargenUtilidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario de materia prima",
+              "formEditSection": {
+                "baseFullName": "RawMaterialInventory",
+                "fullName": "InvMer",
+                "sections": [
+                  {
+                    "description": "Inventario de meteria prima",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Unidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripcion Inventario",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PrecioCompraUnidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PrecioVentaUnidad",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MargenUtilidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario de materia prima",
+              "formEditSection": {
+                "baseFullName": "ProductsProcessInventory",
+                "fullName": "InvPtoPro1",
+                "sections": [
+                  {
+                    "description": "Inventario de productos en proceso",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Unidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripcion Inventario",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "% Proceso",
+                            "fullName": "PorcenajeProceso",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo por Unidad",
+                            "fullName": "CostoUnidad",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo Estimado por Unidad",
+                            "fullName": "CostoEstimadoUnidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario Productos en Proceso",
+              "formEditSection": {
+                "baseFullName": "ProductsProcessInventory",
+                "fullName": "InvPtoPro1",
+                "sections": [
+                  {
+                    "description": "Inventario de productos en proceso",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Unidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripcion Inventario",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "% Proceso",
+                            "fullName": "PorcenajeProceso",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo por Unidad",
+                            "fullName": "CostoUnidad",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo Estimado por Unidad",
+                            "fullName": "CostoEstimadoUnidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario de Productos Terminados",
+              "formEditSection": {
+                "baseFullName": "RawMaterialInventory",
+                "fullName": "InvMer",
+                "sections": [
+                  {
+                    "description": "Inventario de Productos Terminados",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Unidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripcion Inventario",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PrecioCompraUnidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PrecioVentaUnidad",
+                            "elementType": 8,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MargenUtilidad",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Total de inventarios ",
+                "fullName": "TotInv",
+                "elementType": 0,
+                "isRequired": true
+              }
+            ]
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Composición de Activos Fijos de la Familia",
+              "formEditSection": {
+                "baseFullName": "FixedAssetsBusiness",
+                "fullName": "ComActFijFam",
+                "sections": [
+                  {
+                    "description": "Composición de Activos Fijos de la Familia",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Cantidad",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Descripcion",
+                            "fullName": "Descripcion",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Valor total",
+                            "fullName": "ValorTotal",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Cantidad",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Unidades",
+                    "fullName": "Unidad",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DescripcionActivo",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Foto Negocio",
+                "fullName": "FotNegCli",
+                "url": "FileUrl",
+                "fileName": "FileName",
+                "elementType": 10
+              },
+              {
+                "label": "Foto 2 Negocio",
+                "fullName": "FotNegCliSolCor",
+                "url": "FileUrl",
+                "fileName": "FileName",
+                "elementType": 10
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ccd0f7d5-9696-4749-a526-34e37ee8aa39",
+  "containerId": "7BAAE610-AEEA-4DCC-A7DD-3D6E18A3347F",
+  "values": {
+    "CliRelCueCob": true,
+    "NumCliCueCob": 976,
+    "ObsCuePorCob": "Jfnnxbxbf",
+    "MonCuePorCob": 956,
+    "IncCueCob": 959,
+    "TotCuePorCob": null,
+    "InvMer": null,
+    "InvMatPri1": [
+      {
+        "Can": 64,
+        "Uni": 94,
+        "DesInv": "Bxbdnznd",
+        "PorPro": null,
+        "PreComUni": "9764",
+        "PreVenUni": "979",
+        "MarUti": "9797",
+        "CosUni": null,
+        "CosEstUni": null,
+        "ValTo": "949"
+      }
+    ],
+    "InvPtoPro1": null,
+    "InvPtoTer1": [
+      {
+        "Can": 46,
+        "Uni": 94,
+        "DesInv": "Bd",
+        "PorPro": null,
+        "PreComUni": "979794",
+        "PreVenUni": "9797",
+        "MarUti": "979",
+        "CosUni": null,
+        "CosEstUni": null,
+        "ValTo": "97979"
+      }
+    ],
+    "TotInv": null,
+    "ComActFijNeg": null,
+    "ComActFijFam": null,
+    "FotNegCli": {
+      "FileUrl": null,
+      "FileName": null
+    },
+    "FotNegCliSolCor": {
+      "FileUrl": null,
+      "FileName": null
+    }
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}

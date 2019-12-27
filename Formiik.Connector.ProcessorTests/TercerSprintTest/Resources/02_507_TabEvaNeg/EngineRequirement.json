@@ -1,0 +1,56 @@
+{
+  "agentUsername": "qamovil2@fdlmb2c.onmicrosoft.com",
+  "instanceId": "D04994F6-6B51-4052-82FC-5CC3FC934649",
+  "definitionId": "15dd475b-1e7f-4513-b74a-67b9b9ef7d96",
+  "tenantId": null,
+  "containerId": "D37D71B3-66AE-4D36-861B-636E643EE507",
+  "status": 0,
+  "statusContainer": 0,
+  "values": {
+    "DatoTransformado": null,
+    "TipoDocumento": null,
+    "PaisExpedicion": null,
+    "NumeroDocumento": "1123",
+    "Nombre": "William",
+    "PrimerApellido": "Krieger",
+    "SegundoApellido": "Krieger",
+    "FechaNacimiento": "11/29/1981",
+    "EstadoCivil": [
+      "Casado"
+    ],
+    "LocalizacionDomicilioTitular": {
+      "CalleYNumero": "Florines 190",
+      "DeptoMunicipioBarrioDomicilio": [
+        "8",
+        "1",
+        "2"
+      ]
+    },
+    "UbicacionDomicilioTitular": {
+      "Latitud": null,
+      "Longitud": null
+    },
+    "EsNuevo": null,
+    "IdentificacionFrente": {
+      "FileUrl": null,
+      "FileName": null,
+      "MimeType": null
+    },
+    "IdentificacionAtras": {
+      "FileUrl": null,
+      "FileName": null,
+      "MimeType": null
+    },
+    "ComprobanteDomicilio": {
+      "FileUrl": null,
+      "FileName": null,
+      "MimeType": null
+    },
+    "Zona": [
+      "Centro"
+    ]
+  },
+  "comments": null,
+  "customStatusContainer": 2,
+  "action": "edit"
+}

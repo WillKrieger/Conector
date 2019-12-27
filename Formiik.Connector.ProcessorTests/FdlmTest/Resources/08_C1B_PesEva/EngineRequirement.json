@@ -1,0 +1,2121 @@
+{
+  "dataFront": {
+    "description": "Evaluación",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "label": "Fecha de Análisis",
+                "fullName": "FecEstCre",
+                "elementType": 8,
+                "enableRule": {
+                  "fieldReferences": [
+                    "FecEstCre"
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBEYXRlQW5hbGlzaXMgPSAiRmVjRXN0Q3JlIjsKCQoJaWYgKHJlZmVyZW5jZVZhbHVlcyAmJglyZWZlcmVuY2VWYWx1ZXMuaGFzT3duUHJvcGVydHkoRGF0ZUFuYWxpc2lzKSkgewoJIHZhciBjYXRlZ29yeSA9IHJlZmVyZW5jZVZhbHVlc1tEYXRlQW5hbGlzaXNdOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Evaluación",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "2. Efectivo / Bancos",
+                "fullName": "EfeBanEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "2. Efectivo / Bancos - Anterior",
+                "fullName": "EfeBanAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "3. Cuentas por cobrar ",
+                "fullName": "CueCobEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "3. Cuentas por cobrar - Anterior",
+                "fullName": "CueCobAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    "CueCobAntEva"
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "Incobrables",
+                "fullName": "IncCueCobEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Incobrables - Anterior",
+                "fullName": "IncCueCobAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    "IncCueCobAntEva"
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBJbmNvYnJhYmxlcyA9ICJJbmNDdWVDb2JBbnRFdmEiOwoJCglpZiAocmVmZXJlbmNlVmFsdWVzICYmCXJlZmVyZW5jZVZhbHVlcy5oYXNPd25Qcm9wZXJ0eShJbmNvYnJhYmxlcykpIHsKCSB2YXIgY2F0ZWdvcnkgPSByZWZlcmVuY2VWYWx1ZXNbSW5jb2JyYWJsZXNdOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Inventario Agricola",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvAgrPec",
+                "sections": [
+                  {
+                    "description": "Inventario Agricola",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PreComUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PreVenUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MarUti",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "Pecuario y de especies menores",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvPecEspMen",
+                "sections": [
+                  {
+                    "description": "Pecuario y de especies menores",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PreComUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PreVenUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MarUti",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "4. Inventario de mercancias ",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvMerCom",
+                "sections": [
+                  {
+                    "description": "4. Inventario de mercancias ",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PreComUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PreVenUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MarUti",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "4. Inventario de materia prima ",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvMatPri",
+                "sections": [
+                  {
+                    "description": "4. Inventario de materia prima ",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PreComUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PreVenUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MarUti",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "4. Inventario de productos en proceso",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvMatPri",
+                "sections": [
+                  {
+                    "description": "4. Inventario de productos en proceso",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "% de Proceso",
+                            "fullName": "PorPro",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo por Unidad",
+                            "fullName": "CosUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Costo Estimado por Unidad",
+                            "fullName": "CosEstUni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "elementSize": 6,
+            "subRequestForm": {
+              "description": "4. Inventario de productos terminados",
+              "formEditSection": {
+                "baseFullName": "Inventory",
+                "fullName": "InvMatPri",
+                "sections": [
+                  {
+                    "description": "4. Inventario de productos terminados",
+                    "rows": [
+                      {
+                        "subRequestForm": null,
+                        "elementSize": 2,
+                        "elements": [
+                          {
+                            "label": "Cantidad",
+                            "fullName": "Can",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Unidad",
+                            "fullName": "Uni",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Descripción Inventario",
+                            "fullName": "DesInv",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Compra por Unidad",
+                            "fullName": "PreComUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Precio Venta por Unidad",
+                            "fullName": "PreVenUni",
+                            "elementType": 0,
+                            "isRequired": true
+                          },
+                          {
+                            "label": "Margen de Utilidad",
+                            "fullName": "MarUti",
+                            "elementType": 0,
+                            "isRequired": false
+                          },
+                          {
+                            "label": "Valor Total",
+                            "fullName": "ValTot",
+                            "elementType": 0,
+                            "isRequired": false
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "elements": [
+                  {
+                    "label": "Cantidad",
+                    "fullName": "Can",
+                    "isTitle": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  },
+                  {
+                    "label": "Descripción",
+                    "fullName": "DesInv",
+                    "isTitle": true,
+                    "formatFunction": null,
+                    "columnFunction": null
+                  },
+                  {
+                    "label": "Valor Total",
+                    "fullName": "ValTot",
+                    "isTitle": true,
+                    "showedInSection": true,
+                    "formatFunction": "",
+                    "columnFunction": "KGZ1bmN0aW9uKGNvbHVtblZhbHVlcyl7CiB2YXIgdG90YWwgPSAwOwoJZm9yKHZhciBpPTA7aTxjb2x1bW5WYWx1ZXMubGVuZ3RoO2krKykgewkKIAkJCWlmKGlzTmFOKGNvbHVtblZhbHVlc1tpXSkpewoJCQljb250aW51ZTsKCQkJCX0KCXRvdGFsICs9IE51bWJlcihjb2x1bW5WYWx1ZXNbaV0pOwogfQoJcmV0dXJuIHRvdGFsOwogfSkoX3ZfKTs="
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "4. Total Inventarios",
+                "fullName": "TotInvEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "4. Total Inventarios - Anterior",
+                "fullName": "TotInvAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "4. Total Inventarios - Diferencia $",
+                "fullName": "TotInvDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "4. Total Inventarios - Diferencia %",
+                "fullName": "TotInvPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "5. Total activos corrientes (2+3+4)",
+                "fullName": "TotActCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "5. Total activos corrientes (2+3+4) - Anterior",
+                "fullName": "TotActCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "5. Total activos corrientes (2+3+4) - Diferencia $",
+                "fullName": "TotActCorDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "5. Total activos corrientes (2+3+4) - Diferencia %",
+                "fullName": "TotActCorPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "6. Total activo fijo",
+                "fullName": "TotActFijEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "6. Total activo fijo - Anterior",
+                "fullName": "TotActFijAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "6. Total activo fijo - Diferencia $",
+                "fullName": "TotActFijDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "6. Total activo fijo - Diferencia %",
+                "fullName": "TotActFijPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "7. TOTAL ACTIVOS FIJOS (5+6)",
+                "fullName": "TotActEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "7. TOTAL ACTIVOS FIJOS (5+6) - Anterior",
+                "fullName": "TotActAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "7. TOTAL ACTIVOS FIJOS (5+6) - Diferencia $",
+                "fullName": "TotActDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "7. TOTAL ACTIVOS FIJOS (5+6) - Diferencia %",
+                "fullName": "TotActPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "Créditos proveedores",
+                "fullName": "CreProEva",
+                "elementType": 3,
+                "isRequired": true
+              },
+              {
+                "label": "8. Saldo créditos con proveedores",
+                "fullName": "SalCreProEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "8. Saldo créditos con proveedores - Anterior",
+                "fullName": "SalCreProAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "9. Créditos Fundación delamujer Corto Plazo",
+                "fullName": "CreFunCorPlaEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "9. Créditos Fundación delamujer Corto Plazo - Anterior",
+                "fullName": "CreFunCorPlaAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "10. Otros pasivos corrientes",
+                "fullName": "OtrPasCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "10. Otros pasivos corrientes - Anterior",
+                "fullName": "OtrPasCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "11. Pasivos corrientes (8+9+10)",
+                "fullName": "PasCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "11. Pasivos corrientes (8+9+10) - Anterior",
+                "fullName": "PasCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "11. Pasivos corrientes (8+9+10) - Diferencia $",
+                "fullName": "PasCorDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "11. Pasivos corrientes (8+9+10) - Diferencia %",
+                "fullName": "PasCorPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "12. Crédito Fundación delamujer largo plazo",
+                "fullName": "CreFdlLarPlaEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "12. Crédito Fundación delamujer largo plazo - Anterior",
+                "fullName": "CreFdlLarPlaAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "13. Otros pasivos no corrientes",
+                "fullName": "OtrPasNoCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "13. Otros pasivos no corrientes - Anterior",
+                "fullName": "OtrPasNoCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "14. Pasivos no corrientes (12+13)",
+                "fullName": "PasNoCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "14. Pasivos no corrientes (12+13) - Anterior",
+                "fullName": "PasNoCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "15. TOTAL PASIVOS (11+14)",
+                "fullName": "TotPasEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "15. TOTAL PASIVOS (11+14) - Anterior",
+                "fullName": "TotPasAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "15. TOTAL PASIVOS (11+14) - Diferencia $",
+                "fullName": "TotPasDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "15. TOTAL PASIVOS (11+14) - Diferencia %",
+                "fullName": "TotPasPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "16. TOTAL PATRIMONIO (7-15)",
+                "fullName": "TotPatEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "16. TOTAL PATRIMONIO (7-15) - Anterior",
+                "fullName": "TotPatAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "16. TOTAL PATRIMONIO (7-15) - Diferencia $",
+                "fullName": "TotPatDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "16. TOTAL PATRIMONIO (7-15) - Diferencia %",
+                "fullName": "TotPatPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "17. Total activo familiar",
+                "fullName": "TotActFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "17. Total activo familiar - Anterior",
+                "fullName": "TotActFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "17. Total activo familiar - Diferencia $",
+                "fullName": "TotActFamDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "17. Total activo familiar - Diferencia %",
+                "fullName": "TotActFamPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "18. Total pasivo familiar",
+                "fullName": "TotPasFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "18. Total pasivo familiar - Anterior",
+                "fullName": "TotPasFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "18. Total pasivo familiar - Diferencia $",
+                "fullName": "TotPasFamDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "18. Total pasivo familiar - Diferencia %",
+                "fullName": "TotPasFamPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "19. PATRIMONIO FAMILIAR (17-18)",
+                "fullName": "PatFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "19. PATRIMONIO FAMILIAR (17-18) - Anterior",
+                "fullName": "PatFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "19. PATRIMONIO FAMILIAR (17-18) - Diferencia $",
+                "fullName": "PatFamDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "19. PATRIMONIO FAMILIAR (17-18) - Diferencia %",
+                "fullName": "PatFamPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "20. Patrimonio consolidado negocio y familia (16+19)",
+                "fullName": "PatConNegFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "20. Patrimonio consolidado negocio y familia (16+19) - Anterior",
+                "fullName": "PatConNegFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "20. Patrimonio consolidado negocio y familia (16+19) - Diferencia $",
+                "fullName": "PatConNegFamDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "20. Patrimonio consolidado negocio y familia (16+19) - Diferencia %",
+                "fullName": "PatConNegFamPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Flujo de Ingresos y Egresos",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "21. Ventas de contado",
+                "fullName": "VenConEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "21. Ventas de contado - Anterior",
+                "fullName": "VenConAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "21. Ventas de contado - Diferencia $",
+                "fullName": "VenConDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "21. Ventas de contado - Diferencia %",
+                "fullName": "VenConPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "22. Recupración de cartera",
+                "fullName": "RecCarEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "22. Recupración de cartera - Anterior",
+                "fullName": "RecCarAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "23. Costo de Ventas",
+                "fullName": "CosVenEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "23. Costo de Ventas - Anterior",
+                "fullName": "CosVenAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "24. Salarios",
+                "fullName": "SalEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "24. Salarios - Anterior",
+                "fullName": "SalAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "25. Gastos generales",
+                "fullName": "GasGenEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "25. Gastos generales - Anterior",
+                "fullName": "GasGenAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "26. Obligaciones financieras",
+                "fullName": "OblFinEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "26. Obligaciones financieras - Anterior",
+                "fullName": "OblFinAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "26. Obligaciones financieras - Diferencia $",
+                "fullName": "OblFinDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "26. Obligaciones financieras - Diferencia %",
+                "fullName": "OblFinPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "27. INGRESOS LÍQUIDOS (21+22)-(23+24+25-26)",
+                "fullName": "IngLiqEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "27. INGRESOS LÍQUIDOS (21+22)-(23+24+25-26) - Anterior",
+                "fullName": "IngLiqAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "27. INGRESOS LÍQUIDOS (21+22)-(23+24+25-26) - Diferencia $",
+                "fullName": "IngLiqDifEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "27. INGRESOS LÍQUIDOS (21+22)-(23+24+25-26) - Diferencia %",
+                "fullName": "IngLiqPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "28. Otros ingresos familiares",
+                "fullName": "OtrIngFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "28. Otros ingresos familiares - Anterior",
+                "fullName": "OtrIngFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "29. Gastos y Obligaciones familiares",
+                "fullName": "GasOblFamEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "29. Gastos y Obligaciones familiares - Anterior",
+                "fullName": "GasOblFamAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Indicadores financieros",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "30. LIQUIDEZ DISPONIBLE (27+28+29)",
+                "fullName": "LiqDisEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "30. LIQUIDEZ DISPONIBLE (27+28+29) - Anterior",
+                "fullName": "LiqDisAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "30. LIQUIDEZ DISPONIBLE (27+28+29) - Diferencia $",
+                "fullName": "LiqDisPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "30. LIQUIDEZ DISPONIBLE (27+28+29) - Diferencia %",
+                "fullName": "VenConPorEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "31. Capital de trabajo (5-11)",
+                "fullName": "CapTraEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "31. Capital de trabajo (5-11) - Anterior",
+                "fullName": "CapTraAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "32. RAzón corriente (5/11)",
+                "fullName": "RazCorEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "32. RAzón corriente (5/11) - Anterior",
+                "fullName": "RazCorAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "33. Margen bruto 1-(23/(21+22))*100",
+                "fullName": "MarBruEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "33. Margen bruto 1-(23/(21+22))*100 - Anterior",
+                "fullName": "MarBruAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "34. Endeudamiento (15/7)*100",
+                "fullName": "EndEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "34. Endeudamiento (15/7)*100 - Anterior",
+                "fullName": "EndAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 3,
+            "elements": [
+              {
+                "label": "35. Liquidez cubierta (1/30)*100",
+                "fullName": "LiqCubEva",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "35. Liquidez cubierta (1/30)*100 - Anterior",
+                "fullName": "LiqCubAntEva",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Comprobación de Liquidez Disponible",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "37. Fecha Análisis",
+                "fullName": "FecAna",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "37. Fecha Análisis - Anterior",
+                "fullName": "FecAnaAnt",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "37. Fecha Análisis - Diferencia $",
+                "fullName": "FecAnaDif",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "38. Patrimonio del Negocio",
+                "fullName": "PatNeg",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "38. Patrimonio del Negocio - Anterior",
+                "fullName": "PatNegAnt",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "38. Patrimonio del Negocio - Diferencia $",
+                "fullName": "PatNegDif",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "39. Patrimonio Consolidado",
+                "fullName": "PatCon",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "39. Patrimonio Consolidado - Anterior",
+                "fullName": "PatConAnt",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "39. Patrimonio Consolidado - Diferencia $",
+                "fullName": "PatConDif",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "40. Liquidez Disponible",
+                "fullName": "LiqDis",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "40. Liquidez Disponible - Anterior",
+                "fullName": "LiqDisAnt",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              },
+              {
+                "label": "40. Liquidez Disponible - Diferencia $",
+                "fullName": "LiqDisDif",
+                "elementType": 0,
+                "isRequired": false,
+                "enableRule": {
+                  "fieldReferences": [
+                    ""
+                  ],
+                  "fieldFunction": "IChmdW5jdGlvbiAocmVmZXJlbmNlVmFsdWVzKXsKCXZhciByZXN1bHQgPSBmYWxzZTsKCXZhciBFZmViQmFuID0gIkVmZUJhbkFudEV2YSI7CgkKCWlmIChyZWZlcmVuY2VWYWx1ZXMgJiYJcmVmZXJlbmNlVmFsdWVzLmhhc093blByb3BlcnR5KEVmZWJCYW4pKSB7CgkgdmFyIGNhdGVnb3J5ID0gcmVmZXJlbmNlVmFsdWVzW0VmZWJCYW5dOwoJCQoJCXJlc3VsdCA9IChjYXRlZ29yeSAhPT0gbnVsbCk7Cgl9CglyZXR1cm4gcmVzdWx0Owp9KShfdl8pOw=="
+                }
+              }
+            ]
+          },
+          {
+            "subRequestForm": null,
+            "elementSize": 6,
+            "elements": [
+              {
+                "label": "41. Obligaciones financieras Estudio Anterior",
+                "fullName": "OblFinEst",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "42. Promedio de Liquidez Disponible",
+                "fullName": "ProLiqDis",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "43. Número de meses transcurridos desde el análisis Anterior",
+                "fullName": "MesTraAnaAnt",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "44. Total Liquidez N periodos",
+                "fullName": "TotLiqNPer",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "45. Patrimonio consolidado análisis Anterior",
+                "fullName": "PatConAnaAnt",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "46. Total liquidez N periodos + Patrimonio Anterior ",
+                "fullName": "TotLiqNPerPatAnt",
+                "elementType": 0,
+                "isRequired": false
+              },
+              {
+                "label": "47. Patrimonio consolidado del análisis actual ",
+                "fullName": "ParConAnaAct",
+                "elementType": 0,
+                "isRequired": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ccd0f7d5-9696-4749-a526-34e37ee8aa39",
+  "containerId": "F5716E1C-1B22-48B6-A76C-2BF769D4CC1B",
+  "values": {
+    "FecEstCre": "05/26/2019",
+    "EfeBanEva": 200000,
+    "EfeBanAntEva": null,
+    "CueCobEva": 2500,
+    "CueCobAntEva": null,
+    "IncCueCobEva": 984,
+    "IncCueCobAntEva": null,
+    "InvAgrPec": null,
+    "InvAgrPecAntEva": null,
+    "InvPecEspMen": null,
+    "InvPecEspMenAntEva": null,
+    "InvMerCom": "88484",
+    "InvMerComAntEva": null,
+    "InvMatPri": "99",
+    "InvMatPriAntEva": null,
+    "InvPtoPro": "9944",
+    "InvPtoProAntEva": null,
+    "InvPtoTer": "994",
+    "InvPtoTerAntEva": null,
+    "TotInvEva": "9944",
+    "TotInvAntEva": null,
+    "TotInvDifEva": 9944,
+    "TotInvPorEva": null,
+    "TotActCorEva": 212444,
+    "TotActCorAntEva": "0.0",
+    "TotActCorDifEva": 212444,
+    "TotActCorPorEva": null,
+    "TotActFijEva": 8444,
+    "TotActFijAntEva": null,
+    "TotActFijDifEva": 8444,
+    "TotActFijPorEva": null,
+    "TotActEva": 220888,
+    "TotActAntEva": "0.0",
+    "TotActDifEva": 220888,
+    "TotActPorEva": null,
+    "CreProEva": false,
+    "SalCreProEva": 9944,
+    "SalCreProAntEva": null,
+    "CreFunCorPlaEva": null,
+    "CreFunCorPlaAntEva": null,
+    "OtrPasCorEva": 8447,
+    "OtrPasCorAntEva": null,
+    "PasCorEva": 18391,
+    "PasCorAntEva": "0.0",
+    "PasCorDifEva": 18391,
+    "PasCorPorEva": null,
+    "CreFdlLarPlaEva": null,
+    "CreFdlLarPlaAntEva": null,
+    "OtrPasNoCorEva": 944,
+    "OtrPasNoCorAntEva": null,
+    "PasNoCorEva": 944,
+    "PasNoCorAntEva": "0.0",
+    "TotPasEva": 19335,
+    "TotPasAntEva": "0.0",
+    "TotPasDifEva": 19335,
+    "TotPasPorEva": null,
+    "TotPatEva": "201553",
+    "TotPatAntEva": "0.0",
+    "TotPatDifEva": "201553",
+    "TotPatPorEva": null,
+    "TotActFamEva": 994,
+    "TotActFamAntEva": null,
+    "TotActFamDifEva": 994,
+    "TotActFamPorEva": null,
+    "TotPasFamEva": 994,
+    "TotPasFamAntEva": null,
+    "TotPasFamDifEva": 994,
+    "TotPasFamPorEva": null,
+    "PatFamEva": "0.0",
+    "PatFamAntEva": "0.0",
+    "PatFamDifEva": 0,
+    "PatFamPorEva": null,
+    "PatConNegFamEva": "201553",
+    "PatConNegFamAntEva": "0.0",
+    "PatConNegFamDifEva": "201553",
+    "PatConNegFamPorEva": null,
+    "SecFluIngEgr": null,
+    "VenConEva": 644,
+    "VenConAntEva": null,
+    "VenConDifEva": 644,
+    "VenConPorEva": null,
+    "RecCarEva": 994,
+    "RecCarAntEva": null,
+    "CosVenEva": 99,
+    "CosVenAntEva": null,
+    "SalEva": 39,
+    "SalAntEva": null,
+    "GasGenEva": 999,
+    "GasGenAntEva": null,
+    "OblFinEva": 9447,
+    "OblFinAntEva": null,
+    "OblFinDifEva": 9447,
+    "OblFinPorEva": null,
+    "IngLiqEva": "-8946",
+    "IngLiqAntEva": "0.0",
+    "IngLiqDifEva": "-8946",
+    "IngLiqPorEva": null,
+    "OtrIngFamEva": 9977,
+    "OtrIngFamAntEva": null,
+    "GasOblFamEva": 99,
+    "GasOblFamAntEva": null,
+    "LiqDisEva": "932",
+    "LiqDisAntEva": "0.0",
+    "LiqDisDifEva": "932",
+    "LiqDisPorEva": null,
+    "CapTraEva": 194053,
+    "CapTraAntEva": "0.0",
+    "RazCorEva": "11.55",
+    "RazCorAntEva": null,
+    "MarBruEva": "93.96",
+    "MarBruAntEva": null,
+    "EndEva": "8.75",
+    "EndAntEva": null,
+    "LiqCubEva": "0.00",
+    "LiqCubAntEva": null,
+    "FecAna": "05/26/2019",
+    "FecAnaAnt": null,
+    "FecAnaDif": null,
+    "PatNeg": 9947,
+    "PatNegAnt": null,
+    "PatNegDif": null,
+    "PatCon": 9994,
+    "PatConAnt": null,
+    "PatConDif": 69,
+    "LiqDis": 69,
+    "LiqDisAnt": null,
+    "LiqDisDif": 7,
+    "OblFinEst": null,
+    "ProLiqDis": 88,
+    "MesTraAnaAnt": 448,
+    "TotLiqNPer": 94,
+    "PatConAnaAnt": 8,
+    "TotLiqNPerPatAnt": 94,
+    "ParConAnaAct": 649,
+    "ExcJus": "Vzvzbzvzbzhzhzv"
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}

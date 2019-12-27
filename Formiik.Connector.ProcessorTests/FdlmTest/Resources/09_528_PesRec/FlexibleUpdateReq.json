@@ -1,0 +1,30 @@
+{
+  "IdWorkOrderFormType": "e2e601e6-f4fa-415f-92bc-6513be13bfa6",
+  "IdWorkOrder": "186d8726-a744-4b05-ab2f-81550b25a31d",
+  "ExternalId": "admin.fdlm@fdlmb2c.onmicrosoft.com_20190527_134036",
+  "Action": "PesRec",
+  "InputFields": {
+    "ProyNroCreGenExt": "",
+    "ValCuoyPerUltCreDes": "",
+    "ReaConIntSol": "",
+    "ProSug": "353",
+    "MonSug": "2000000",
+    "PerSug": "30",
+    "DesCre": "210",
+    "PlaSug": "12",
+    "CuoMaxRec": "",
+    "ReqCorInfDil": "No",
+    "MenResConRut": "",
+    "ValCuoRec": "",
+    "ValTotPolOfrCli": "",
+    "RutFor": "",
+    "RecEva": "A",
+    "CauDenEva": "",
+    "DesAgeNueVis": "",
+    "FecProVis": "28/05/2019",
+    "ObsRecEva": "",
+    "ExternalType": "Solicitud"
+  },
+  "Username": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "WorkOrderType": "Solicitud"
+}

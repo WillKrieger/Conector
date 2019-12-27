@@ -1,0 +1,27 @@
+{
+  "IdWorkOrderFormType": "ced9ba1e-1232-4ec7-95ca-635cefab0e9e",
+  "IdWorkOrder": "02424801-72f0-4de1-aea1-10bffa37dab9",
+  "ExternalId": "40F4043F-B223-49C4-8E74-576FE93912D6",
+  "Action": "Tarea2",
+  "InputFields": {
+    "NombreNegocio": "Nombre",
+    "Sector": "",
+    "Actividad": "",
+    "FechaInicioNegocio": "28/10/1939",
+    "DepartamentoNegocio": "",
+    "CiudadNegocio": "",
+    "BarrioNegocio": "",
+    "DireccionNegocio": "Florine's",
+    "Producto": "2",
+    "Monto": "10000",
+    "Plazo": "100",
+    "Destino": "1",
+    "FormaPago": "S",
+    "ExternalType": "SolicitudForomic"
+  },
+  "Username": "martin@vanguardiab2c.onmicrosoft.com",
+  "WorkOrderType": "SolicitudForomic",
+  "Sender": null,
+  "Latitude": 0.0,
+  "Longitude": 0.0
+}

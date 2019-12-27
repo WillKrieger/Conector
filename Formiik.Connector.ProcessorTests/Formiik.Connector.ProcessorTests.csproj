@@ -1,0 +1,392 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Aurochses.Xunit.AspNetCore.Mvc" Version="2.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0-preview3-35497" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+        <PackageReference Include="xunit" Version="2.4.1" />
+        <PackageReference Include="xunit.assert" Version="2.4.1" />
+        <PackageReference Include="xunit.core" Version="2.4.1" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+        <DotNetCliToolReference Include="dotnet-xunit" Version="2.3.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Formiik.Connector.Processor\Formiik.Connector.Processor.csproj" />
+      <ProjectReference Include="..\Formiik.Connector.Logging\Formiik.Connector.Logging.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+        <HintPath>..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.dependencyinjection.abstractions\2.1.1\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Resources\file.xml" />
+      <None Remove="Resources\InfoClientFamReq.json" />
+      <None Remove="Resources\FullResponse.xml" />
+      <None Remove="Resources\ResponseSectionInfoClienteyFam.xml" />
+      <None Remove="Resources\1_BusqCliente_ReqFU.json" />
+      <None Remove="Resources\1_BusqCliente.json" />
+      <None Remove="Resources\2_InfoClienteyFam_Resp.xml" />
+      <None Remove="Resources\3_FUDatosNeg.json" />
+      <None Remove="Resources\1_BusqCliente_Resp.xml" />
+      <None Remove="Resources\2_InfoClienteyFam_Expected.json" />
+      <None Remove="Resources\1_BusqCliente_Expected.json" />
+      <None Remove="Resources\InfoClienteyFam_RequestEngine.xml" />
+      <None Remove="Resources\InfoClienteyFam2\InfoClienteyFam.xslt" />
+      <None Remove="Resources\InfoClienteyFam_FormiikToEngine.xslt" />
+      <None Remove="Resources\InfoClienteyFam\TranformRule.xslt" />
+      <None Remove="Resources\InfoClienteyFam\FlexibleUpdateReq.json" />
+      <None Remove="Resources\BusqCliente\FlexibleUpdateReq.json" />
+      <None Remove="Resources\BusqCliente\Response.xml" />
+      <None Remove="Resources\BusqCliente\TranformRule.xslt" />
+      <None Remove="Resources\BusqCliente\Tranform_FormiikToEngine.xslt" />
+      <None Remove="Resources\DatosNeg\Tranform_FormiikToEngine.xslt" />
+      <None Remove="Resources\InfoClienteyFam\Tranform_FormiikToEngine.xslt" />
+      <None Remove="Resources\Recomendacio\Tranform_FormiikToEngine.xslt" />
+      <None Remove="Resources\DatosNeg\DatosNeg_TransformEnginetoFormiik.xslt" />
+      <None Remove="Resources\InfoClienteyFam\Requirement.json" />
+      <None Remove="Resources\0112_InfoClienteyFam\EngineReq_1_de_x.json" />
+      <None Remove="Resources\DatosNeg\EngineRequirement.json" />
+      <None Remove="Resources\0114_Recomendacion\Tranform_EngineToFormiik.xslt" />
+      <None Remove="Resources\0114_Recomendacion\EngineRequirement.json" />
+      <None Remove="FdlmTest\Resources\05_EEF_PesPol\Tranform_FormiikToEngine.xslt" />
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\Tranform_FormiikToEngine.xslt" />
+      <None Remove="FdlmTest\Resources\07_EEF_PesPol\Tranform_FormiikToEngine.xslt" />
+      <None Remove="FdlmTest\Resources\08_C1B_PesEva\Tranform_FormiikToEngine.xslt" />
+      <None Remove="FdlmTest\Resources\09_528_PesRec\Tranform_FormiikToEngine.xslt" />
+      <None Remove="BancowTest\Resources\01_111_ConsultaCliente\J_Transform_FormiikToEngine.xslt" />
+      <None Remove="BancowTest\Resources\02_121_Radicacion\FlexibleUpdateReq.json" />
+      <None Update="TercerSprintTest\Resources\01_861_SolCreNor\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\01_861_SolCreNor\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\01_861_SolCreNor\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\01_861_SolCreNor\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\02_507_TabEvaNeg\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\02_507_TabEvaNeg\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\02_507_TabEvaNeg\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\02_507_TabEvaNeg\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\03_5DF_TabEvaNeg\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\03_5DF_TabEvaNeg\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\04_819_TabDatNeg\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\04_819_TabDatNeg\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\05_8C2_TabAceCre\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\05_8C2_TabAceCre\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\06_B57_TabTblAmo\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\06_B57_TabTblAmo\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\07_EE3_TabAceDes\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\07_EE3_TabAceDes\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\04_819_TabDatNeg\EngineRequirement.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="TercerSprintTest\Resources\04_819_TabDatNeg\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Remove="FdlmTest\**" />
+      <None Remove="FirstDelivery\**" />
+      <None Remove="BancowTest\**" />
+      <None Update="Vanguardia\Resources\01_8AD_FirstRule\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\01_8AD_FirstRule\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\02_A58_PesSolicitudCredito\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Remove="Vanguardia\Resources\05_8C2_TabAceCre\**" />
+      <None Remove="Vanguardia\Resources\06_B57_TabTblAmo\**" />
+      <None Remove="Vanguardia\Resources\07_EE3_TabAceDes\**" />
+      <None Update="Vanguardia\Resources\02_A58_PesSolicitudCredito\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\03_566_ThirdRule\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\04_A41_FourthRule\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\03_566_ThirdRule\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\02_A58_PesSolicitudCredito\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Vanguardia\Resources\02_A58_PesSolicitudCredito\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Resources\BusqCliente\BusqCliente_TransformEngineToFormiik.xslt" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Include="FirstDelivery\Resources\0111_BusqCliente\ExpectedEngineResponse.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0111_BusqCliente\ExpectedFormiikResponse.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0111_BusqCliente\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0111_BusqCliente\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0111_BusqCliente\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\ExpectedFormiikResponse.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\ExpectedValuesEngine.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0112_InfoClienteyFam\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0113_DatosNeg\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0113_DatosNeg\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0113_DatosNeg\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0113_DatosNeg\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0114_Recomendacion\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0114_Recomendacion\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0114_Recomendacion\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\0114_Recomendacion\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FirstDelivery\Resources\FullResponse.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="TercerSprintTest\Resources\FullResponse.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="Vanguardia\Resources\FullResponse.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\01_F27_PesPreEva\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\01_F27_PesPreEva\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\01_F27_PesPreEva\Tranform_FormiikToEngine.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\01_F27_PesPreEva\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\FullResponse.xml" />
+      <EmbeddedResource Include="FdlmTest\Resources\05_47F_TomInfBal\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FdlmTest\Resources\07_EEF_PesPol\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FdlmTest\Resources\08_C1B_PesEva\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Include="FdlmTest\Resources\09_528_PesRec\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\FullResponseFake.xml" />
+      <EmbeddedResource Include="FdlmTest\Resources\FullResponseFake.xml">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\03_280_PesPreSol\Tranform_FormiikToEngine.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\03_280_PesPreSol\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\04_AD6_PesAnaSol\Tranform_FormiikToEngine.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\04_AD6_PesAnaSol\Tranform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\03_280_PesPreSol\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\03_280_PesPreSol\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\01_F27_PesPreEva\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\01_F27_PesPreEva\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\04_AD6_PesAnaSol\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\04_AD6_PesAnaSol\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\05_47F_TomInfBal\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\05_47F_TomInfBal\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\Tranform_EngineToFormiik.xslt" />
+      <None Remove="FdlmTest\Resources\07_EEF_PesPol\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\07_EEF_PesPol\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\08_C1B_PesEva\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\08_C1B_PesEva\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\09_528_PesRec\Tranform_EngineToFormiik.xslt" />
+      <EmbeddedResource Include="FdlmTest\Resources\09_528_PesRec\Tranform_EngineToFormiik.xslt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\01_F27_PesPreEva\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\01_F27_PesPreEva\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\03_280_PesPreSol\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\03_280_PesPreSol\EngineRequirement.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\04_AD6_PesAnaSol\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\04_AD6_PesAnaSol\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\05_47F_TomInfBal\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\05_47F_TomInfBal\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\06_C57_PesCodGar\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\07_EEF_PesPol\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\07_EEF_PesPol\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\08_C1B_PesEva\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\08_C1B_PesEva\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\09_528_PesRec\EngineRequirement.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\09_528_PesRec\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\03_280_PesPreSol\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\03_280_PesPreSol\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\04_AD6_PesAnaSol\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\04_AD6_PesAnaSol\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\05_47F_TomInfBal\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\05_47F_TomInfBal\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\06_C57_PesCodGar\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\07_EEF_PesPol\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\07_EEF_PesPol\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\08_C1B_PesEva\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\08_C1B_PesEva\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\09_528_PesRec\FlexibleUpdateReq.json" />
+      <EmbeddedResource Include="FdlmTest\Resources\09_528_PesRec\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\Tranform_EngineToFormiik.xslt.xml" />
+      <None Remove="FdlmTest\Resources\06_C57_PesCodGar\Tranform_FormiikToEngine.xslt.xml" />
+      <EmbeddedResource Include="BancowTest\Resources\02_121_Radicacion\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+      <EmbeddedResource Remove="FdlmTest\**" />
+      <EmbeddedResource Remove="FirstDelivery\**" />
+      <EmbeddedResource Remove="BancowTest\**" />
+      <EmbeddedResource Remove="Vanguardia\Resources\05_8C2_TabAceCre\**" />
+      <EmbeddedResource Remove="Vanguardia\Resources\06_B57_TabTblAmo\**" />
+      <EmbeddedResource Remove="Vanguardia\Resources\07_EE3_TabAceDes\**" />
+      <None Remove="Vanguardia\Resources\01_8AD_FirstRule\EngineRequirement.json" />
+      <EmbeddedResource Include="Vanguardia\Resources\01_8AD_FirstRule\EngineRequirement.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </EmbeddedResource>
+    </ItemGroup>
+    <ItemGroup>
+      <None Update="FirstDelivery\Resources\0114_Recomendacion\FlexibleUpdateReq.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="BancowTest\Resources\01_111_ConsultaCliente\Transform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="BancowTest\Resources\03_131_AnalisisCredito\Transform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="BancowTest\Resources\02_121_Radicacion\Transform_FormiikToEngine.xslt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="FdlmTest\**" />
+      <Compile Remove="FirstDelivery\**" />
+      <Compile Remove="BancowTest\**" />
+      <Compile Remove="Vanguardia\Resources\05_8C2_TabAceCre\**" />
+      <Compile Remove="Vanguardia\Resources\06_B57_TabTblAmo\**" />
+      <Compile Remove="Vanguardia\Resources\07_EE3_TabAceDes\**" />
+    </ItemGroup>
+</Project>

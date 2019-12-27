@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{0ADEF9E9-1F35-4E38-99D7-4190A086B132}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Formiik.Connector.ProcessorTests/BancowTest/BancowTestConstants.cs">
+    <Files>
+      <File FileName="Formiik.Connector.ProcessorTests/FirstDelivery/EngineToFormiikTest/TransformerTests/EngineToFormiikTransformTests.cs" Line="105" Column="48" />
+      <File FileName="Formiik.Connector.ProcessorTests/BancowTest/BancowTestConstants.cs" Line="24" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Formiik.Connector" expanded="True">
+            <Node name="Comun" expanded="True">
+              <Node name="Formiik.Connector.Entities" expanded="True" />
+            </Node>
+            <Node name="Data" expanded="True">
+              <Node name="Formiik.Connector.Data" expanded="True">
+                <Node name="Azure" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Processors" expanded="True">
+              <Node name="Tests" expanded="True">
+                <Node name="Formiik.Connector.ProcessorTests" expanded="True">
+                  <Node name="BancowTest" expanded="True">
+                    <Node name="BancowTestConstants.cs" selected="True" />
+                  </Node>
+                  <Node name="FdlmTest" expanded="True" />
+                  <Node name="FirstDelivery" expanded="True">
+                    <Node name="EngineToFormiikTest" expanded="True">
+                      <Node name="ConfigTest" expanded="True" />
+                      <Node name="TransformerTests" expanded="True" />
+                    </Node>
+                    <Node name="Resources" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Formiik.Connector.Processor" expanded="True">
+                <Node name="ConnectorStorage" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Formiik.Connector.Web.Services" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="CustomExtenssions" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Formiik.Connector.Web.Services PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" relfile="Formiik.Connector.Processor/EngineProxy/ProcessorBase.cs" line="112" column="1" />
+      <Breakpoint file="/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" relfile="Formiik.Connector.ProcessorTests/FdlmTest/EngineToMobileTest/ConfigRulesEngineToMobile.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

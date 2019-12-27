@@ -1,0 +1,13 @@
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.deps.json
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Data.RestServices.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/bin/Debug/netcoreapp2.1/Formiik.Connector.Entities.pdb
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.csprojAssemblyReference.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.AssemblyInfoInputs.cache
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.AssemblyInfo.cs
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.csproj.CopyComplete
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.dll
+/Users/willkrieger/Projects/Connector/formiik-connector/Code/Formiik.Connector/Formiik.Connector.Data/obj/Debug/netcoreapp2.1/Formiik.Connector.Data.pdb

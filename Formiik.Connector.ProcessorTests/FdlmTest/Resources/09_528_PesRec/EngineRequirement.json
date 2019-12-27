@@ -1,0 +1,344 @@
+{
+  "dataFront": {
+    "description": "Recomendacion",
+    "isReadOnly": false,
+    "isToValidate": false,
+    "sections": [
+      {
+        "description": "Información de la solicitud que genera el ExtraRápido",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Producto y Nro de crédito al que se relacionará el ExtraRápido",
+                "fullName": "ProyNroCreGenExt",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Liquidez disponible del último crédito desembolsado",
+                "fullName": "LiqCubAntEva",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Valor de Cuota y periodicidad del último crédito desembolsado",
+                "fullName": "ValCuoyPerUltCreDes",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Información de los firmantes de la solicitud a la que se atara el ExtraRápido, los cuales pertenecerán a esta nueva solicitud",
+                "fullName": "SecInfFirSolAtaExt",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "fullName": "EtqTenCueActNumTel",
+                "elementType": 0,
+                "isCalculated": true,
+                "enableRule": {
+                  "fieldReferences": [
+                    "EtqTenCueActNumTel"
+                  ],
+                  "fieldFunction": ""
+                },
+                "calculatedValue": {
+                  "fieldFunction": "KGZ1bmN0aW9uKF92YWx1ZSl7DQogICAgICAgICAgICAgICAgdmFyIGV0aXF1ZXRhPSAnVGVuZXIgZW4gY3VlbnRhOiBMb3MgTsKwIHRlbGVmw7NuaWNvcyBkZSBjw7NueXVnZSB5IGNvZGV1ZG9yIGluZ3Jlc2Fkb3Mgbm8gc2UgYWN0dWFsaXphcsOhbiBlbiBlbCBzaXN0ZW1hLic7DQogICAgICAgICAgICAgICByZXR1cm4oZXRpcXVldGEpOw0KICAgICAgICAgICAgIH0pKF92Xyk7"
+                }
+              },
+              {
+                "label": "Nombre e identificación del cónyuge",
+                "fullName": "NomComIdeCon",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 1 Cónyuge",
+                "fullName": "Tel1Con",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 2 Cónyuge",
+                "fullName": "Tel2Con",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 3 Cónyuge",
+                "fullName": "Tel3Con",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 4 Cónyuge",
+                "fullName": "Tel4Con",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre e identificación del Codeudor",
+                "fullName": "NomComIdeCod1",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 1 Codeudor",
+                "fullName": "Tel1Cod1",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 2 Codeudor",
+                "fullName": "Tel2Cod1",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 3 Codeudor",
+                "fullName": "Tel3Cod1",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 4 Codeudor",
+                "fullName": "Tel4Cod1",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Nombre e identificación del Codeudor 2",
+                "fullName": "NomComIdeCod2",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 1 Codeudor 2",
+                "fullName": "Tel1Cod2",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 2 Codeudor 2",
+                "fullName": "Tel2Cod2",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 3 Codeudor 2",
+                "fullName": "Tel3Cod2",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Teléfono 4 Codeudor 2",
+                "fullName": "Tel4Cod2",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Realizó confirmación con integrantes de la solicitud y continúan respaldando la obligación?",
+                "fullName": "ReaConIntSol",
+                "elementType": 0,
+                "isHidden": true,
+                "isRequired": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Solicitud Cliente",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Producto solicitado",
+                "fullName": "ProSolEsp",
+                "elementType": 5,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Monto solicitado",
+                "fullName": "MonSolEsp",
+                "elementType": 0
+              },
+              {
+                "label": "Periodicidad / Forma de pago solicitada",
+                "fullName": "PerSolEsp",
+                "elementType": 5,
+                "selectionIndex": 0
+              },
+              {
+                "label": "Número de cuotas solicitado",
+                "fullName": "PlaSolEsp",
+                "elementType": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Propuesta asesor comercial",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Producto Recomendado",
+                "fullName": "ProSug",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Monto Recomendado",
+                "fullName": "MonSug",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Periodicidad Recomendada",
+                "fullName": "PerSug",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Destino del crédito recomendado",
+                "fullName": "DesCre",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Plazo (N° de cuotas) Recomendadas",
+                "fullName": "PlaSug",
+                "elementType": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Cuota Máxima Recomendada",
+                "fullName": "CuoMaxRec",
+                "elementType": 0,
+                "isHidden": true,
+                "isRequired": true
+              },
+              {
+                "label": "¿Requiere Corregir información diligenciada?",
+                "fullName": "ReqCorInfDil",
+                "elementType": 0,
+                "isHidden": true
+              },
+              {
+                "label": "Mensaje respuesta",
+                "fullName": "MenResConRut",
+                "elementType": 0
+              },
+              {
+                "label": "Valor de cuota recomendada",
+                "fullName": "ValCuoRec",
+                "elementType": 0
+              },
+              {
+                "label": "Valor del total de las pólizas ofrecidas al cliente",
+                "fullName": "ValTotPolOfrCli",
+                "elementType": 0
+              },
+              {
+                "label": "Ruta de Fortalecimiento",
+                "fullName": "RutFor",
+                "elementType": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "description": "Recomendación",
+        "rows": [
+          {
+            "subRequestForm": null,
+            "elementSize": 2,
+            "elements": [
+              {
+                "label": "Recomendación",
+                "fullName": "RecEva",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true
+              },
+              {
+                "label": "Causal de negación",
+                "fullName": "CauDenEva",
+                "elementType": 5,
+                "selectionIndex": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "¿Desea agendar una nueva visita?",
+                "fullName": "DesAgeNueVis",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Fecha próxima visita",
+                "fullName": "FecProVis",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              },
+              {
+                "label": "Observaciones",
+                "fullName": "ObsRecEva",
+                "elementType": 0,
+                "isRequired": true,
+                "isHidden": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "instanceId": "ccd0f7d5-9696-4749-a526-34e37ee8aa39",
+  "containerId": "7DA96C69-418F-4C36-9DEF-10B309F5F528",
+  "values": {
+    "ProyNroCreGenExt": null,
+    "ValCuoyPerUltCreDes": null,
+    "ReaConIntSol": null,
+    "ProSug": [
+      "403",
+      "210"
+    ],
+    "MonSug": 65,
+    "PerSug": null,
+    "PlaSug": 2,
+    "CuoMaxRec": 4,
+    "ReqCorInfDil": false,
+    "MenResConRut": null,
+    "ValCuoRec": null,
+    "ValTotPolOfrCli": null,
+    "RutFor": null,
+    "RecEva": [
+      "A"
+    ],
+    "CauDenEva": null,
+    "DesAgeNueVis": null,
+    "FecProVis": "30/09/2019",
+    "ObsRecEva": null
+  },
+  "externals": {},
+  "tenantId": "cd03d0b3-7569-435b-9b2d-857c640979de",
+  "agentId": "47dfef8e-325e-40d7-888a-24b7f0bab94b",
+  "agentUsername": "admin.fdlm@fdlmb2c.onmicrosoft.com",
+  "status": 0
+}
